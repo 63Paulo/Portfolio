@@ -44,12 +44,25 @@ body, html {
 .about{
     background-color: #1D1D1D;
     padding-top: 20px;
+    padding: 10px 20px;
+    width: 100%;
 }
 
-.about h1{
+.about h1.aboutme {
     color: #FFFFFF;
     font-style: italic;
 }
+
+.about h2.aboutme {
+    color: #FFFFFF;
+    padding-top: 18px;
+    padding-right: 24px;
+}
+
+.about h2::first-letter{
+    font-size: 42px;
+}
+
 
 /** Design de la navbar **/
 .navbar{
