@@ -18,14 +18,15 @@ body, html {
 .homepage, .about {
     margin: 0;
 }
-  
+/** Pour ne pas qu'il y ai des espaces blancs entre les différentes div **/
 .homepage h1, .homepage h2, .about h1, .about h2 {
     margin: 0;
 }
   
+/** Design de h1 et de h2 **/
 .homepage h1{
     text-align: center;
-    padding-top: 30%;
+    padding-top: 30%; /** pour mieux centrer le texte**/
     font-size: 52px;
     font-family: monospace;
     margin-bottom: 48px;
@@ -35,10 +36,11 @@ body, html {
     font-family: monospace;
     font-style: italic;
     font-size: 24px;
-    margin-top: -32px;
+    margin-top: -32px; /** pour rapprocher le h2 au h1 **/
     height: 40vh;
 }
 
+/** design de la rubrique "A propos" **/
 .about{
     background-color: #1D1D1D;
     padding-top: 20px;
@@ -48,6 +50,8 @@ body, html {
     color: #FFFFFF;
     font-style: italic;
 }
+
+/** Design de la navbar **/
 .navbar{
     overflow: hidden;
     text-align: center;
@@ -63,19 +67,21 @@ body, html {
     font-size: 24px;
     font-weight: bold;
     margin: 10px 20px;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease; /** pour créeer un effet de zoom **/
     
 }
 
+/** Permet de mettre en surbrillance la rubrique de la navbar dans laquelle on se trouve **/
 .navbar a.active {
     color: #FFFFFF;
 }
 
 .navbar a:hover{
     color: #FFFFFF;
-    transform: scale(1.1);
+    transform: scale(1.1); /** pour créer l'effet de zoom lorsque que le curseur passe sur un élément de la navbar **/
 }
 
+/** Responsive Design pour les tablettes **/
 @media only screen and (min-width:760px){
     .navbar{
         display: flex;
@@ -95,6 +101,7 @@ body, html {
     }
 }
 
+/** Responsive design pour les grands écrans **/
 @media only screen and (min-width:1200px){
     .navbar a{
         font-size: 36px;
