@@ -1,6 +1,7 @@
 h1{
     text-align: center;
     padding-top: 20%;
+    font-size: 42px;
 }
 h2{
     text-align: center;
@@ -8,24 +9,41 @@ h2{
 .navbar{
     overflow: hidden;
     text-align: center;
-    display: flex;
-    justify-content: center;
     background-color: #2272FF;
+    width: auto;
+    padding: 28px;
 }
 
 .navbar a{
-    float: left;
-    display: block;
     color: #1D1D1D;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
-    font-size: 32px;
-    margin: 0 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 20px;
     transition: transform 0.3s ease;
+    
 }
 
 .navbar a:hover{
     color: #FFFFFF;
     transform: scale(1.1);
+}
+
+@media only screen and (min-width:760px){
+    .navbar{
+        display: flex;
+        justify-content:center;
+    }
+    .navbar a{
+        font-size: 28px;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .navbar a{
+        font-size: 36px;
+        margin: 0 24px;
+        padding: 12px;
+    }
 }
