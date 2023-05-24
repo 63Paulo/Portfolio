@@ -1,15 +1,34 @@
-body{
+body, html {
+    /** Pour ne pas qu'il y est des espaces blancs sur les côtés **/
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+.homepage{
+    /** Design de la page d'acceuil ***/
     background-image: url('img/space.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
 }
 
+/** Pour ne pas qu'il y ai des espaces blancs entre les différentes div **/
+.homepage, .about {
+    margin: 0;
+}
+  
+.homepage h1, .homepage h2, .about h1, .about h2 {
+    margin: 0;
+}
+  
 .homepage h1{
     text-align: center;
-    padding-top: 20%;
+    padding-top: 30%;
     font-size: 52px;
     font-family: monospace;
+    margin-bottom: 48px;
 }
 .homepage h2{
     text-align: center;
@@ -17,12 +36,17 @@ body{
     font-style: italic;
     font-size: 24px;
     margin-top: -32px;
-    margin-left: 52px;
+    height: 40vh;
 }
 
 .about{
-    position: absolute;
     background-color: #1D1D1D;
+    padding-top: 20px;
+}
+
+.about h1{
+    color: #FFFFFF;
+    font-style: italic;
 }
 .navbar{
     overflow: hidden;
@@ -43,6 +67,10 @@ body{
     
 }
 
+.navbar a.active {
+    color: #FFFFFF;
+}
+
 .navbar a:hover{
     color: #FFFFFF;
     transform: scale(1.1);
@@ -52,9 +80,18 @@ body{
     .navbar{
         display: flex;
         justify-content:center;
+        position: fixed;
+        width: 100%;
     }
     .navbar a{
         font-size: 28px;
+    }
+    .homepage h2{
+        margin-left: 52px;
+        font-size: 32px;
+    }
+    .homepage h1{
+        font-size: 72px;
     }
 }
 
