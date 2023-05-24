@@ -1,3 +1,10 @@
+body{
+    background-image: url('img/space.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 h1{
     text-align: center;
     padding-top: 20%;
@@ -9,13 +16,13 @@ h2{
 .navbar{
     overflow: hidden;
     text-align: center;
-    background-color: #2272FF;
+    background-color: #1D1D1D;
     width: auto;
     padding: 28px;
 }
 
 .navbar a{
-    color: #1D1D1D;
+    color: #003b59;
     text-align: center;
     text-decoration: none;
     font-size: 24px;
