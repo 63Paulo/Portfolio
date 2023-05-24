@@ -53,7 +53,7 @@ body, html {
     font-style: italic;
 }
 
-.about h2.aboutme {
+.about h2 {
     color: #FFFFFF;
     padding-top: 18px;
     padding-right: 24px;
@@ -62,6 +62,13 @@ body, html {
 .about h2::first-letter{
     font-size: 42px;
 }
+
+.about h1.competences {
+    padding-top: 60px;
+    color: #FFFFFF;
+    font-style: italic;
+}
+
 
 
 /** Design de la navbar **/
