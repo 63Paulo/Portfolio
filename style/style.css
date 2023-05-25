@@ -6,6 +6,8 @@ body, html {
     overflow-x: hidden;
   }
 
+
+
 .homepage{
     /** Design de la page d'acceuil ***/
     background-image: url('img/space.jpg');
@@ -19,7 +21,7 @@ body, html {
     margin: 0;
 }
 /** Pour ne pas qu'il y ai des espaces blancs entre les différentes div **/
-.homepage h1, .homepage h2, .about h1, .about h2 {
+.homepage h1, .homepage h2, .about h1, .about h2, .parcours h1 {
     margin: 0;
 }
   
@@ -71,6 +73,10 @@ body, html {
     padding-top: 60px;
     color: #FFFFFF;
     font-style: italic;
+}
+
+.parcours {
+    background-color: #003b59
 }
 
 /** Design de la navbar **/
