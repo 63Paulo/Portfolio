@@ -128,4 +128,16 @@ body, html {
         margin: 0 24px;
         padding: 12px;
     }
+    .about .aboutme{
+        display: flex;
+        justify-content: left;
+        width: 50%;
+    }
+    
+    .about .competences{
+        display: flex;
+        justify-content: right;
+        width: 50%;
+        margin-top: 50px;
+    }
 }
