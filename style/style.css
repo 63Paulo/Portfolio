@@ -53,6 +53,7 @@ body, html {
 .about h1.aboutme {
     color: #FFFFFF;
     font-style: italic;
+    padding-top: 10px;
 }
 
 /** design des textes à propos et compétences **/
@@ -62,7 +63,7 @@ body, html {
     padding-right: 36px;
     text-align: justify;
     font-size: 16px;
-    
+    padding-bottom: 20px;
 }
 
 /** Pour changer le design de la premières lettres des 2 textes **/
@@ -71,13 +72,34 @@ body, html {
 }
 
 .about h1.competences {
-    padding-top: 60px;
+    padding-top: 40px;
     color: #FFFFFF;
     font-style: italic;
 }
 
 .parcours {
-    background-color: #003b59
+    background-color: #87CEEB;
+    padding-top: 20px;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.parcours h1{
+    font-style: italic;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.parcours h2{
+    color: #000000;
+    padding-top: 18px;
+    padding-right: 36px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.parcours h2::first-letter{
+    font-size: 42px;
 }
 
 /** Design de la navbar **/
@@ -109,6 +131,7 @@ body, html {
     color: #FFFFFF;
     transform: scale(1.1); /** pour créer l'effet de zoom lorsque que le curseur passe sur un élément de la navbar **/
 }
+
 
 /** Responsive Design pour les tablettes **/
 @media only screen and (min-width:760px){
