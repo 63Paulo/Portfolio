@@ -53,13 +53,16 @@ body, html {
     font-style: italic;
 }
 
+/** design des textes à propos et compétences **/
 .about h2 {
     color: #FFFFFF;
     padding-top: 18px;
     padding-right: 36px;
     text-align: justify;
+    font-size: 16px;
 }
 
+/** Pour changer le design de la premières lettres des 2 textes **/
 .about h2::first-letter{
     font-size: 42px;
 }
@@ -69,11 +72,6 @@ body, html {
     color: #FFFFFF;
     font-style: italic;
 }
-
-.about .aboutme .competences{
-    padding-right: 28px;
-}
-
 
 /** Design de la navbar **/
 .navbar{
@@ -128,9 +126,9 @@ body, html {
 /** Responsive design pour les grands écrans **/
 @media only screen and (min-width:1200px){
     .navbar a{
-        font-size: 36px;
+        font-size: 32px;
         margin: 0 24px;
-        padding: 6px;
+        padding: 4px;
     }
     .about .aboutme{
         display: flex;
@@ -145,4 +143,11 @@ body, html {
         margin-left: 35%;
         margin-bottom: 20px;
     }
+
+    .about h2::first-letter{
+        font-size: 52px;
+    }
+    .about h2{
+        font-size: 20px;
+}
 }
