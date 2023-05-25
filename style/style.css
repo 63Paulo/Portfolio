@@ -56,7 +56,8 @@ body, html {
 .about h2 {
     color: #FFFFFF;
     padding-top: 18px;
-    padding-right: 24px;
+    padding-right: 36px;
+    text-align: justify;
 }
 
 .about h2::first-letter{
@@ -69,6 +70,9 @@ body, html {
     font-style: italic;
 }
 
+.about .aboutme .competences{
+    padding-right: 28px;
+}
 
 
 /** Design de la navbar **/
@@ -126,18 +130,19 @@ body, html {
     .navbar a{
         font-size: 36px;
         margin: 0 24px;
-        padding: 12px;
+        padding: 6px;
     }
     .about .aboutme{
         display: flex;
         justify-content: left;
-        width: 50%;
+        width: 60%;
     }
     
     .about .competences{
         display: flex;
-        justify-content: right;
-        width: 50%;
-        margin-top: 50px;
+        width: 60%;
+        margin-top: 20px;
+        margin-left: 35%;
+        margin-bottom: 20px;
     }
 }
