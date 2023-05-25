@@ -21,7 +21,8 @@ body, html {
     margin: 0;
 }
 /** Pour ne pas qu'il y ai des espaces blancs entre les différentes div **/
-.homepage h1, .homepage h2, .about h1, .about h2, .parcours h1 {
+.homepage h1, .homepage h2, .about h1, .about h2, .parcours h1, 
+.parcours h2 {
     margin: 0;
 }
   
@@ -96,11 +97,13 @@ body, html {
     padding-right: 36px;
     text-align: justify;
     font-size: 18px;
+    padding-bottom: 20px;
 }
 
 .parcours h2::first-letter{
     font-size: 42px;
 }
+
 
 /** Design de la navbar **/
 .navbar{
@@ -143,6 +146,8 @@ body, html {
     }
     .navbar a{
         font-size: 28px;
+        margin: 0 24px;
+        padding: 4px;
     }
     .homepage h2{
         margin-left: 52px;
@@ -179,5 +184,13 @@ body, html {
     }
     .about h2{
         font-size: 20px;
-}
+    }
+    .parcours h1, h2{
+        display: flex;
+        justify-content: left;
+        width: 50%;
+    }
+    .parcours h2{
+        font-size: 20px;
+    }
 }
