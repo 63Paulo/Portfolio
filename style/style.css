@@ -112,6 +112,7 @@ body, html {
     align-items: center;
     background-color: #1D1D1D;
     width: 100%;
+    position: fixed;
  }
   
 .navbar .toggle-btn {
@@ -119,7 +120,13 @@ body, html {
     top: 20px; /* Ajustez la valeur selon votre besoin */
     left: 20px; /* Ajustez la valeur selon votre besoin */
     background-color: #1D1D1D;
-    padding-top: 5px;
+    padding: 8px;
+    border-radius: 50%;
+    box-shadow: none;
+}
+
+.navbar .toggle-btn:hover{
+    background-color: #003b59;
 }
   
 .navbar .toggle-btn span {
@@ -139,6 +146,7 @@ body, html {
     justify-content: center;
     flex-direction:column;
     margin: 10px 0;
+    margin-left: 60px;
 }
 .navbar.collapsed .navbar-links a{
     text-decoration: none;
@@ -168,6 +176,15 @@ body, html {
     .homepage h1{
         font-size: 72px;
     }
+
+    .navbar .toggle-btn{
+        width: 60px;
+        height: 60px;
+    }
+    .navbar .toggle-btn span{
+        width: auto;
+    }
+    
 }
 
 /** Responsive design pour les grands écrans **/
