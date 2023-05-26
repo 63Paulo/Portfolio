@@ -137,11 +137,14 @@ body, html {
     display: flex;
     justify-content: center;
     flex-direction:column;
+    margin: 10px 0
 }
 .navbar.collapsed .navbar-links a{
     text-decoration: none;
     color: #FFFFFF;
     margin-left:20px;
+    margin-bottom: 8px;
+    transition: transform 0.3s ease; /** pour créeer un effet de zoom **/
 }
 
 .navbar.collapsed .navbar-links a:hover{
