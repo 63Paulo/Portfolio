@@ -115,11 +115,11 @@ body, html {
  }
   
 .navbar .toggle-btn {
-    display: block;
-    cursor: pointer;
-    padding: 10px;
-    background: none;
-    border: none;
+    position: fixed;
+    top: 20px; /* Ajustez la valeur selon votre besoin */
+    left: 20px; /* Ajustez la valeur selon votre besoin */
+    background-color: #1D1D1D;
+    padding-top: 5px;
 }
   
 .navbar .toggle-btn span {
