@@ -105,28 +105,33 @@ body, html {
 }
 
 
-/** Design de la navbar **/
+/** Design de la navbar responsive **/
 
 .navbar {
     display: flex;
     align-items: center;
-    background-color: #1D1D1D;
+    background-color: #000000;
     width: 100%;
-    position: fixed;
+    position: fixed; /* On fixe la navbar pour ne pas qu'elle bouge lorsque qu'on scroll **/
  }
   
 .navbar .toggle-btn {
-    position: fixed;
-    top: 20px; /* Ajustez la valeur selon votre besoin */
-    left: 20px; /* Ajustez la valeur selon votre besoin */
-    background-color: #1D1D1D;
+    position: fixed; /* On fixe aussi le bouton */
+    top: 20px; 
+    left: 20px; 
+    background-color: #000000;
     padding: 8px;
     border-radius: 50%;
-    box-shadow: none;
+    border: none;
+    cursor: pointer;
 }
 
 .navbar .toggle-btn:hover{
-    background-color: #003b59;
+    background-color: #FFFFFF;
+}
+
+.navbar .toggle-btn:hover span{
+    background-color: #000000;
 }
   
 .navbar .toggle-btn span {
@@ -136,6 +141,7 @@ body, html {
     background-color: #FFFFFF;
     margin-bottom: 5px;
 }
+
   
 .navbar .navbar-links {
     display: none;
@@ -184,7 +190,10 @@ body, html {
     .navbar .toggle-btn span{
         width: auto;
     }
-    
+    .navbar.navbar.collapsed .navbar-links a{
+        font-size: 26px;
+        margin-left: 42px;
+    }
 }
 
 /** Responsive design pour les grands écrans **/
