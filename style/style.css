@@ -210,6 +210,8 @@ body, html {
 .bloc a:hover{
     transform: scale(1.1); /** pour créer l'effet de zoom lorsque que le curseur passe sur un élément de la navbar **/
 }
+
+
   
 
 /** Responsive Design pour les tablettes **/
