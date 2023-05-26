@@ -12,21 +12,21 @@
     <title>PAUL FERNANDES - PORTFOLIO</title>
 
 </head>
-<body>
-    <!--Incrémentation du code JavaScript permettant de mettre 
-    une rubrique de la navbar en surbrillance lorsque qu'on s'y trouve-->
-    <script src="js/NavbarSurbrillance.js"></script>
-    <script src="js/NavbarClick.js"></script>
-    <script src="js/NavbarSurbrillancePart2.js"></script>
-    <script src="js/FriseChrono.js"></script>
-    
+<body>    
     <!-- Toutes les rubriques de la barre de navigation-->
     <div class="navbar">
-        <a href="#homepage">Accueil</a>
-        <a href="#about">À propos</a>
-        <a href="#parcours">Parcours</a>
-        <a href="#">Projets</a>
-        <a href="#">Contact</a>
+        <button class="toggle-btn" onclick="toggleNavbar()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="navbar-links">
+            <a href="#homepage">Accueil</a>
+            <a href="#about">À propos</a>
+            <a href="#parcours">Parcours</a>
+            <a href="#">Projets</a>
+            <a href="#">Contact</a>
+          </div>
       </div>
 
     <div class="homepage" id="homepage">
@@ -59,6 +59,14 @@
 
     </div>
       
+
+     <!--Incrémentation du code JavaScript permettant de mettre 
+    une rubrique de la navbar en surbrillance lorsque qu'on s'y trouve-->
+    <script src="js/NavbarSurbrillance.js"></script>
+    <script src="js/NavbarClick.js"></script>
+    <script src="js/NavbarSurbrillancePart2.js"></script>
+    <script src="js/FriseChrono.js"></script>
+    <script src="js/NavbarMobile.js"></script>
 </body>
 
 </html>
