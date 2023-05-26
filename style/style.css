@@ -158,6 +158,7 @@ body, html {
 .navbar.collapsed .navbar-links a{
     text-decoration: none;
     font-size: 22px;
+    font-style: bold;
     color: #FFFFFF;
     margin-left:36px;
     margin-bottom: 8px;
@@ -171,6 +172,43 @@ body, html {
   
 .navbar.collapsed .toggle-btn span {
     background-color: #FFFFFF;
+}
+
+.projets h1{
+    text-align: center;
+    padding-top: 20px;
+    font-style: italic;
+}
+
+/* Design des blocs pour afficher mes projets */
+.bloc-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.bloc {
+    width: 200px;
+    height: 200px;
+    background-color: #003b59;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+}
+  
+.bloc a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    transition: transform 0.3s ease; /** pour créeer un effet de zoom **/
+}
+
+.bloc a:hover{
+    transform: scale(1.1); /** pour créer l'effet de zoom lorsque que le curseur passe sur un élément de la navbar **/
 }
   
 
@@ -210,7 +248,7 @@ body, html {
         position: fixed;
         overflow: hidden;
         text-align: center;
-        background-color: #1D1D1D;
+        background-color: #000000;
         width: 100%;
         padding: 28px;
     }
