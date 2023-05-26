@@ -128,7 +128,7 @@ body, html {
 }
 
 .navbar .toggle-btn:hover{
-    background-color: #FFFFFF;
+    background-color: #F2F2F2F2;
 }
 
 .navbar .toggle-btn:hover span{
@@ -166,7 +166,7 @@ body, html {
 }
 
 .navbar.collapsed .navbar-links a:hover{
-    color: #FFFFFF;
+    color: #F2F2F2F2;
     transform: scale(1.1); /** pour créer l'effet de zoom lorsque que le curseur passe sur un élément de la navbar **/
 }
   
@@ -332,6 +332,7 @@ body, html {
     .bloc {
         width: 320px;
         height: 320px;
+        margin: 20px 40px;
     }
     .bloc a{
         font-size: 28px;
