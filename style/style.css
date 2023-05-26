@@ -144,17 +144,6 @@ body, html {
 
 /** Responsive Design pour les tablettes **/
 @media only screen and (min-width:760px){
-    .navbar .navbar-links{
-        display: flex;
-        justify-content:center;
-        position: fixed;
-        width: 100%;
-    }
-    .navbar .navbar-links a{
-        font-size: 28px;
-        margin: 0 24px;
-        padding: 4px;
-    }
     .homepage h2{
         margin-left: 30%;
         font-size: 32px;
@@ -167,17 +156,23 @@ body, html {
 /** Responsive design pour les grands écrans **/
 @media only screen and (min-width:1200px){
     
-    .navbar .navbar-links a{
-        font-size: 32px;
-        margin: 0 24px;
-        padding: 4px;
-    }
-
-    .navbar .navbar-links a:hover{
-        color: #FFFFFF;
-        transform: scale(1.1); /** pour créer l'effet de zoom lorsque que le curseur passe sur un élément de la navbar **/
+    .navbar {
+        overflow: hidden;
+        text-align: center;
+        background-color: #1D1D1D;
+        width: auto;
+        padding: 28px;
     }
     
+    .navbar .navbar-links a{
+        color: #003b59;
+        text-align: center;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: bold;
+        margin: 10px 20px;
+        transition: transform 0.3s ease; /** pour créeer un effet de zoom **/
+    }
 
     .homepage h2{
         margin-left: 40%;
