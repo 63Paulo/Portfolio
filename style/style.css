@@ -233,6 +233,22 @@ body, html {
         font-size: 26px;
         margin-left: 42px;
     }
+    .bloc {
+        width: 280px;
+        height: 280px;
+    }
+    .bloc a{
+        font-size: 24px;
+    }
+    .projets h1{
+        font-size: 38px;
+    }
+    .about h1{
+        font-size: 38px;
+    }
+    .parcours h1{
+        font-size: 38px;
+    }
 }
 
 /** Responsive design pour les grands écrans **/
@@ -281,6 +297,9 @@ body, html {
         justify-content: left;
         width: 60%;
     }
+    .about h1{
+        font-size: 42px;
+    }
     
     .about .competences{
         display: flex;
@@ -296,6 +315,9 @@ body, html {
     .about h2{
         font-size: 20px;
     }
+    .parcours h1{
+        font-size: 42px;
+    }
     .parcours h1, h2{
         display: flex;
         justify-content: left;
@@ -303,5 +325,15 @@ body, html {
     }
     .parcours h2{
         font-size: 20px;
+    }
+    .projets h1{
+        font-size: 42px;
+    }
+    .bloc {
+        width: 320px;
+        height: 320px;
+    }
+    .bloc a{
+        font-size: 28px;
     }
 }
