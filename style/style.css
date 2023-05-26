@@ -22,7 +22,7 @@ body, html {
 }
 /** Pour ne pas qu'il y ai des espaces blancs entre les différentes div **/
 .homepage h1, .homepage h2, .about h1, .about h2, .parcours h1, 
-.parcours h2 {
+.parcours h2, .toggle-btn {
     margin: 0;
 }
   
@@ -111,23 +111,24 @@ body, html {
     display: flex;
     align-items: center;
     background-color: #1D1D1D;
-  }
+    width: 100%;
+ }
   
-  .navbar .toggle-btn {
+.navbar .toggle-btn {
     display: block;
     cursor: pointer;
     padding: 10px;
     background: none;
     border: none;
-  }
+}
   
-  .navbar .toggle-btn span {
+.navbar .toggle-btn span {
     display: block;
     width: 25px;
     height: 3px;
     background-color: #FFFFFF;
     margin-bottom: 5px;
-  }
+}
   
 .navbar .navbar-links {
     display: none;
@@ -137,10 +138,11 @@ body, html {
     display: flex;
     justify-content: center;
     flex-direction:column;
-    margin: 10px 0
+    margin: 10px 0;
 }
 .navbar.collapsed .navbar-links a{
     text-decoration: none;
+    font-size: 22px;
     color: #FFFFFF;
     margin-left:20px;
     margin-bottom: 8px;
