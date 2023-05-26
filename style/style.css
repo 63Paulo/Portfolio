@@ -211,6 +211,18 @@ body, html {
     transform: scale(1.1); /** pour créer l'effet de zoom lorsque que le curseur passe sur un élément de la navbar **/
 }
 
+.contact{
+    background-color: #003b59;
+    padding-top: 20px;
+    padding: 10px 20px;
+    width: 100%;
+}
+.contact a{
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 10px;
+    width: 100%;
+}
 
   
 
