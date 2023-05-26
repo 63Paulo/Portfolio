@@ -156,11 +156,18 @@ body, html {
 /** Responsive design pour les grands écrans **/
 @media only screen and (min-width:1200px){
     
-    .navbar {
+    .navbar .toggle-btn {
+        display: none;
+    }
+
+    .navbar .navbar-links {
+        display: flex;
+        justify-content: center;
+        position: fixed;
         overflow: hidden;
         text-align: center;
         background-color: #1D1D1D;
-        width: auto;
+        width: 100%;
         padding: 28px;
     }
     
@@ -168,11 +175,21 @@ body, html {
         color: #003b59;
         text-align: center;
         text-decoration: none;
-        font-size: 24px;
+        font-size: 34px;
+        margin: 10px 24px;
+        padding-top: 92px;
         font-weight: bold;
-        margin: 10px 20px;
         transition: transform 0.3s ease; /** pour créeer un effet de zoom **/
     }
+    /** Permet de mettre en surbrillance la rubrique de la navbar dans laquelle on se trouve **/
+    .navbar a.active {
+        color: #FFFFFF;
+    }
+    .navbar a:hover{
+        color: #FFFFFF;
+        transform: scale(1.1); /** pour créer l'effet de zoom lorsque que le curseur passe sur un élément de la navbar **/
+    }
+
 
     .homepage h2{
         margin-left: 40%;
