@@ -227,26 +227,28 @@ body, html {
 
 label{
     color: #FFFFFF;
+    font-size: 18px;
 }
 
-input[id="name"],
+input[type="text"],
   textarea {
-    width: 50%;
+    width: 90%;
+    padding: 4px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
     margin: 10px 0;
-  }
+}
 
-input[id="name2"],
-textarea {
-    width: 50%;
+input[type="email"], 
+textarea{
+    width: 90%;
+    padding: 4px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
     margin: 10px 0;
-    margin-left: 40px;
-  }
+}
 
   input[type="submit"] {
     background-color: #1D1D1D;
