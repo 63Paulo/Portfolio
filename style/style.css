@@ -235,7 +235,7 @@ input[type="email"],
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
-    margin: 10px 10px 10px 0;
+    margin: 10px 20px 10px 0;
 }
 
 
@@ -280,15 +280,22 @@ input[type="email"],
     .bloc a{
         font-size: 24px;
     }
-    .projets h1{
+    h1{
         font-size: 38px;
     }
-    .about h1{
-        font-size: 38px;
+    label{
+        font-size: 22px;
     }
-    .parcours h1{
-        font-size: 38px;
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        padding: 12px;
+        margin: 10px 36px 10px 0;
     }
+    input[type="submit"] {
+        font-size: 16px;
+        margin-top: 10px;
+  }
 }
 
 /** Responsive design pour les grands écrans **/
@@ -369,6 +376,9 @@ input[type="email"],
     .projets h1{
         font-size: 42px;
     }
+    .contact h1{
+        font-size: 42px;
+    }
     .bloc {
         width: 320px;
         height: 320px;
@@ -376,5 +386,19 @@ input[type="email"],
     }
     .bloc a{
         font-size: 28px;
+    }
+    label{
+        font-size: 24px;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        padding: 18px;
+        margin: 10px 56px 10px 0;
+        font-size: 18px;
+    }   
+    input[type="submit"] {
+      font-size: 20px;
+      margin-top: 10px;
     }
 }
