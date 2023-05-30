@@ -217,6 +217,11 @@ body, html {
     padding: 10px 20px;
     width: 100%;
 }
+
+.contact h1{
+    text-align: center;
+    color: #FFFFFF;
+}
 .contact a{
     text-decoration: none;
     text-align: center;
@@ -230,6 +235,12 @@ body, html {
     color: #FFFFFF;
 }
 
+ul{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+}
   
 
 /** Responsive Design pour les tablettes **/
