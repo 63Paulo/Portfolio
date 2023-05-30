@@ -229,15 +229,23 @@ label{
     color: #FFFFFF;
 }
 
-input[type="text"],
-  input[type="email"],
+input[id="name"],
   textarea {
-    width: 100%;
-    padding: 8px;
+    width: 50%;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
     margin: 10px 0;
+  }
+
+input[id="name2"],
+textarea {
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin: 10px 0;
+    margin-left: 40px;
   }
 
   input[type="submit"] {
