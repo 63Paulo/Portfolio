@@ -128,12 +128,9 @@ body, html {
 }
 
 .navbar .toggle-btn:hover{
-    background-color: #F2F2F2F2;
+    background-color: #282828;
 }
 
-.navbar .toggle-btn:hover span{
-    background-color: #000000;
-}
   
 .navbar .toggle-btn span {
     display: block;
@@ -231,24 +228,16 @@ label{
 }
 
 input[type="text"],
+input[type="email"],
   textarea {
     width: 90%;
-    padding: 4px;
+    padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
-    margin: 10px 0;
+    margin: 10px 10px 10px 0;
 }
 
-input[type="email"], 
-textarea{
-    width: 90%;
-    padding: 4px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-    margin: 10px 0;
-}
 
   input[type="submit"] {
     background-color: #1D1D1D;
