@@ -216,32 +216,14 @@ body, html {
     padding-top: 20px;
     padding: 10px 20px;
     width: 100%;
+    margin-top: 20px;
 }
 
 .contact h1{
     text-align: center;
     color: #FFFFFF;
+    font-style: italic;
 }
-.contact a{
-    text-decoration: none;
-    text-align: center;
-    font-size: 18px;
-    color: #FFFFFF;
-    margin: 20px 10px;
-    width: 100%;
-}
-
-.contact a:visited{
-    color: #FFFFFF;
-}
-
-ul{
-    text-decoration: none;
-}
-li{
-    text-decoration: none;
-}
-  
 
 /** Responsive Design pour les tablettes **/
 @media only screen and (min-width:760px){

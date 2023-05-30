@@ -80,20 +80,19 @@
             </div>
           </div>
     </div>
-    <div class="contact" id="contact">
-        <h1 class>CONTACT</h1>
-        <ul>
-          <li>
-            <a class="email" href="mailto:fernandespaul548@gmail.com">Mon e-mail</a>
-          </li>
-          <li>
-            <a class="insta" href="http://instagram.com">IT</a>
-            <a class="github" href="http://github.com">GH</a>
-            <a class="linkendin" href="http://linkendin.com">LI</a>
-            <a class="twitter" href="http://twitter.com">TW</a>
-          </li>
-        </ul>
-    </div>
+    <form class="contact" id="contact">
+      <h1>CONTACT</h1>
+      <label for="name">Nom :</label>
+      <input type="text" id="name" name="name" required>
+    
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+    
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" required></textarea>
+    
+      <input type="submit" value="Envoyer">
+    </form>
      <!--Incrémentation des codes JavaScript-->
     <script src="js/NavbarSurbrillance.js"></script>
     <script src="js/NavbarClick.js"></script>
