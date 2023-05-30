@@ -218,10 +218,16 @@ body, html {
     width: 100%;
 }
 .contact a{
+    text-decoration: none;
     text-align: center;
     font-size: 18px;
+    color: #FFFFFF;
     margin: 20px 10px;
     width: 100%;
+}
+
+.contact a:visited{
+    color: #FFFFFF;
 }
 
   
