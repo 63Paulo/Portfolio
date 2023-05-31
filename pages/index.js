@@ -2,6 +2,7 @@ import Head from 'next/head';
 import NavBar from '../Components/NavBar/NavBar.js';
 import Homepage from '../Components/Homepage/Homepage.js';
 import About from '../Components/About/About.js';
+import Parcours from '../Components/Parcours/Parcours.js';
 
 export default function Home() {
   const handleSubmit = (event) => {
@@ -27,34 +28,6 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      
-      <div className={styles.about} id="about">
-        <h1 className={styles.aboutme}>A PROPOS DE MOI</h1>
-        <h2 className={styles.aboutme}>
-          Je suis Paul Fernandes, un étudiant actuellement en première année de BTS SIO (Services Informatiques aux Organisations).
-          Mon lien avec le développement est forgé par ma formation en BTS SIO, mon expérience pratique et ma passion pour
-          l'apprentissage. Je suis enthousiaste à l'idée de continuer à développer mes compétences et de contribuer au monde de
-          l'informatique en créant des solutions innovantes et en repoussant les limites de ce qui est possible grâce au développement.
-        </h2>
-        <h1 className={styles.competences}>COMPETENCES</h1>
-        <h2 className={styles.competences}>
-          Grâce à ma formation, j'ai acquis une solide maîtrise des langages suivants :
-          HTML, CSS, Python, JavaScript, C#, MySQL et PHP. Ces langages de programmation polyvalents me permettent
-          de concevoir et de développer des sites web interactifs, des applications logicielles, ainsi que d'interagir
-          avec des bases de données. Avec ces compétences, je suis en mesure de créer des expériences utilisateur
-          attrayantes, d'ajouter des fonctionnalités dynamiques, de résoudre des problèmes de manière efficace et de
-          développer des solutions robustes.
-        </h2>
-      </div>
-      <div className={styles.parcours} id="parcours">
-        <h1>MON PARCOURS</h1>
-        <h2>
-          Je suis un étudiant en première année de BTS SIO avec de grandes ambitions. Je souhaite obtenir
-          une licence en informatique puis un master pour approfondir mes connaissances et compétences.
-          Mon parcours académique reflète mon désir de développement professionnel et ma passion pour la technologie.
-          Je suis motivé à travailler dur pour atteindre mes objectifs et contribuer au progrès technologique.
-        </h2>
-      </div>
       <div className={styles.projets} id="projets">
         <h1>MES PROJETS</h1>
         <div className={styles['bloc-container']}>
