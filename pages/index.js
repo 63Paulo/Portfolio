@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import styles from '../style/styles.module.css';
+import NavBar from '../Components/NavBar/NavBar.js';
 
 export default function Home() {
   const handleSubmit = (event) => {
@@ -25,24 +25,6 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-
-      <div className={styles.navbar}>
-        <button
-          className={styles['toggle-btn']}
-          onClick={toggleNavbar}
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-        <div className={styles['navbar-links']}>
-          <a href="#homepage">Accueil</a>
-          <a href="#about">À propos</a>
-          <a href="#parcours">Parcours</a>
-          <a href="#projets">Projets</a>
-          <a href="#contact">Contact</a>
-        </div>
-      </div>
       <div className={styles.homepage} id="homepage">
         <h1>PAUL FERNANDES</h1>
         <h2>Etudiant en développement web.</h2>
