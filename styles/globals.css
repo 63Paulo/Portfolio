@@ -321,13 +321,13 @@ input[type="submit"]:hover {
         font-size: 38px;
     }
     label{
-        font-size: 22px;
+        font-size: 28px;
     }
     input[type="text"],
     input[type="email"],
     textarea {
         padding: 12px;
-        margin: 10px 36px 10px 0;
+        margin: 10px 56px 10px 0;
         font-size: 14px;
     }
     input[type="submit"] {

@@ -63,13 +63,13 @@ const NavBar = () => {
     }
   return (
     <>
-      <div class="navbar">
-          <button class="toggle-btn" onclick={toggleNavbar}>
+      <div className="navbar">
+          <button className="toggle-btn" onclick={toggleNavbar}>
             <span></span>
             <span></span>
             <span></span>
           </button>
-          <div class="navbar-links">
+          <div className="navbar-links">
             <a href="#homepage">Accueil</a>
             <a href="#about">À propos</a>
             <a href="#parcours">Parcours</a>

@@ -2,9 +2,9 @@ const Footer = () => {
     // Ici les fonctions Js utilisés
       return (
         <>
-          <footer class="footer" id="footer">
-            <div class="footer-container" id="footer-container">
-              <ul class="footer-links" id="footer-links">
+          <footer className="footer" id="footer">
+            <div className="footer-container" id="footer-container">
+              <ul className="footer-links" id="footer-links">
                 <li><a href="http://github.com">GH</a></li>
                 <li><a href="http://linkedin.com">LI</a></li>
                 <li><a href="http://instagram.com">IT</a></li>

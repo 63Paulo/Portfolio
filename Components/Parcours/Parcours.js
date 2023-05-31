@@ -1,5 +1,9 @@
+//import gsap from 'gsap';
+
 const Parcours = () => {
-    // Ici les fonctions Js utilisés
+    
+
+
       return (
         <>
           <div class="parcours" id="parcours">
