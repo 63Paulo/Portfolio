@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import NavBar from '../Components/NavBar/NavBar.js';
+import Homepage from '../Components/Homepage/Homepage.js';
+import About from '../Components/About/About.js';
 
 export default function Home() {
   const handleSubmit = (event) => {
@@ -25,10 +27,7 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <div className={styles.homepage} id="homepage">
-        <h1>PAUL FERNANDES</h1>
-        <h2>Etudiant en développement web.</h2>
-      </div>
+      
       <div className={styles.about} id="about">
         <h1 className={styles.aboutme}>A PROPOS DE MOI</h1>
         <h2 className={styles.aboutme}>
