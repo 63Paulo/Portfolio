@@ -4,6 +4,7 @@ import Homepage from '../Components/Homepage/Homepage.js';
 import About from '../Components/About/About.js';
 import Parcours from '../Components/Parcours/Parcours.js';
 import Projets from '../Components/Projets/Projets.js';
+import Contact from '../Components/Contact/Contact.js';
 
 export default function Home() {
   const handleSubmit = (event) => {
@@ -34,27 +35,7 @@ export default function Home() {
       <About/>
       <Parcours/>
       <Projets/>
-      <form className={styles.contact} id="contact" onSubmit={handleSubmit}>
-        <h1>CONTACT</h1>
-        <label htmlFor="name">Nom :</label>
-        <input type="text" id="name" name="name" required />
-        <label htmlFor="name2">Prénom :</label>
-        <input type="text" id="name2" name="name2" required />
-
-        <label htmlFor="email">Email :</label>
-        <input type="email" id="email" name="email" required />
-
-        <label htmlFor="message">Message :</label>
-        <textarea id="message" name="message" required></textarea>
-
-        <input type="submit" value="Envoyer" />
-        <h2>© PAUL FERNANDES 2023</h2>
-      </form>
-      <script src="/js/NavbarSurbrillance.js"></script>
-      <script src="/js/NavbarClick.js"></script>
-      <script src="/js/NavbarSurbrillancePart2.js"></script>
-      <script src="/js/FriseChrono.js"></script>
-      <script src="/js/NavbarMobile.js"></script>
+      <Contact/>
     </div>
   );
 }
