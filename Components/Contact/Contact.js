@@ -11,15 +11,12 @@ const Contact = () => {
             email:'',
             message:''
         })
-
-
         // Fonction de gestion du formulaire quand il est soumis
         const handleSubmit = (event) => {
             event.preventDefault();
             console.log(formData);
             
         }
-
         // Fonction qui permet de gérer les changements de saisies
         const handleChange = (event) => {
             setFormData({
