@@ -13,7 +13,7 @@ body, html {
 
 .homepage{
     /** Design de la page d'acceuil ***/
-    background-image: url('img/space.jpg');
+    background-image: url('../public/image/background/space.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
