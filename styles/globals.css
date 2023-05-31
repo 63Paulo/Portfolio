@@ -172,6 +172,7 @@ body, html {
 .projets h1{
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 10px;
     font-style: italic;
 }
 
@@ -332,9 +333,6 @@ input[type="submit"]:hover {
     input[type="submit"] {
         font-size: 16px;
     }
-    .contact h2{
-    font-size: 14px;
-    }
     .footer-links li a{
         font-size: 38px;
     }
@@ -414,7 +412,7 @@ input[type="submit"]:hover {
         font-size: 20px;
     }
     .parcours h1{
-        font-size: 42px;
+        font-size:52px;
     }
     .parcours h1, h2{
         display: flex;
@@ -425,10 +423,11 @@ input[type="submit"]:hover {
         font-size: 20px;
     }
     .projets h1{
-        font-size: 42px;
+        font-size: 52px;
     }
     .contact h1{
-        font-size: 42px;
+        font-size: 52px;
+        margin-bottom: 20px;
     }
     .bloc {
         width: 320px;
@@ -439,15 +438,15 @@ input[type="submit"]:hover {
         font-size: 28px;
     }
     label{
-        font-size: 24px;
+        font-size: 32px;
     }
     input[type="text"],
     input[type="email"],
     textarea {
-        padding: 18px;
-        margin: 10px 56px 10px 0;
-        font-size: 18px;
-    }   
+        padding: 12px;
+        margin: 16px 90px 16px 0;
+        font-size: 14px;
+    }
     input[type="submit"] {
       font-size: 20px;
     }
@@ -463,7 +462,7 @@ input[type="submit"]:hover {
     .footer h2{
         font-size: 18px;
     }
-    .hompepageH1{
-        font-size: 52px;
+    .homepageH1 {
+        font-size: 1px;
     }
 }
