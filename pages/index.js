@@ -3,6 +3,7 @@ import NavBar from '../Components/NavBar/NavBar.js';
 import Homepage from '../Components/Homepage/Homepage.js';
 import About from '../Components/About/About.js';
 import Parcours from '../Components/Parcours/Parcours.js';
+import Projets from '../Components/Projets/Projets.js';
 
 export default function Home() {
   const handleSubmit = (event) => {
@@ -28,29 +29,11 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <div className={styles.projets} id="projets">
-        <h1>MES PROJETS</h1>
-        <div className={styles['bloc-container']}>
-          <div className={styles.bloc}>
-            <a href="lien1.html">Projet 1</a>
-          </div>
-          <div className={styles.bloc}>
-            <a href="lien2.html">Projet 2</a>
-          </div>
-          <div className={styles.bloc}>
-            <a href="lien3.html">Projet 3</a>
-          </div>
-          <div className={styles.bloc}>
-            <a href="lien4.html">Projet 4</a>
-          </div>
-          <div className={styles.bloc}>
-            <a href="lien5.html">Projet 5</a>
-          </div>
-          <div className={styles.bloc}>
-            <a href="lien6.html">Projet 6</a>
-          </div>
-        </div>
-      </div>
+      <NavBar/>
+      <Homepage/>
+      <About/>
+      <Parcours/>
+      <Projets/>
       <form className={styles.contact} id="contact" onSubmit={handleSubmit}>
         <h1>CONTACT</h1>
         <label htmlFor="name">Nom :</label>
