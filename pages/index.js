@@ -5,14 +5,12 @@ import About from '../Components/About/About.js';
 import Parcours from '../Components/Parcours/Parcours.js';
 import Projets from '../Components/Projets/Projets.js';
 import Contact from '../Components/Contact/Contact.js';
+import Footer from '../Components/Footer/Footer.js';
 
 export default function Home() {
-  // Je crois que ce code ne sert plus à rien 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-  };
 
   return (
+    // TODO: Attention la class ici n'est pas bonne
     <div className={styles.container}>
       <Head>
         <title>PAUL FERNANDES - PORTFOLIO</title>
@@ -37,6 +35,7 @@ export default function Home() {
       <Parcours/>
       <Projets/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }
