@@ -10,9 +10,7 @@ import Footer from '../Components/Footer/Footer.js';
 export default function Home() {
 
   return (
-    // TODO: Attention la class ici n'est pas bonne
     <>
-      // TODO: Attention la class ici n'est pas bonne
       <Head>
         <title>PAUL FERNANDES - PORTFOLIO</title>
         <link rel="stylesheet" href="/style/style.css" />

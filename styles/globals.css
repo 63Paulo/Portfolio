@@ -1,5 +1,6 @@
 @import '_reset.css';
 
+/* TODO:Will C'est normal que dans ma page les styles ne sont pas appliqués sur mes h1 ? */
 
 body, html {
     /** Pour ne pas qu'il y est des espaces blancs sur les côtés **/
