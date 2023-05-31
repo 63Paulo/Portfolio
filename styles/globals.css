@@ -1,3 +1,6 @@
+@import '_reset.css';
+
+
 body, html {
     /** Pour ne pas qu'il y est des espaces blancs sur les côtés **/
     margin: 0;
