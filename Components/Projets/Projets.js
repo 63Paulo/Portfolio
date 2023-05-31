@@ -3,7 +3,7 @@ const Projets = () => {
       return (
         <>
           <div class="projets" id="projets">
-            <h1>MES PROJETS</h1>
+            <h1 className="projets homepageH1">MES PROJETS</h1>
             <div class="bloc-container">
                 <div class="bloc">
                     <a href="lien1.html">Projet 1</a>

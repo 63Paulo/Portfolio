@@ -1,16 +1,12 @@
 @import '_reset.css';
 
-/* TODO:Will C'est normal que dans ma page les styles ne sont pas appliqués sur mes h1 ? */
 
 body, html {
     /** Pour ne pas qu'il y est des espaces blancs sur les côtés **/
-    margin: 0;
     padding: 0;
     width: 100%;
     overflow-x: hidden;
   }
-
-
 
 .homepage{
     /** Design de la page d'acceuil ***/
@@ -21,14 +17,11 @@ body, html {
 }
 
 /** Pour ne pas qu'il y ai des espaces blancs entre les différentes div **/
-.homepage, .about {
-    margin: 0;
-}
+
 /** Pour ne pas qu'il y ai des espaces blancs entre les différentes div **/
-.homepage h1, .homepage h2, .about h1, .about h2, .parcours h1, 
-.parcours h2, .toggle-btn {
-    margin: 0;
-}
+.margin { 
+    margin:0;
+} 
   
 /** Design de h1 et de h2 **/
 .homepage h1{
@@ -46,7 +39,9 @@ body, html {
     margin-top: -32px; /** pour rapprocher le h2 au h1 **/
     height: 40vh;
 }
-
+.homepageH1 {
+    font-size: 52px;
+}
 /** design de la rubrique "A propos" **/
 .about{
     background-color: #1D1D1D;

@@ -25,13 +25,13 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"
           rel="stylesheet" />
       </Head>
-      <NavBar />
-      <Homepage />
-      <About /
-      ><Parcours />
-      <Projets />
-      <Contact />
-      <Footer />
+      <NavBar/>
+      <Homepage/>
+      <About/>
+      <Parcours/>
+      <Projets/>
+      <Contact/>
+      <Footer/>
     </>
   );
 }

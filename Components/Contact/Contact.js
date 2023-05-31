@@ -6,7 +6,7 @@ const Contact = () => {
     }
       return (
           <form className="contact" id="contact" onSubmit={handleSubmit}>
-                <h1>CONTACT</h1>
+                <h1 className="contact homepageH1">CONTACT</h1>
                 <label for="name">Nom :</label>
                 <input type="text" id="name" name="name" required />
                 <label for="name2">Prénom :</label>
