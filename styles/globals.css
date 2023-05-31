@@ -16,7 +16,6 @@ body, html {
     width: 100%;
 }
 
-/** Pour ne pas qu'il y ai des espaces blancs entre les différentes div **/
 
 /** Pour ne pas qu'il y ai des espaces blancs entre les différentes div **/
 .margin { 
@@ -40,7 +39,7 @@ body, html {
     height: 40vh;
 }
 .homepageH1 {
-    font-size: 52px;
+    font-size: 40px;
 }
 /** design de la rubrique "A propos" **/
 .about{
@@ -84,13 +83,13 @@ body, html {
     width: 100%;
 }
 
-.parcours h1{
+.parcoursH1{
     font-style: italic;
     padding-top: 10px;
     width: 100%;
 }
 
-.parcours h2{
+.parcoursH2{
     color: #000000;
     padding-top: 18px;
     padding-right: 36px;
@@ -345,7 +344,9 @@ input[type="submit"]:hover {
     .footer h2{
         font-size: 16px;
     }
-
+    .homepageH1{
+        font-size: 44px;
+    }
 }
 
 /** Responsive design pour les grands écrans **/
