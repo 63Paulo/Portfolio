@@ -11,31 +11,29 @@ export default function Home() {
 
   return (
     // TODO: Attention la class ici n'est pas bonne
-    <div className={styles.container}>
+    <>
+      // TODO: Attention la class ici n'est pas bonne
       <Head>
         <title>PAUL FERNANDES - PORTFOLIO</title>
         <link rel="stylesheet" href="/style/style.css" />
         <link
           rel="preconnect"
-          href="https://fonts.googleapis.com"
-        />
+          href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
-          crossOrigin="true"
-        />
+          crossOrigin="true" />
         <link
           href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"
-          rel="stylesheet"
-        />
+          rel="stylesheet" />
       </Head>
-      <NavBar/>
-      <Homepage/>
-      <About/>
-      <Parcours/>
-      <Projets/>
-      <Contact/>
-      <Footer/>
-    </div>
+      <NavBar />
+      <Homepage />
+      <About /
+      ><Parcours />
+      <Projets />
+      <Contact />
+      <Footer />
+    </>
   );
 }
