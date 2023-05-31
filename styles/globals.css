@@ -262,6 +262,41 @@ input[type="submit"]:hover {
     color: #FFFFFF;
 }
 
+.footer{
+    background-color: #000000;
+    padding-top: 20px;
+}
+
+.footer-container{
+    text-align: center;
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-links li {
+    margin : 0 10px
+}
+.footer-links li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 26px;
+    transition: transform 0.3s ease; /** pour créeer un effet de zoom **/
+}
+.footer-links li a:hover{
+    transform: scale(1.1); /** pour créer l'effet de zoom lorsque que le curseur passe sur un élément du footer **/
+}
+.footer h2{
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    padding: 0 0 10px 10px;
+}
+
+
 /** Responsive Design pour les tablettes **/
 @media only screen and (min-width:760px){
     .homepage h2{

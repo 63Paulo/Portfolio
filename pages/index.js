@@ -7,6 +7,7 @@ import Projets from '../Components/Projets/Projets.js';
 import Contact from '../Components/Contact/Contact.js';
 
 export default function Home() {
+  // Je crois que ce code ne sert plus à rien 
   const handleSubmit = (event) => {
     event.preventDefault();
   };
