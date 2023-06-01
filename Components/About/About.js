@@ -1,5 +1,5 @@
 const About = () => {
-    // Ici les fonctions Js utilisés
+
       return (
         <>
           <div className="about" id="about">

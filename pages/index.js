@@ -13,7 +13,6 @@ export default function Home() {
     <>
       <Head>
         <title>PAUL FERNANDES - PORTFOLIO</title>
-        <link rel="stylesheet" href="/style/style.css" />
         <link
           rel="preconnect"
           href="https://fonts.googleapis.com" />

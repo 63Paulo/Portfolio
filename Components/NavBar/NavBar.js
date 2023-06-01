@@ -1,16 +1,21 @@
 import { useState } from 'react';
 import Link from 'next/link';
 
+//TODO:Will j'ai réussi a mettre en surbrillance mais que lorsque que je clique sur la rubrique
+
 const NavBar = () => {
+  // State for seeing if the navbar element is active 
   const [isOpen, setIsOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState(''); // État pour suivre la rubrique active
+  const [activeSection, setActiveSection] = useState('');  
 
   const handleToggle = () => {
-    setIsOpen(!isOpen);
+    // Reverse the 'isOpen' state when the button is clicked
+    setIsOpen(!isOpen);  
   };
 
   const handleSectionChange = (section) => {
-    setActiveSection(section); // Met à jour la rubrique active lorsqu'un lien est cliqué
+    // Updates the navbar elements when its clicked
+    setActiveSection(section); 
   };
 
   return (
@@ -22,6 +27,7 @@ const NavBar = () => {
           <span></span>
         </button>
         <div className="navbar-links">
+          {/* Link to the differents section */}
           <Link href="#homepage" scroll={false}>
             <a className={activeSection === 'homepage' ? 'active' : ''} onClick={() => handleSectionChange('homepage')}>
               Accueil

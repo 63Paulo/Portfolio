@@ -15,8 +15,7 @@ const Parcours = () => {
       //   })
       // }
 
-      //)
-      // On stock toutes nos informations 
+      // We create a const to stock our timeline elements
       const events = [
         {
           date: '2022',
@@ -47,7 +46,9 @@ const Parcours = () => {
             <div className="timeline">
             {events.map((event, index) => (
               <div className="timeline-item" key={index}>
+              {/*Display the event date */}
               <div className="timeline-date">{event.date}</div>
+              {/*Display the event content */}
               <div className="timeline-content">
                 <h2>{event.title}</h2>
                 <p>{event.desc}</p>

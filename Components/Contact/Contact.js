@@ -1,23 +1,23 @@
 import { useState } from "react";
 
 const Contact = () => {
-    // Code pour récupérer les informations d'un formulaire
-    // Les informations saisies sont enregistrées dans la console du navigateur
+    // Code to retrieve information from a form
+    // The information entered is saved in the browser console
         
-    // Déclaré l'état initial du formulaire avec les guillemets vides
+    // Declare the initial state of the form with the empty quotes
     const [formData, setFormData] = useState({
             name: '',
             name2:'',
             email:'',
             message:''
         })
-        // Fonction de gestion du formulaire quand il est soumis
+        // Function for managing the form when it is submitted
         const handleSubmit = (event) => {
             event.preventDefault();
             console.log(formData);
             
         }
-        // Fonction qui permet de gérer les changements de saisies
+        // Function that allows you to manage input changes
         const handleChange = (event) => {
             setFormData({
                 ...formData,
@@ -29,9 +29,9 @@ const Contact = () => {
                 <h1 className="contact homepageH1">CONTACT</h1>
                 <label htmlFor="name">Nom :</label>
                 <input type="text" id="name" name="name" 
-                // Récupérer la valeur saisie 
+                // Retrieve entered value
                 value={formData.name} 
-                // Appel de la fonction handleChange lorsque qu'il y a un changement
+                // Call of the handleChange function when there is a change
                 onChange={handleChange} required />
                 
                 <label htmlFor="name2">Prénom :</label>
