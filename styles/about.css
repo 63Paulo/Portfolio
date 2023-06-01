@@ -14,7 +14,7 @@
     padding-top: 10px;
 }
 
-/** design des textes à propos et compétences **/
+
 #about h2 {
     color: #FFFFFF;
     padding-top: 18px;
@@ -24,7 +24,7 @@
     padding-bottom: 20px;
 }
 
-/** Pour changer le design de la premières lettres des 2 textes **/
+/** For changing the first letter of each h2 text (bigger letter) **/
 #about h2::first-letter{
     font-size: 42px;
 }
@@ -35,7 +35,15 @@
     font-style: italic;
 }
 
-/** Responsive design pour les grands écrans **/
+/* Responsive design for tablets */
+@media only screen and (min-width:760px){
+
+    #about h2{
+        font-size: 20px;
+    }
+
+}
+/** Responsive design for large screens **/
 @media only screen and (min-width:1200px){
 
     #about .aboutme{
@@ -45,6 +53,10 @@
     }
     #about h1{
         font-size: 42px;
+    }
+
+    #about h2 {
+        font: 24px;
     }
     
     #about .competences{

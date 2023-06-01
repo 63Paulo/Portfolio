@@ -25,9 +25,22 @@
     padding-bottom: 20px;
 }
 
+.timeline {
+    margin-top: 20px;
+}
+
 /* design for the first letter of each text */
 #parcours h2::first-letter{
     font-size: 42px;
+}
+
+/* Responsive design for tablets */
+@media only screen and(min-width:760px){
+
+    #parcorus h2{
+        font-size: 20px;
+    }
+    
 }
 /** Responsive design for large screen **/
 @media only screen and (min-width:1200px){
@@ -43,6 +56,6 @@
         width: 50%;
     }
     #parcours h2{
-        font-size: 20px;
+        font-size: 24px;
     }
 }

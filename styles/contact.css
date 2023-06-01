@@ -21,6 +21,7 @@ label{
     font-size: 18px;
 }
 
+/* Design for the textarea of the names and emal */
 input[type="text"],
 input[type="email"],
   textarea {
@@ -32,7 +33,7 @@ input[type="email"],
     margin: 10px 20px 10px 0;
 }
 
-
+/* Design for the submit button */
 input[type="submit"] {
     background-color: #1D1D1D;
     color: white;
@@ -44,11 +45,12 @@ input[type="submit"] {
     margin-bottom: 20px;
 }
 
+/* Design for the submit button when the cursor pass over */
 input[type="submit"]:hover {
     background-color: #282828;
 }
 
-/** Responsive Design pour les tablettes **/
+/** Responsive Design for tablets **/
 @media only screen and (min-width:760px){
 
     h1{
@@ -69,7 +71,7 @@ input[type="submit"]:hover {
     }
 }
 
-/** Responsive design pour les grands écrans **/
+/** Responsive design pour large screens **/
 @media only screen and (min-width:1200px){
 
     .contact h1{
