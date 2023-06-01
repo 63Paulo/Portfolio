@@ -1,12 +1,14 @@
+/* Design of the navbar */
 .navbar {
     display: flex;
     align-items: center;
     background-color: #000000;
     width: 100%;
     position: fixed;
-  }
-  
-  .navbar .toggle-btn {
+}
+
+/* Design of the navbar button */
+.navbar .toggle-btn {
     position: fixed;
     top: 20px;
     left: 20px;
@@ -17,33 +19,38 @@
     cursor: pointer;
     width: 50px;
     height: 50px;
-  }
+}
   
-  .navbar .toggle-btn:hover {
+/* Design of the navbar button when the mouss pass over */
+.navbar .toggle-btn:hover {
     background-color: #282828;
-  }
-  
-  .navbar .toggle-btn span {
+}
+
+/* Design of the navbar button span */
+.navbar .toggle-btn span {
     display: block;
     width: auto;
     height: 3px;
     background-color: #ffffff;
     margin-bottom: 5px;
-  }
+}
   
-  .navbar .navbar-links {
+/* Design of the section */
+.navbar .navbar-links {
     display: none;
   }
-  
-  .navbar.open .navbar-links {
+
+/* Design of the navbar section when the navbar is open */
+.navbar.open .navbar-links {
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin: 10px 0;
     margin-left: 60px;
-  }
+}
   
-  .navbar.open .navbar-links a {
+/* Design of the navba text when the navbar is open */
+.navbar.open .navbar-links a {
     text-decoration: none;
     font-size: 22px;
     font-style: bold;
@@ -51,16 +58,19 @@
     margin-left: 36px;
     margin-bottom: 8px;
     transition: transform 0.3s ease;
-  }
+}
   
-  .navbar.open .navbar-links a:hover {
+/* Animation when the mouse is over the text (a zoom) */
+.navbar.open .navbar-links a:hover {
     color: #f2f2f2f2;
     transform: scale(1.1);
-  }
-  
-  .navbar.open .toggle-btn span {
+}
+
+/* Color of the span when the navbar is open */
+.navbar.open .toggle-btn span {
     background-color: #ffffff;
-  }
+}
+
 
 /** Responsive Design pour les tablettes **/
 @media only screen and (min-width:760px){
@@ -78,71 +88,15 @@
     }
 }
 
-/** Responsive Design pour les tablettes **/
-@media only screen and (min-width:760px){
-    .homepage h2{
-        margin-left: 30%;
-        font-size: 32px;
-    }
-    .homepage h1{
-        font-size: 72px;
-    }
-
-    .navbar .toggle-btn{
-        width: 60px;
-        height: 60px;
-    }
-    .navbar .toggle-btn span{
-        width: auto;
-    }
-    .navbar.navbar.collapsed .navbar-links a{
-        font-size: 26px;
-        margin-left: 42px;
-    }
-    .bloc {
-        width: 280px;
-        height: 280px;
-    }
-    .bloc a{
-        font-size: 24px;
-    }
-    h1{
-        font-size: 38px;
-    }
-    label{
-        font-size: 28px;
-    }
-    input[type="text"],
-    input[type="email"],
-    textarea {
-        padding: 12px;
-        margin: 10px 56px 10px 0;
-        font-size: 14px;
-    }
-    input[type="submit"] {
-        font-size: 16px;
-    }
-    .footer-links li a{
-        font-size: 38px;
-    }
-    .footer-links li {
-        margin : 30px 20px
-    }
-    .footer h2{
-        font-size: 16px;
-    }
-    .homepageH1{
-        font-size: 44px;
-    }
-}
-
-/** Responsive design pour les grands écrans **/
+/** Responsive design for large screen **/
 @media only screen and (min-width:1200px){
-    
+
+    /* We remove the button */
     .navbar .toggle-btn {
         display: none;
     }
 
+    /* The new design of the navbar for large screen */
     .navbar .navbar-links {
         display: flex;
         justify-content: center;
@@ -164,13 +118,13 @@
         font-weight: bold;
         transition: transform 0.3s ease; /** pour créeer un effet de zoom **/
     }
-    /** Permet de mettre en surbrillance la rubrique de la navbar dans laquelle on se trouve **/
+    /** Allows you to highlight the section of the navigation bar in which you are **/
     .navbar a.active {
         color: #FFFFFF;
     }
     .navbar a:hover{
         color: #FFFFFF;
-        transform: scale(1.1); /** pour créer l'effet de zoom lorsque que le curseur passe sur un élément de la navbar **/
+        transform: scale(1.1); /** to create the zoom effect when the cursor hovers over a navbar item **/
     }
 }
 
