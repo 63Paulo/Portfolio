@@ -1,3 +1,7 @@
+.homepageH1 {
+    font-size: 40px;
+}
+
 .parcours {
     background-color: #73b1be;
     padding-top: 20px;
@@ -25,7 +29,7 @@
 }
 /** Responsive design pour les grands écrans **/
 @media only screen and (min-width:1200px){
-    
+
     .parcours h1{
         font-size:52px;
     }

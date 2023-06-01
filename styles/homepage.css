@@ -1,3 +1,7 @@
+.homepageH1 {
+    font-size: 40px;
+}
+
 .homepage{
     /** Design de la page d'acceuil ***/
     background-image: url('../public/image/background/blue-bg.jpg');

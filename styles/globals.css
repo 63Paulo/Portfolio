@@ -8,14 +8,19 @@
 @import 'parcours.css';
 @import 'projets.css';
 @import 'contact.css';
-
+@import 'footer.css';
 
 body, html {
     /** Pour ne pas qu'il y est des espaces blancs sur les côtés **/
     padding: 0;
     width: 100%;
     overflow-x: hidden;
-  }
+}
+
+/** Pour ne pas qu'il y ai des espaces blancs entre les différentes div **/
+.margin { 
+    margin:0;
+} 
 
 .homepage{
     /** Design de la page d'acceuil ***/
@@ -26,10 +31,6 @@ body, html {
 }
 
 
-/** Pour ne pas qu'il y ai des espaces blancs entre les différentes div **/
-.margin { 
-    margin:0;
-} 
   
 /** Design de h1 et de h2 **/
 .homepage h1{
