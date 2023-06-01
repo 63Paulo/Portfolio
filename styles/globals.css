@@ -6,6 +6,9 @@
 @import 'navbar.css';
 @import 'about.css';
 @import 'parcours.css';
+@import 'projets.css';
+@import 'contact.css';
+
 
 body, html {
     /** Pour ne pas qu'il y est des espaces blancs sur les côtés **/
