@@ -9,7 +9,7 @@
     font-style: italic;
 }
 
-/* Design des blocs pour afficher mes projets */
+/* Design of the blocs when I put my projects */
 .bloc-container {
     display: flex;
     flex-wrap: wrap;
@@ -33,14 +33,14 @@
     font-size: 18px;
     font-weight: bold;
     text-align: center;
-    transition: transform 0.3s ease; /** pour créeer un effet de zoom **/
+    transition: transform 0.3s ease; /** For create a zoom effect **/
 }
 
 .bloc a:hover{
-    transform: scale(1.1); /** pour créer l'effet de zoom lorsque que le curseur passe sur un élément de la navbar **/
+    transform: scale(1.1); /** for create a zoom effect when the cursor pass over the text of a bloc **/
 }
 
-/** Responsive Design pour les tablettes **/
+/** Responsive Design for tablets **/
 @media only screen and (min-width:760px){
 
     .bloc {
@@ -52,7 +52,7 @@
     }
 }
 
-/** Responsive design pour les grands écrans **/
+/** Responsive design for large screens **/
 @media only screen and (min-width:1200px){
     
     .bloc {
