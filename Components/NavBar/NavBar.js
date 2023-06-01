@@ -1,3 +1,5 @@
+
+
 const NavBar = () => {
   // ! cette fonction ne fonctionnera pas
   // TODO commente la pour le moment je te ferai une tâche pour t'expliquer çà ce soir

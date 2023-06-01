@@ -12,7 +12,7 @@ body, html {
 
 .homepage{
     /** Design de la page d'acceuil ***/
-    background-image: url('../public/image/background/space.jpg');
+    background-image: url('../public/image/background/blue-bg.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -368,7 +368,7 @@ input[type="submit"]:hover {
     }
     
     .navbar .navbar-links a{
-        color: #003b59;
+        color: #5293b9;
         text-align: center;
         text-decoration: none;
         font-size: 34px;
