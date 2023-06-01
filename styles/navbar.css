@@ -72,7 +72,7 @@
 }
 
 
-/** Responsive Design pour les tablettes **/
+/** Responsive Design for tablet **/
 @media only screen and (min-width:760px){
     .navbar .toggle-btn{
         width: 60px;

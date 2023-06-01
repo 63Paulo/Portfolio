@@ -25,17 +25,20 @@
     padding-bottom: 20px;
 }
 
+/* design for the first letter of each text */
 #parcours h2::first-letter{
     font-size: 42px;
 }
-/** Responsive design pour les grands écrans **/
+/** Responsive design for large screen **/
 @media only screen and (min-width:1200px){
 
     #parcours h1{
         font-size:52px;
     }
+    
+    /* We put all the text on the left for putting the timeline on the right */
     #parcours h1, h2{
-        display: flex;
+        display: flex; 
         justify-content: left;
         width: 50%;
     }

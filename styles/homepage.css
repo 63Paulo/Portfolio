@@ -3,23 +3,17 @@
 }
 
 #homepage{
-    /** Design de la page d'acceuil ***/
+    /** Design for the homepage ***/
     background-image: url('../public/image/background/blue-bg.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
 }
 
-
-/** Pour ne pas qu'il y ai des espaces blancs entre les différentes div **/
-#margin { 
-    margin:0;
-} 
   
-/** Design de h1 et de h2 **/
 #homepage h1{
     text-align: center;
-    padding-top: 30%; /** pour mieux centrer le texte**/
+    padding-top: 30%; /** For the text to be center**/
     font-size: 52px;
     font-family: monospace;
     margin-bottom: 48px;
@@ -29,10 +23,11 @@
     font-family: monospace;
     font-style: italic;
     font-size: 24px;
-    margin-top: -32px; /** pour rapprocher le h2 au h1 **/
+    margin-top: -32px; /** to bring h2 closer to h1 **/
     height: 40vh;
 }
 
+/* Responsive desgin for tablet */
 @media only screen and (min-width:760px){
     #homepage h2{
         margin-left: 30%;
@@ -42,9 +37,10 @@
         font-size: 72px;
     }
 }
-/** Responsive design pour les grands écrans **/
+/** Responsive design for large screens **/
 @media only screen and (min-width:1200px){
   #homepage h2{
+    /* For the h2 text to be more on the right */
     margin-left: 40%;
   }
 }
