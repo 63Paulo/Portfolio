@@ -2,7 +2,7 @@
     font-size: 40px;
 }
 
-.homepage{
+#homepage{
     /** Design de la page d'acceuil ***/
     background-image: url('../public/image/background/blue-bg.jpg');
     background-size: cover;
@@ -12,19 +12,19 @@
 
 
 /** Pour ne pas qu'il y ai des espaces blancs entre les différentes div **/
-.margin { 
+#margin { 
     margin:0;
 } 
   
 /** Design de h1 et de h2 **/
-.homepage h1{
+#homepage h1{
     text-align: center;
     padding-top: 30%; /** pour mieux centrer le texte**/
     font-size: 52px;
     font-family: monospace;
     margin-bottom: 48px;
 }
-.homepage h2{
+#homepage h2{
     text-align: center;
     font-family: monospace;
     font-style: italic;
@@ -34,17 +34,17 @@
 }
 
 @media only screen and (min-width:760px){
-    .homepage h2{
+    #homepage h2{
         margin-left: 30%;
         font-size: 32px;
     }
-    .homepage h1{
+    #homepage h1{
         font-size: 72px;
     }
 }
 /** Responsive design pour les grands écrans **/
 @media only screen and (min-width:1200px){
-    .homepage h2{
-        margin-left: 40%;
-    }
+  #homepage h2{
+    margin-left: 40%;
+  }
 }

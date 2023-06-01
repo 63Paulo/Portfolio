@@ -1,21 +1,21 @@
 .homepageH1 {
     font-size: 40px;
 }
-.about{
+#about{
     background-color: #1D1D1D;
     padding-top: 20px;
     padding: 10px 20px;
     width: 100%;
 }
 
-.about h1.aboutme {
+#about h1.aboutme {
     color: #FFFFFF;
     font-style: italic;
     padding-top: 10px;
 }
 
 /** design des textes à propos et compétences **/
-.about h2 {
+#about h2 {
     color: #FFFFFF;
     padding-top: 18px;
     padding-right: 36px;
@@ -25,11 +25,11 @@
 }
 
 /** Pour changer le design de la premières lettres des 2 textes **/
-.about h2::first-letter{
+#about h2::first-letter{
     font-size: 42px;
 }
 
-.about h1.competences {
+#about h1.competences {
     padding-top: 40px;
     color: #FFFFFF;
     font-style: italic;
@@ -38,16 +38,16 @@
 /** Responsive design pour les grands écrans **/
 @media only screen and (min-width:1200px){
 
-    .about .aboutme{
+    #about .aboutme{
         display: flex;
         justify-content: left;
         width: 60%;
     }
-    .about h1{
+    #about h1{
         font-size: 42px;
     }
     
-    .about .competences{
+    #about .competences{
         display: flex;
         width: 60%;
         margin-top: 20px;
@@ -55,10 +55,10 @@
         margin-bottom: 20px;
     }
 
-    .about h2::first-letter{
+    #about h2::first-letter{
         font-size: 52px;
     }
-    .about h2{
+    #about h2{
         font-size: 20px;
     }
 }

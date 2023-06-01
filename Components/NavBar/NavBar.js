@@ -1,4 +1,4 @@
-
+import Link from 'next/link';
 
 const NavBar = () => {
   // ! cette fonction ne fonctionnera pas
@@ -34,7 +34,6 @@ const NavBar = () => {
     //     }
     //   });
     // // ! cette fonction ne fonctionnera pas
-    // TODO commente la pour le moment je te ferai une tâche pour t'expliquer çà ce soir
     // // Code pour mettre les rubriques en surveillance lorsque qu'on est dessus
     // // Attendre le chargement complet du document
     // document.addEventListener('DOMContentLoaded', function() {
@@ -58,7 +57,6 @@ const NavBar = () => {
     //     });
     // });
 
-    // Code pour que quand on appuis sur le bouton, la navbar s'affiche
     function toggleNavbar() {
         const navbar = document.querySelector('.navbar');
         navbar.classList.toggle('collapsed');
@@ -72,11 +70,11 @@ const NavBar = () => {
             <span></span>
           </button>
           <div className="navbar-links">
-            <a href="#homepage">Accueil</a>
-            <a href="#about">À propos</a>
-            <a href="#parcours">Parcours</a>
-            <a href="#projets">Projets</a>
-            <a href="#contact">Contact</a>
+            <Link href="#homepage" scroll={false}>Accueil</Link>
+            <Link href="#about" scroll={false}>À propos</Link>
+            <Link href="#parcours" scroll={false}>Parcours</Link>
+            <Link href="#projets" scroll ={false}>Projets</Link>
+            <Link href="#contact" scroll={false}>Contact</Link>
           </div>
       </div>
     </>
