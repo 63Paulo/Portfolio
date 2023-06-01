@@ -1,0 +1,48 @@
+/** design des textes à propos et compétences **/
+.about h2 {
+    color: #FFFFFF;
+    padding-top: 18px;
+    padding-right: 36px;
+    text-align: justify;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+/** Pour changer le design de la premières lettres des 2 textes **/
+.about h2::first-letter{
+    font-size: 42px;
+}
+
+.about h1.competences {
+    padding-top: 40px;
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+/** Responsive design pour les grands écrans **/
+@media only screen and (min-width:1200px){
+    
+    .about .aboutme{
+    display: flex;
+    justify-content: left;
+    width: 60%;
+    }
+    .about h1{
+    font-size: 42px;
+    }
+
+    .about .competences{
+    display: flex;
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 35%;
+    margin-bottom: 20px;
+    }
+
+    .about h2::first-letter{
+    font-size: 52px;
+    }
+    .about h2{
+    font-size: 20px;
+    }
+}

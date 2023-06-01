@@ -1,0 +1,40 @@
+.parcours {
+    background-color: #73b1be;
+    padding-top: 20px;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.parcoursH1{
+    font-style: italic;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.parcours h2{
+    color: #000000;
+    padding-top: 18px;
+    padding-right: 36px;
+    text-align: justify;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.parcours h2::first-letter{
+    font-size: 42px;
+}
+/** Responsive design pour les grands écrans **/
+@media only screen and (min-width:1200px){
+    
+    .parcours h1{
+        font-size:52px;
+    }
+    .parcours h1, h2{
+        display: flex;
+        justify-content: left;
+        width: 50%;
+    }
+    .parcours h2{
+        font-size: 20px;
+    }
+}

@@ -2,6 +2,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import 'homepage.css';
+@import 'navbar.css';
+@import 'about.css';
+@import 'parcours.css';
 
 body, html {
     /** Pour ne pas qu'il y est des espaces blancs sur les côtés **/
@@ -79,7 +83,7 @@ body, html {
 }
 
 .parcours {
-    background-color: #87CEEB;
+    background-color: #73b1be;
     padding-top: 20px;
     padding: 10px 20px;
     width: 100%;
@@ -91,7 +95,7 @@ body, html {
     width: 100%;
 }
 
-.parcoursH2{
+.parcours h2{
     color: #000000;
     padding-top: 18px;
     padding-right: 36px;
