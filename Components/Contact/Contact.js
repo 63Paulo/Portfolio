@@ -44,7 +44,7 @@ const Contact = () => {
                 value={formData.email} 
                 onChange={handleChange} required />
               
-                <label for="message">Message :</label>
+                <label htmlFor="message">Message :</label>
                 <textarea id="message" name="message" 
                 value={formData.message} 
                 onChange={handleChange} required></textarea>

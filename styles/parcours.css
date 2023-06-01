@@ -3,7 +3,7 @@
 }
 
 .parcours {
-    background-color: #73b1be;
+    background-color: #2e61a2;
     padding-top: 20px;
     padding: 10px 20px;
     width: 100%;
@@ -13,6 +13,7 @@
     font-style: italic;
     padding-top: 10px;
     width: 100%;
+    color: #000000;
 }
 
 .parcours h2{

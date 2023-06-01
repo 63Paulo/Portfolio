@@ -66,7 +66,7 @@ const NavBar = () => {
   return (
     <>
       <div className="navbar">
-          <button className="toggle-btn" onclick={toggleNavbar}>
+          <button className="toggle-btn" onClick={toggleNavbar}>
             <span></span>
             <span></span>
             <span></span>
