@@ -1,5 +1,7 @@
 @import '_reset.css';
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body, html {
     /** Pour ne pas qu'il y est des espaces blancs sur les côtés **/
