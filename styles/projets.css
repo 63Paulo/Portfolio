@@ -1,6 +1,5 @@
 .homepageH1 {
     font-size: 40px;
-    font-family: T;
 }
 
 #projets {
@@ -13,9 +12,11 @@
 }
 #projets h1{
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    font-style: italic;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: "Source",sans-serif;
+    font-weight: Bold;
+    font-size: 40px;
 }
 
 /* Design of the blocs when I put my projects */
@@ -71,5 +72,9 @@
     }
     .bloc a{
         font-size: 28px;
+    }
+
+    #projets h1{
+        font-size: 60px;
     }
 }

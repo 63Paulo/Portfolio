@@ -13,7 +13,9 @@
 .contact h1{
     text-align: center;
     color: #FFFFFF;
-    font-style: italic;
+    font-family: "Source", sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
 }
 
 label{

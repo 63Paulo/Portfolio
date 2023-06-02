@@ -20,9 +20,9 @@
 }
 #homepage h2{
     text-align: center;
-    font-family: monospace;
+    font-family: "TuskerGrotesk", sans-serif;
     font-style: italic;
-    font-size: 24px;
+    font-size: 30px;
     margin-top: -32px; /** to bring h2 closer to h1 **/
     height: 40vh;
 }
@@ -31,7 +31,7 @@
 @media only screen and (min-width:760px){
     #homepage h2{
         margin-left: 30%;
-        font-size: 32px;
+        font-size: 38px;
     }
     #homepage h1{
         font-size: 120px;
@@ -41,7 +41,8 @@
 @media only screen and (min-width:1200px){
   #homepage h2{
     /* For the h2 text to be more on the right */
-    margin-left: 40%;
+    margin-left: 48%;
+    font-size: 46px;
   }
   #homepage h1{
     font-size: 144px;

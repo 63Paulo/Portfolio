@@ -54,6 +54,7 @@
     text-decoration: none;
     font-size: 22px;
     font-style: bold;
+    font-family: "Source", sans-serif;
     color: #ffffff;
     margin-left: 36px;
     margin-bottom: 8px;
@@ -84,7 +85,7 @@
     .navbar.navbar.open .navbar-links a{
         font-size: 26px;
         margin-left: 42px;
-
+        font-family: "Source", sans-serif;
     }
 }
 
@@ -112,11 +113,12 @@
         color: #5293b9;
         text-align: center;
         text-decoration: none;
-        font-size: 34px;
+        font-size: 38px;
         margin: 10px 24px;
         padding-top: 92px;
         font-weight: bold;
         transition: transform 0.3s ease; /** pour créeer un effet de zoom **/
+        font-family: "Source", sans-serif;
     }
     /** Allows you to highlight the section of the navigation bar in which you are **/
     .navbar a.active {
