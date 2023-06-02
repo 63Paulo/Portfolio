@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect} from 'react';
 import Link from 'next/link';
 
 //TODO:Will j'ai réussi a mettre en surbrillance mais que lorsque que je clique sur la rubrique
@@ -9,11 +9,46 @@ import Link from 'next/link';
 const NavBar = () => {
   // State for seeing if the navbar element is active 
   const [isOpen, setIsOpen] = useState(false); 
-
+  const [activeSection, setActiveSection] = useState('');
   const handleToggle = () => {
     // Reverse the 'isOpen' state when the button is clicked
     setIsOpen(!isOpen);  
   };
+
+  const handleSectionChange = (section) => {
+    setActiveSection(section);
+  };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const { scrollTop, clientHeight} = document.documentElement;
+      const aboutPos = document.getElementById('about').offsetTop;
+      const parcoursPos = document.getElementById('parcours').offsetTop;
+      const projetsPos = document.getElementById('projets').offsetTop;
+      const contactPos = document.getElementById('contact').offsetTop;
+
+      if (scrollTop >= 0 && scrollTop < aboutPos){
+        setActiveSection('homepage');
+      }
+      else if (scrollTop >= aboutPos && scrollTop < parcoursPos){
+        setActiveSection('about');
+      }
+      else if (scrollTop >= parcoursPos && scrollTop < projetsPos){
+        setActiveSection('parcours');
+      }
+      else if (scrollTop >= projetsPos && scrollTop < contactPos){
+        setActiveSection('projets');
+      }
+      else {
+        setActiveSection('contact')
+      }
+  };
+
+  window.addEventListener('scroll', handleScroll);
+  return () => {
+    window.removeEventListener('scroll', handleScroll)
+  };
+  }, []);
 
   return (
     <>
@@ -25,11 +60,11 @@ const NavBar = () => {
         </button>
         <div className="navbar-links">
           {/* Link to the differents section */}
-          <Link href="#homepage" scroll={false}>Accueil</Link>
-            <Link href="#about" scroll={false}>À propos</Link>
-            <Link href="#parcours" scroll={false}>Parcours</Link>
-            <Link href="#projets" scroll ={false}>Projets</Link>
-            <Link href="#contact" scroll={false}>Contact</Link>
+          <Link href="#homepage" scroll={false} onClick={() => handleSectionChange('homepage')}>Accueil</Link>
+            <Link href="#about" scroll={false} onClick={() => handleSectionChange('about')}>À propos</Link>
+            <Link href="#parcours" scroll={false} onClick={() => handleSectionChange('parcours')}>Parcours</Link>
+            <Link href="#projets" scroll ={false} onClick={() => handleSectionChange('projets')}>Projets</Link>
+            <Link href="#contact" scroll={false} onClick={() => handleSectionChange('contact')}>Contact</Link>
         </div>
       </div>
     </>
