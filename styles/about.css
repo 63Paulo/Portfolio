@@ -89,8 +89,15 @@
         font-size: 22px;
         font-family: "Source", sans-serif;
     }
-    .about .image-container {
-        display: none;
+    .php-container .logo-php {
+        height: 150px;
+        width: 150px;
     }
-    
+    .html-container {
+        margin: 20px;
+    }
+    .sql-container {
+        margin: 20px;
+    }
+
 }
