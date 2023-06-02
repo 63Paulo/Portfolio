@@ -4,7 +4,8 @@ import Link from 'next/link';
 //TODO:Will j'ai réussi a mettre en surbrillance mais que lorsque que je clique sur la rubrique
 //TODO:Will en gros je veux que quand je scroll sur le site, la page sur la quelle je me trouve soit en surbrillance (d'une autre couleur) dans la navbar
 //TODO:Will par exemple si je scroll jusqu'à la page projet, je veux que le 'projet' dans la navbar soit d'une autre couleur que les autres rubriques
-
+// Cela fonctionner en html au départ ??
+// Non pas totalement en gros quand j'appuyais sur une rubrique de la navbar elle restait tout le temps en surbrillance même quand j'allais sur une autre page 
 const NavBar = () => {
   // State for seeing if the navbar element is active 
   const [isOpen, setIsOpen] = useState(false);

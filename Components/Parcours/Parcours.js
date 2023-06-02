@@ -1,19 +1,19 @@
 //import d'une boutique d'animation
-//import {gsap} from 'gsap';
+import {gsap} from 'gsap';
 import { useEffect } from 'react';
 
 const Parcours = () => {
     
-      // useEffect(() => {
-      //   gsap.from('.timeline-item', {
-      //     opacity: 0,
-      //     y:50,
-      //     stagger:0.2,
-      //     duration:1,
-      //     ease: 'power3.out',
+       useEffect(() => {
+        gsap.from('.timeline-item', {
+           opacity: 0,
+           y:50,
+           stagger:0.2,
+           duration:1,
+           ease: 'power3.out',
 
-      //   })
-      // }
+         });
+       }, []);
 
       // We create a const to stock our timeline elements
       const events = [

@@ -26,8 +26,50 @@
 }
 
 .timeline {
-    margin-top: 20px;
+    position: relative;
+    margin-top: 50px;
 }
+
+  
+.timeline-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.timeline-date {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #1D1D1D;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+  .timeline-content {
+    margin-left: 20px;
+  }
+  
+  .timeline-content h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  
+  .timeline-content p {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #ffffff;
+  }
+  
 
 /* design for the first letter of each text */
 #parcours h2::first-letter{

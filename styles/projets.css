@@ -2,6 +2,13 @@
     font-size: 40px;
 }
 
+#projets {
+    background-image: url(../public/image/background/bg-skyblue.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
 #projets h1{
     text-align: center;
     padding-top: 20px;
