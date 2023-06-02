@@ -28,6 +28,7 @@
 .timeline {
     position: relative;
     margin-top: 50px;
+    z-index: 0;
 }
 
   
@@ -36,6 +37,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 30px;
+    z-index: 1;
 }
 
 
@@ -51,10 +53,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 2;
 }
   
   .timeline-content {
     margin-left: 20px;
+    z-index: 3;
   }
   
   .timeline-content h2 {
@@ -79,8 +83,9 @@
 /* Responsive design for tablets */
 @media only screen and(min-width:760px){
 
-    #parcorus h2{
+    #parcours h2{
         font-size: 20px;
+        font-weight: bold;
     }
     
 }
@@ -99,5 +104,15 @@
     }
     #parcours h2{
         font-size: 24px;
+    }
+    #parcours .timeline {
+        margin-top: -240px;
+        margin-bottom: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 40%;
+        margin-left: auto;
     }
 }
