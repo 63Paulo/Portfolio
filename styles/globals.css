@@ -29,6 +29,7 @@
 @import 'projets.css';
 @import 'contact.css';
 @import 'footer.css';
+@import 'loading-spinner.css';
 
 body, html {
     /** To avoid that there are white spaces on the sides **/

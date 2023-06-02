@@ -21,7 +21,7 @@ const NavBar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const { scrollTop, clientHeight} = document.documentElement;
+      const { scrollTop } = document.documentElement;
       const aboutPos = document.getElementById('about').offsetTop;
       const parcoursPos = document.getElementById('parcours').offsetTop;
       const projetsPos = document.getElementById('projets').offsetTop;
