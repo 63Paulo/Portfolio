@@ -2,6 +2,8 @@ import { useState } from 'react';
 import Link from 'next/link';
 
 //TODO:Will j'ai réussi a mettre en surbrillance mais que lorsque que je clique sur la rubrique
+//TODO:Will en gros je veux que quand je scroll sur le site, la page sur la quelle je me trouve soit en surbrillance (d'une autre couleur) dans la navbar
+//TODO:Will par exemple si je scroll jusqu'à la page projet, je veux que le 'projet' dans la navbar soit d'une autre couleur que les autres rubriques
 
 const NavBar = () => {
   // State for seeing if the navbar element is active 
@@ -28,31 +30,11 @@ const NavBar = () => {
         </button>
         <div className="navbar-links">
           {/* Link to the differents section */}
-          <Link href="#homepage" scroll={false}>
-            <a className={activeSection === 'homepage' ? 'active' : ''} onClick={() => handleSectionChange('homepage')}>
-              Accueil
-            </a>
-          </Link>
-          <Link href="#about" scroll={false}>
-            <a className={activeSection === 'about' ? 'active' : ''} onClick={() => handleSectionChange('about')}>
-              À propos
-            </a>
-          </Link>
-          <Link href="#parcours" scroll={false}>
-            <a className={activeSection === 'parcours' ? 'active' : ''} onClick={() => handleSectionChange('parcours')}>
-              Parcours
-            </a>
-          </Link>
-          <Link href="#projets" scroll={false}>
-            <a className={activeSection === 'projets' ? 'active' : ''} onClick={() => handleSectionChange('projets')}>
-              Projets
-            </a>
-          </Link>
-          <Link href="#contact" scroll={false}>
-            <a className={activeSection === 'contact' ? 'active' : ''} onClick={() => handleSectionChange('contact')}>
-              Contact
-            </a>
-          </Link>
+          <Link href="#homepage" scroll={false}>Accueil</Link>
+            <Link href="#about" scroll={false}>À propos</Link>
+            <Link href="#parcours" scroll={false}>Parcours</Link>
+            <Link href="#projets" scroll ={false}>Projets</Link>
+            <Link href="#contact" scroll={false}>Contact</Link>
         </div>
       </div>
     </>
