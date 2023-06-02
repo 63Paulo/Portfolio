@@ -1,3 +1,17 @@
+@font-face {
+    font-family: "TuskerGrotesk";
+    src: url(../fonts/TuskerGrotesk/TuskerGrotesk-3500Medium.ttf);
+    font-weight: normal;
+    font-style: normal
+}
+ @font-face {
+    font-family: "TuskerGrotesk";
+    src: url(../fonts/TuskerGrotesk/TuskerGrotesk-1700Bold.otf);
+    font-weight: bold;
+    font-style: normal;
+ }
+
+
 @import '_reset.css';
 @tailwind base;
 @tailwind components;
