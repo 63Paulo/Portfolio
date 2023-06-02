@@ -36,6 +36,7 @@
     justify-content: center;
     margin: 20px 10px;
     font-family: "Source", sans-serif;
+    border-radius: 20px;
 }
   
 .bloc a {

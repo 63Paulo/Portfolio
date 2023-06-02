@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const About = () => {
 
       return (
@@ -17,6 +19,9 @@ const About = () => {
                 attrayantes, d'ajouter des fonctionnalités dynamiques, de résoudre des problèmes de manière efficace et de 
                 développer des solutions robustes.
             </h2>
+            <Image src="/image/logo/phplogo.png" alt="PHP" className="logo-php" width={100} height={100}></Image>
+            <Image src="/image/logo/htmlLogo.png" alt="HTML" className="logo-html" width={100} height={100}></Image>
+            <Image src="/image/logo/mysqlLogo.png" alt="mySQL" className="logo-sql" width={100} height={100}></Image>
           </div>
        </>
     
