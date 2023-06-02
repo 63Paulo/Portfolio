@@ -19,9 +19,17 @@ const About = () => {
                 attrayantes, d'ajouter des fonctionnalités dynamiques, de résoudre des problèmes de manière efficace et de 
                 développer des solutions robustes.
             </h2>
-            <Image src="/image/logo/phplogo.png" alt="PHP" className="logo-php" width={100} height={100}></Image>
-            <Image src="/image/logo/htmlLogo.png" alt="HTML" className="logo-html" width={100} height={100}></Image>
-            <Image src="/image/logo/mysqlLogo.png" alt="mySQL" className="logo-sql" width={100} height={100}></Image>
+            <div className="image-container">
+              <div className="php-container">
+                <Image src="/image/logo/phplogo.png" alt="PHP" className="logo-php" width={100} height={100}></Image>
+              </div>
+              <div className="html-container">
+                <Image src="/image/logo/htmlLogo.png" alt="HTML" className="logo-html" width={100} height={100}></Image>
+              </div>
+              <div className="sql-container">
+                <Image src="/image/logo/mysqlLogo.png" alt="mySQL" className="logo-sql" width={100} height={100}></Image>
+              </div>
+            </div>
           </div>
        </>
     
