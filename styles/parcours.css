@@ -32,7 +32,8 @@
     overflow: visible;
 }
 
-  
+
+/*TODO:Will j'ai un petit problème, ma timeline passe au dessus de tout */
 .timeline-item {
     position: relative;
     display: flex;
