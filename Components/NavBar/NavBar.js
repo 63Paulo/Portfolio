@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 
 //TODO:Will j'ai réussi a mettre en surbrillance mais que lorsque que je clique sur la rubrique
@@ -8,17 +8,11 @@ import Link from 'next/link';
 // Non pas totalement en gros quand j'appuyais sur une rubrique de la navbar elle restait tout le temps en surbrillance même quand j'allais sur une autre page 
 const NavBar = () => {
   // State for seeing if the navbar element is active 
-  const [isOpen, setIsOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState('');  
+  const [isOpen, setIsOpen] = useState(false); 
 
   const handleToggle = () => {
     // Reverse the 'isOpen' state when the button is clicked
     setIsOpen(!isOpen);  
-  };
-
-  const handleSectionChange = (section) => {
-    // Updates the navbar elements when its clicked
-    setActiveSection(section); 
   };
 
   return (

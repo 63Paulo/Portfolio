@@ -29,12 +29,13 @@
 .bloc {
     width: 200px;
     height: 200px;
-    background-color: #003b59;
+    background-color: #081c34;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 20px 10px;
+    font-family: "Source", sans-serif;
 }
   
 .bloc a {
