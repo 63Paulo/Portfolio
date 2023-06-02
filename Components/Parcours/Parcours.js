@@ -44,16 +44,16 @@ const Parcours = () => {
                 Je suis motivé à travailler dur pour atteindre mes objectifs et contribuer au progrès technologique.
             </h2>
             <div className="timeline">
-            {events.map((event, index) => (
-              <div className="timeline-item" key={index}>
-                {/*Display the event date */}
-                <div className="timeline-date">{event.date}</div>
-                {/*Display the event content */}
-                <div className="timeline-content">
-                  <h2>{event.title}</h2>
-                  <p>{event.desc}</p>
-              </div>
-            </div>
+              {events.map((event, index) => (
+                <div className="timeline-item" key={index}>
+                  {/*Display the event date */}
+                  <div className="timeline-date">{event.date}</div>
+                  {/*Display the event content */}
+                  <div className="timeline-content">
+                    <h2>{event.title}</h2>
+                    <p>{event.desc}</p>
+                  </div>
+               </div>
             ))}
 
           </div>

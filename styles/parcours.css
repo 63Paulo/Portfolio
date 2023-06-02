@@ -29,6 +29,7 @@
     position: relative;
     margin-top: 50px;
     z-index: 0;
+    overflow: visible;
 }
 
   
@@ -80,6 +81,9 @@
     font-size: 42px;
 }
 
+#parcours .timeline h2::first-letter{
+    font-size: 18px;
+}
 /* Responsive design for tablets */
 @media only screen and(min-width:760px){
 
