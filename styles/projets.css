@@ -1,0 +1,82 @@
+.homepageH1 {
+    font-size: 40px;
+}
+
+#projets {
+    background-image: url(../public/image/background/bg-skyblue.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 30px;
+}
+#projets h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: "Source",sans-serif;
+    font-weight: Bold;
+    font-size: 40px;
+}
+
+/* Design of the blocs when I put my projects */
+.bloc-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.bloc {
+    width: 200px;
+    height: 200px;
+    background-color: #081c34;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+    font-family: "Source", sans-serif;
+    border-radius: 20px;
+}
+  
+.bloc a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    transition: transform 0.3s ease; /** For create a zoom effect **/
+}
+
+.bloc a:hover{
+    transform: scale(1.1); /** for create a zoom effect when the cursor pass over the text of a bloc **/
+}
+
+/** Responsive Design for tablets **/
+@media only screen and (min-width:760px){
+
+    .bloc {
+        width: 280px;
+        height: 280px;
+    }
+    .bloc a{
+        font-size: 24px;
+    }
+}
+
+/** Responsive design for large screens **/
+@media only screen and (min-width:1200px){
+    
+    .bloc {
+        width: 320px;
+        height: 320px;
+        margin: 20px 40px;
+    }
+    .bloc a{
+        font-size: 28px;
+    }
+
+    #projets h1{
+        font-size: 60px;
+    }
+}

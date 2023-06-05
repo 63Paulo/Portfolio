@@ -1,0 +1,126 @@
+.homepageH1 {
+    font-size: 40px;
+}
+
+#parcours {
+    background-color: rgb(77, 190, 255);
+    padding-top: 20px;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.parcoursH1{
+    font-family: "Source", sans-serif;
+    padding-top: 20px;
+    width: 100%;
+    color: #000000;
+    font-weight: bold;
+}
+
+#parcours h2{
+    color: #000000;
+    padding-top: 18px;
+    padding-right: 36px;
+    font-family: "Source", sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.timeline {
+    position: relative;
+    margin-top: 50px;
+    z-index: 0;
+    overflow: visible;
+}
+
+
+/*TODO:Will j'ai un petit problème, ma timeline passe au dessus de tout */
+.timeline-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    z-index: 1;
+}
+
+
+.timeline-date {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #1D1D1D;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+  
+  .timeline-content {
+    margin-left: 20px;
+    z-index: 3;
+  }
+  
+  .timeline-content h2 {
+    font-size: 18px;
+    font-family: "Source", sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  
+  .timeline-content p {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #ffffff;
+  }
+  
+
+/* design for the first letter of each text */
+#parcours h2::first-letter{
+    font-size: 42px;
+}
+
+#parcours .timeline h2::first-letter{
+    font-size: 18px;
+}
+/* Responsive design for tablets */
+@media only screen and(min-width:760px){
+
+    #parcours h2{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+}
+/** Responsive design for large screen **/
+@media only screen and (min-width:1200px){
+
+    #parcours h1{
+        font-size:52px;
+    }
+    
+    /* We put all the text on the left for putting the timeline on the right */
+    #parcours h1, h2{
+        display: flex; 
+        justify-content: left;
+        width: 50%;
+    }
+    #parcours h2{
+        font-size: 24px;
+    }
+    #parcours .timeline {
+        margin-top: -240px;
+        margin-bottom: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 40%;
+        margin-left: auto;
+    }
+}

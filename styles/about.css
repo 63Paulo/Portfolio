@@ -1,0 +1,103 @@
+.homepageH1 {
+    font-size: 40px;
+}
+#about{
+    background-color: #1D1D1D;
+    padding-top: 20px;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+#about h1.aboutme {
+    color: #FFFFFF;
+    padding-top: 10px;
+    font-family: "Source", sans-serif;
+    font-weight: bold;
+}
+
+
+#about h2 {
+    color: #FFFFFF;
+    padding-top: 18px;
+    padding-right: 36px;
+    text-align: justify;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+/** For changing the first letter of each h2 text (bigger letter) **/
+#about h2::first-letter{
+    font-size: 42px;
+}
+
+#about h1.competences {
+    padding-top: 40px;
+    color: #FFFFFF;
+    font-family: "Source", sans-serif;
+    font-weight: bold;
+}
+.about .image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* Responsive design for tablets */
+@media only screen and (min-width:760px){
+
+    #about h2{
+        font-size: 20px;
+    }
+    .php-container {
+        margin: 20px;
+    }
+    .html-container {
+        margin: 20px;
+    }
+    .sql-container {
+        margin: 20px;
+    }
+
+}
+/** Responsive design for large screens **/
+@media only screen and (min-width:1200px){
+
+    #about .aboutme{
+        display: flex;
+        justify-content: left;
+        width: 60%;
+    }
+    #about h1{
+        font-size: 42px;
+    }
+
+    #about h2 {
+        font: 24px;
+    }
+    
+    #about .competences{
+        display: flex;
+        width: 60%;
+        margin-top: 20px;
+        margin-left: 35%;
+        margin-bottom: 20px;
+    }
+
+    #about h2::first-letter{
+        font-size: 52px;
+    }
+    #about h2{
+        font-size: 22px;
+        font-family: "Source", sans-serif;
+    }
+    .php-container .logo-php {
+        height: 150px;
+        width: 150px;
+    }
+    .html-container {
+        margin: 20px;
+    }
+    .sql-container {
+        margin: 20px;
+    }
+
+}

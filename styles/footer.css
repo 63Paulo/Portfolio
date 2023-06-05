@@ -1,0 +1,69 @@
+.footer{
+    background-color: #000000;
+    padding-top: 20px;
+}
+
+/* To align the footer items */
+.footer-container{
+    text-align: center;
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Putting space between the footer elements */
+.footer-links li {
+    margin : 20px 10px
+}
+.footer-links li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-family: "Source", sans-serif;
+}
+/* When the cursor pass over the footer elements */
+.footer-links li a:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    color: 
+    #103e70;
+}
+.footer h2{
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    padding: 0 0 10px 10px;
+    font-family: "Source", sans-serif;
+}
+
+/** Responsive Design for tablet **/
+@media only screen and (min-width:760px){
+
+    .footer-links li a{
+        font-size: 38px;
+    }
+    .footer-links li {
+        margin : 30px 20px
+    }
+    .footer h2{
+        font-size: 16px;
+    }
+}
+
+/** Responsive design for large screens **/
+@media only screen and (min-width:1200px){
+    
+    .footer-links li a{
+        font-size: 52px;
+    }
+    .footer-links li {
+        margin : 40px 30px
+    }
+    .footer h2{
+        font-size: 18px;
+    }
+}

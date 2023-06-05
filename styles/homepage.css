@@ -1,0 +1,50 @@
+.homepageH1 {
+    font-size: 40px;
+}
+
+#homepage{
+    /** Design for the homepage ***/
+    background-image: url('../public/image/background/blue-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+  
+#homepage h1{
+    text-align: center;
+    padding-top: 30%; /** For the text to be center**/
+    font-size: 89px;
+    font-family: "TuskerGrotesk", sans-serif;
+    margin-bottom: 48px;
+}
+#homepage h2{
+    text-align: center;
+    font-family: "TuskerGrotesk", sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: -32px; /** to bring h2 closer to h1 **/
+    height: 40vh;
+}
+
+/* Responsive desgin for tablet */
+@media only screen and (min-width:760px){
+    #homepage h2{
+        margin-left: 30%;
+        font-size: 38px;
+    }
+    #homepage h1{
+        font-size: 120px;
+    }
+}
+/** Responsive design for large screens **/
+@media only screen and (min-width:1200px){
+  #homepage h2{
+    /* For the h2 text to be more on the right */
+    margin-left: 48%;
+    font-size: 46px;
+  }
+  #homepage h1{
+    font-size: 144px;
+  }
+}

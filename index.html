@@ -1,1 +1,117 @@
+
 <!DOCTYPE html>
+<link rel="stylesheet" href="styles/globals.css"> <!-- pour relier le dossier CSS-->
+<!-- Incrémentation d'une police d'écriture Google Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+
+<html>
+<head>
+
+    <title>PAUL FERNANDES - PORTFOLIO</title>
+
+</head>
+<body>    
+    <!-- Toutes les rubriques de la barre de navigation-->
+    <div class="navbar">
+        <button class="toggle-btn" onclick="toggleNavbar()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="navbar-links">
+            <a href="#homepage">Accueil</a>
+            <a href="#about">À propos</a>
+            <a href="#parcours">Parcours</a>
+            <a href="#projets">Projets</a>
+            <a href="#contact">Contact</a>
+          </div>
+      </div>
+    <div class="homepage" id="homepage">
+        <h1>PAUL FERNANDES</h1>
+        <h2>Etudiant en développment web.</h2>
+    </div>
+    <div class="about" id="about">
+        <!--Je met des class sur les h1 et h2 pour pouvoir les différencier dans le code css-->
+        <h1 class="aboutme">A PROPOS DE MOI</h1>        
+        <h2 class="aboutme">Je suis Paul Fernandes, un étudiant actuellement en première année de BTS SIO (Services Informatiques aux Organisations).
+            mon lien avec le développement est forgé par ma formation en BTS SIO, mon expérience pratique et ma passion pour 
+            l'apprentissage. Je suis enthousiaste à l'idée de continuer à développer mes compétences et de contribuer au monde de 
+            l'informatique en créant des solutions innovantes et en repoussant les limites de ce qui est possible grâce au développement.
+        </h2>
+        <h1 class="competences">COMPETENCES</h1>
+        <h2 class="competences">Grâce à ma formation, j'ai acquis une solide maîtrise des langages suivants :
+             HTML, CSS, Python, JavaScript, C#, MySQL et PHP. Ces langages de programmation polyvalents me permettent 
+             de concevoir et de développer des sites web interactifs, des applications logicielles, ainsi que d'interagir 
+             avec des bases de données. Avec ces compétences, je suis en mesure de créer des expériences utilisateur 
+             attrayantes, d'ajouter des fonctionnalités dynamiques, de résoudre des problèmes de manière efficace et de 
+             développer des solutions robustes.
+        </h2>
+    </div>
+    <div class="parcours" id="parcours">
+        <h1>MON PARCOURS</h1>
+        <h2>Je suis un étudiant en première année de BTS SIO avec de grandes ambitions. Je souhaite obtenir 
+            une licence en informatique puis un master pour approfondir mes connaissances et compétences. 
+            Mon parcours académique reflète mon désir de développement professionnel et ma passion pour la technologie. 
+            Je suis motivé à travailler dur pour atteindre mes objectifs et contribuer au progrès technologique.
+        </h2>
+    </div>
+    <div class="projets" id="projets">
+        <h1>MES PROJETS</h1>
+        <div class="bloc-container">
+            <div class="bloc">
+              <a href="lien1.html">Projet 1</a>
+            </div>
+            <div class="bloc">
+              <a href="lien2.html">Projet 2</a>
+            </div>
+            <div class="bloc">
+              <a href="lien3.html">Projet 3</a>
+            </div>
+            <div class="bloc">
+              <a href="lien4.html">Projet 4</a>
+            </div>
+            <div class="bloc">
+              <a href="lien5.html">Projet 5</a>
+            </div>
+            <div class="bloc">
+              <a href="lien6.html">Projet 6</a>
+            </div>
+          </div>
+    </div>
+    <form class="contact" id="contact">
+      <h1>CONTACT</h1>
+      <label for="name">Nom :</label>
+      <input type="text" id="name" name="name" required>
+      <label for="name2">Prénom :</label>
+      <input type="text" id="name2" name="name2" required>
+    
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+    
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" required></textarea>
+    
+      <input type="submit" value="Envoyer">
+    </form>
+    <footer class="footer" id="footer">
+      <div class="footer-container" id="footer-container">
+        <ul class="footer-links" id="footer-links">
+          <li><a href="http://github.com">GH</a></li>
+          <li><a href="http://linkedin.com">LI</a></li>
+          <li><a href="http://instagram.com">IT</a></li>
+          <li><a href="http://twitter.com.com">TW</a></li>
+        </ul>
+      </div>
+      <h2>© PAUL FERNANDES 2023</h2>
+    </footer>
+     <!--Incrémentation des codes JavaScript-->
+    <script src="js/NavbarSurbrillance.js"></script>
+    <script src="js/NavbarClick.js"></script>
+    <script src="js/NavbarSurbrillancePart2.js"></script>
+    <script src="js/FriseChrono.js"></script>
+    <script src="js/NavbarMobile.js"></script>
+</body>
+
+</html>

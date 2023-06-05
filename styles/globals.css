@@ -1,38 +1,43 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import '_reset.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'homepage.css';
+@import 'navbar.css';
+@import 'about.css';
+@import 'parcours.css';
+@import 'projets.css';
+@import 'contact.css';
+@import 'footer.css';
+@import 'loading-spinner.css';
+
+
+@font-face {
+    font-family: "TuskerGrotesk";
+    src: url(../fonts/TuskerGrotesk/TuskerGrotesk-3500Medium.ttf);
+    font-weight: normal;
+    font-style: normal
+}
+ @font-face {
+    font-family: "TuskerGrotesk";
+    src: url(../fonts/TuskerGrotesk/TuskerGrotesk-1700Bold.otf);
+    font-weight: bold;
+    font-style: normal;
+ }
+@font-face {
+    font-family: "Source";
+    src: url(../fonts/SourceSansPro/SourceSansPro-SemiBold.ttf);
+    font-weight: bold;
+    font-style: normal;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+
+body, html {
+    /** To avoid that there are white spaces on the sides **/
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
-* {
-  box-sizing: border-box;
-}
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-h1,
-h2,
-p,
-ul {
-  margin: 0;
-}
-
-ul {
-  padding: 0;
-  list-style: none;
-}
-
-button {
-  padding: 0.5rem 1rem;
-  font-weight: bold;
-}
