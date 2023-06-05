@@ -106,8 +106,8 @@
     #parcours h2{
         font-size: 24px;
     }
-    #parcours .timeline {
-        margin-top: -240px;
+    .parcours .timeline {
+        margin-top: -350px;
         margin-bottom: 0;
         display: flex;
         justify-content: flex-end;

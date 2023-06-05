@@ -3,18 +3,10 @@
 }
 
 .background_contact{
-    background-image: url(../public/image/background/bg-darkblue.jpg);
-    background-position: center;
-    background-size: cover;
+    background-color: #081c34;
+    font-family: "Source", sans-serif;
 }
 
-.contacth1 {
-    text-align: center;
-    color: #FFFFFF;
-    font-family: "Source", sans-serif;
-    font-weight: bold;
-    padding-top: 20px;
-}
 
 label{
     color: #FFFFFF;

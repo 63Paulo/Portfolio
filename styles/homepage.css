@@ -2,13 +2,6 @@
     font-size: 40px;
 }
 
-#homepage{
-    /** Design for the homepage ***/
-    background-image: url('../public/image/background/blue-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-}
 
   
 #homepage h1{

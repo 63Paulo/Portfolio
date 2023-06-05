@@ -38,9 +38,9 @@ body, html {
     overflow-x: hidden;
     scroll-behavior: smooth;
     background-image: url('../public/image/background/blue-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 @keyframes blur {
