@@ -1,5 +1,3 @@
-import { Deferred } from "next/dist/server/image-optimizer";
-
 const LoadingSpinner = () => {
     return (
         <div className="loading-spinner">
