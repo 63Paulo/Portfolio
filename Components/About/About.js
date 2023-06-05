@@ -4,7 +4,7 @@ const About = () => {
 
       return (
         <>
-          <div className="about" id="about">
+          <section className="about" id="about">
             <h1 className="aboutme homepageH1">A PROPOS DE MOI</h1>        
             <h2 className="aboutme">Je suis Paul Fernandes, un étudiant actuellement en première année de BTS SIO (Services Informatiques aux Organisations).
                 mon lien avec le développement est forgé par ma formation en BTS SIO, mon expérience pratique et ma passion pour 
@@ -30,7 +30,7 @@ const About = () => {
                 <Image src="/image/logo/mysqlLogo.png" alt="mySQL" className="logo-sql" width={100} height={100}></Image>
               </div>
             </div>
-          </div>
+          </section>
        </>
     
       );

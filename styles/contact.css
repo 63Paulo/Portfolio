@@ -2,17 +2,13 @@
     font-size: 40px;
 }
 
-#contact{
+.background_contact{
     background-image: url(../public/image/background/bg-darkblue.jpg);
     background-position: center;
     background-size: cover;
-    padding-top: 20px;
-    padding: 10px 20px;
-    width: 100%;
-    margin-top: 0px;
 }
 
-.contact h1{
+.contacth1 {
     text-align: center;
     color: #FFFFFF;
     font-family: "Source", sans-serif;

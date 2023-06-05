@@ -1,3 +1,17 @@
+@import '_reset.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'homepage.css';
+@import 'navbar.css';
+@import 'about.css';
+@import 'parcours.css';
+@import 'projets.css';
+@import 'contact.css';
+@import 'footer.css';
+@import 'loading-spinner.css';
+
+
 @font-face {
     font-family: "TuskerGrotesk";
     src: url(../fonts/TuskerGrotesk/TuskerGrotesk-3500Medium.ttf);
@@ -18,28 +32,12 @@
 }
 
 
-@import '_reset.css';
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@import 'homepage.css';
-@import 'navbar.css';
-@import 'about.css';
-@import 'parcours.css';
-@import 'projets.css';
-@import 'contact.css';
-@import 'footer.css';
-@import 'loading-spinner.css';
-
 body, html {
     /** To avoid that there are white spaces on the sides **/
     padding: 0;
     width: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
-/** So that there are no white spaces between the different divs **/
-.margin { 
-    margin:0;
-} 
 

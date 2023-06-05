@@ -121,7 +121,7 @@
         font-family: "Source", sans-serif;
     }
     /** Allows you to highlight the section of the navigation bar in which you are **/
-    .navbar a.active {
+    .navbar .navbar-links a.active {
         color: #FFFFFF;
     }
     .navbar a:hover{

@@ -14,42 +14,70 @@ const NavBar = () => {
     // Reverse the 'isOpen' state when the button is clicked
     setIsOpen(!isOpen);  
   };
-
-  const handleSectionChange = (section) => {
-    setActiveSection(section);
+  const [current, setCurrent] = useState('homepage')
+  const handleSectionChange = (event) => {
+    console.log(event.target.hash.slice(1))
+    setActiveSection(event.target.hash.slice(1));
   };
 
   useEffect(() => {
-    const handleScroll = () => {
-      const { scrollTop } = document.documentElement;
-      const aboutPos = document.getElementById('about').offsetTop;
-      const parcoursPos = document.getElementById('parcours').offsetTop;
-      const projetsPos = document.getElementById('projets').offsetTop;
-      const contactPos = document.getElementById('contact').offsetTop;
+  //   const handleScroll = () => {
+  //     const { scrollTop } = document.documentElement;
+  //     const aboutPos = document.getElementById('about').offsetTop;
+  //     const parcoursPos = document.getElementById('parcours').offsetTop;
+  //     const projetsPos = document.getElementById('projets').offsetTop;
+  //     const contactPos = document.getElementById('contact').offsetTop;
 
-      if (scrollTop >= 0 && scrollTop < aboutPos){
-        setActiveSection('homepage');
-      }
-      else if (scrollTop >= aboutPos && scrollTop < parcoursPos){
-        setActiveSection('about');
-      }
-      else if (scrollTop >= parcoursPos && scrollTop < projetsPos){
-        setActiveSection('parcours');
-      }
-      else if (scrollTop >= projetsPos && scrollTop < contactPos){
-        setActiveSection('projets');
-      }
-      else {
-        setActiveSection('contact')
-      }
-  };
+  //     if (scrollTop >= 0 && scrollTop < aboutPos){
+  //       setActiveSection('homepage');
+  //     }
+  //     else if (scrollTop >= aboutPos && scrollTop < parcoursPos){
+  //       setActiveSection('about');
+  //     }
+  //     else if (scrollTop >= parcoursPos && scrollTop < projetsPos){
+  //       setActiveSection('parcours');
+  //     }
+  //     else if (scrollTop >= projetsPos && scrollTop < contactPos){
+  //       setActiveSection('projets');
+  //     }
+  //     else {
+  //       setActiveSection('contact')
+  //     }
 
-  window.addEventListener('scroll', handleScroll);
-  return () => {
-    window.removeEventListener('scroll', handleScroll)
-  };
+      
+  // };
+
+  const sections = document.querySelectorAll("section");
+    const navLi = document.querySelectorAll(".navbar .navbar-links a");
+    window.onscroll = () => {
+    sections.forEach((section) => {
+      const sectionTop = section.offsetTop;
+      if (scrollY >= sectionTop - 60 && scrollY >= section.offsetHeight ) {
+        setCurrent(section.getAttribute("id")); 
+      }
+    });
+
+    navLi.forEach((li) => {
+      li.classList.remove("active");
+      if (li.classList.contains(current)) {
+        li.classList.add("active");
+      }
+    });
+};
+
+
+  // window.addEventListener('scroll', handleScroll);
+  // return () => {
+  //   window.removeEventListener('scroll', handleScroll)
+  // };
   }, []);
-
+  const links = [
+    {"id":1,"href":"#homepage","title" : "Accueil"},
+    {"id":2,"href":"#about","title" : "A propos"},
+    {"id":3,"href":"#parcours","title" : "Parcours"},
+    {"id":4,"href":"#projets","title" : "Projets"},
+    {"id":5,"href":"#contact","title" : "Contact"}
+  ]
   return (
     <>
       <div className={`navbar ${isOpen ? 'open' : ''}`}>
@@ -59,12 +87,12 @@ const NavBar = () => {
           <span></span>
         </button>
         <div className="navbar-links">
-          {/* Link to the differents section */}
-          <Link href="#homepage" scroll={false} onClick={() => handleSectionChange('homepage')}>Accueil</Link>
-            <Link href="#about" scroll={false} onClick={() => handleSectionChange('about')}>À propos</Link>
-            <Link href="#parcours" scroll={false} onClick={() => handleSectionChange('parcours')}>Parcours</Link>
-            <Link href="#projets" scroll ={false} onClick={() => handleSectionChange('projets')}>Projets</Link>
-            <Link href="#contact" scroll={false} onClick={() => handleSectionChange('contact')}>Contact</Link>
+            {/* Link to the differents section */}
+            {links.map((link) => {
+              return (
+                <Link key={link.id} className='' href={`/${link.href}`} scroll={false}><a className='' onClick={handleSectionChange}>{link.title}</a></Link>
+              )
+            })}
         </div>
       </div>
     </>

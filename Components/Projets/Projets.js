@@ -2,7 +2,7 @@ const Projets = () => {
     // Ici les fonctions Js utilisés
       return (
         <>
-          <div className="projets" id="projets">
+          <section className="projets" id="projets">
             <h1 className="projets homepageH1">MES PROJETS</h1>
             <div className="bloc-container">
                 <div className="bloc">
@@ -24,7 +24,7 @@ const Projets = () => {
                     <a href="lien6.html">Projet 6</a>
                 </div>
             </div>
-          </div>
+          </section>
        </>
     
       );
