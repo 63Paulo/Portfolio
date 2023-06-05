@@ -38,6 +38,33 @@ body, html {
     width: 100%;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    background-image: url('../public/image/background/blue-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
 }
+
+@keyframes blur {
+	0%		{text-shadow:  0 0 100px #fff; opacity:0;}
+	5%		{text-shadow:  0 0 90px #fff;}
+	15%		{opacity: 1;}
+	20%		{text-shadow:  0 0 0px #fff;}
+	80%		{text-shadow:  0 0 0px #fff;}
+	85%		{opacity: 1;}
+	95%		{text-shadow:  0 0 90px #fff;}
+	100%	{text-shadow:  0 0 100px #fff; opacity:0;}
+}
+
+@-webkit-keyframes blur {
+	0%		{text-shadow:  0 0 100px #fff; opacity:0;}
+	5%		{text-shadow:  0 0 90px #fff;}
+	15%		{opacity: 1;}
+	20%		{text-shadow:  0 0 0px #fff;}
+	80%		{text-shadow:  0 0 0px #fff;}
+	85%		{opacity: 1;}
+	95%		{text-shadow:  0 0 90px #fff;}
+	100%	{text-shadow:  0 0 100px #fff; opacity:0;}
+}
+
 
 

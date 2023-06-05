@@ -43,7 +43,7 @@ const Parcours = () => {
                 Mon parcours académique reflète mon désir de développement professionnel et ma passion pour la technologie. 
                 Je suis motivé à travailler dur pour atteindre mes objectifs et contribuer au progrès technologique.
             </h2>
-            <div className="timeline">
+            <div className="timeline ">
               {events.map((event, index) => (
                 <div className="timeline-item" key={index}>
                   {/*Display the event date */}
