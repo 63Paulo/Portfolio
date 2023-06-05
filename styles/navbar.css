@@ -5,6 +5,7 @@
     background-color: #000000;
     width: 100%;
     position: fixed;
+    z-index: 9999; /* For the navbar to pass over everything */
 }
 
 /* Design of the navbar button */

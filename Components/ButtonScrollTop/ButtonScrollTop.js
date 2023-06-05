@@ -25,10 +25,11 @@ const ButtonScrollTop = () => {
   return (
     <button
       onClick={scrollToTop}
-      className={`fixed bottom-6 right-6 z-10 ${
+      className={`fixed bottom-6 hover:bg-blue-900 right-6 z-10 ${
         isVisible ? 'block' : 'hidden'
       } bg-blue-800 rounded-full p-3`}
     >
+      {/* Added arrow */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="h-6 w-6 text-white"
@@ -36,6 +37,7 @@ const ButtonScrollTop = () => {
         viewBox="0 0 24 24"
         stroke="currentColor"
       >
+      {/* Style of the button */}
         <path
           strokeLinecap="round"
           strokeLinejoin="round"

@@ -36,11 +36,6 @@
     font-family: "Source", sans-serif;
     font-weight: bold;
 }
-.about .image-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 /* Responsive design for tablets */
 @media only screen and (min-width:760px){
 
