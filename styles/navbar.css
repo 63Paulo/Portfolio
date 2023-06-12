@@ -5,6 +5,10 @@
     background-color: #000000;
     width: 100%;
     position: fixed;
+    animation: blur 10s ease-out infinite;
+	-webkit-animation: blur 10s ease-out infinite;
+    animation-iteration-count: 1; /* So that the animation is not repeated */
+    z-index: 9999; /* For the navbar to pass over everything */
 }
 
 /* Design of the navbar button */

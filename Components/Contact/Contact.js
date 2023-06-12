@@ -27,7 +27,7 @@ const Contact = () => {
       return (
           <section id="contact">
             <form className="background_contact"  onSubmit={handleSubmit}>
-                    <h1 className="text-center text-white text-5xl uppercase font-bold">contact</h1>
+                    <h1 className="text-center text-white text-5xl uppercase pt-6 pb-5 ">contact</h1>
                     <div className="m-auto w-1/2 flex flex-col">
                         <label htmlFor="name">Nom :</label>
                         <input type="text" id="name" name="name" 
@@ -47,7 +47,7 @@ const Contact = () => {
                         onChange={handleChange} required />
                     
                         <label htmlFor="message">Message :</label>
-                        <textarea className="h-48" id="message" name="message " 
+                        <textarea className="h-48 text-xl" id="message" name="message" 
                         value={formData.message} 
                         onChange={handleChange} required></textarea>
 

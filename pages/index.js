@@ -6,6 +6,7 @@ import Parcours from '../Components/Parcours/Parcours.js';
 import Projets from '../Components/Projets/Projets.js';
 import Contact from '../Components/Contact/Contact.js';
 import Footer from '../Components/Footer/Footer.js';
+import ButtonScrollTop from '../Components/ButtonScrollTop/ButtonScrollTop.js';
 
 export default function Home() {
 
@@ -31,6 +32,7 @@ export default function Home() {
       <Projets/>
       <Contact/>
       <Footer/>
+      <ButtonScrollTop/>
     </>
   );
 }

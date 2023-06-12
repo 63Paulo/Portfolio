@@ -1,76 +1,48 @@
 import { useState, useEffect} from 'react';
 import Link from 'next/link';
 
-//TODO:Will j'ai réussi a mettre en surbrillance mais que lorsque que je clique sur la rubrique
-//TODO:Will en gros je veux que quand je scroll sur le site, la page sur la quelle je me trouve soit en surbrillance (d'une autre couleur) dans la navbar
-//TODO:Will par exemple si je scroll jusqu'à la page projet, je veux que le 'projet' dans la navbar soit d'une autre couleur que les autres rubriques
-// Cela fonctionner en html au départ ??
-// Non pas totalement en gros quand j'appuyais sur une rubrique de la navbar elle restait tout le temps en surbrillance même quand j'allais sur une autre page 
 const NavBar = () => {
-  // State for seeing if the navbar element is active 
-  const [isOpen, setIsOpen] = useState(false); 
+  // State for seeing if the navbar element is active
+  const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('');
   const handleToggle = () => {
     // Reverse the 'isOpen' state when the button is clicked
-    setIsOpen(!isOpen);  
+    setIsOpen(!isOpen);
   };
-  const [current, setCurrent] = useState('homepage')
   const handleSectionChange = (event) => {
     console.log(event.target.hash.slice(1))
     setActiveSection(event.target.hash.slice(1));
   };
 
   useEffect(() => {
-  //   const handleScroll = () => {
-  //     const { scrollTop } = document.documentElement;
-  //     const aboutPos = document.getElementById('about').offsetTop;
-  //     const parcoursPos = document.getElementById('parcours').offsetTop;
-  //     const projetsPos = document.getElementById('projets').offsetTop;
-  //     const contactPos = document.getElementById('contact').offsetTop;
+    // Here select all section (homepage, about ...)
+    const sections = document.querySelectorAll("section");
 
-  //     if (scrollTop >= 0 && scrollTop < aboutPos){
-  //       setActiveSection('homepage');
-  //     }
-  //     else if (scrollTop >= aboutPos && scrollTop < parcoursPos){
-  //       setActiveSection('about');
-  //     }
-  //     else if (scrollTop >= parcoursPos && scrollTop < projetsPos){
-  //       setActiveSection('parcours');
-  //     }
-  //     else if (scrollTop >= projetsPos && scrollTop < contactPos){
-  //       setActiveSection('projets');
-  //     }
-  //     else {
-  //       setActiveSection('contact')
-  //     }
-
-      
-  // };
-
-  const sections = document.querySelectorAll("section");
+    // Here select all link (a) of navbar
     const navLi = document.querySelectorAll(".navbar .navbar-links a");
+    // Create a current const empty for beginning
+    const current = '';
     window.onscroll = () => {
-    sections.forEach((section) => {
-      const sectionTop = section.offsetTop;
-      if (scrollY >= sectionTop - 60 && scrollY >= section.offsetHeight ) {
-        setCurrent(section.getAttribute("id")); 
-      }
-    });
 
-    navLi.forEach((li) => {
-      li.classList.remove("active");
-      if (li.classList.contains(current)) {
-        li.classList.add("active");
-      }
-    });
-};
+      // ForEach on all sections
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop;
+          // scrollY it is the pixel in the center of the screen, as soon as it is between the top and the bottom of the section we change the constant to give it the name of the section.
+          if (scrollY >= sectionTop - 160 && scrollY < (section.offsetHeight + section.offsetTop)) {
+            current = section.getAttribute("id");
+          }
+        });
 
-
-  // window.addEventListener('scroll', handleScroll);
-  // return () => {
-  //   window.removeEventListener('scroll', handleScroll)
-  // };
+        //  After We make a loop on the different links of the navbar as soon as the name corresponds to the section we assign the active class to the corresponding link
+        navLi.forEach((li) => {
+          li.classList.remove("active");
+          if (li.hash.slice(1) == current) {
+            li.classList.add("active");
+          }
+        });
+    };
   }, []);
+
   const links = [
     {"id":1,"href":"#homepage","title" : "Accueil"},
     {"id":2,"href":"#about","title" : "A propos"},

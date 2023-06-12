@@ -9,7 +9,6 @@
 @import 'projets.css';
 @import 'contact.css';
 @import 'footer.css';
-@import 'loading-spinner.css';
 
 
 @font-face {
@@ -38,6 +37,29 @@ body, html {
     width: 100%;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    background-image: url('../public/image/background/blue-bg.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
+@keyframes blur {
+	0%		{text-shadow:  0 0 100px #fff; opacity:0;}
+	5%		{text-shadow:  0 0 90px #fff;}
+	15%		{opacity: 1;}
+	20%		{text-shadow:  0 0 0px #fff;}
+	80%		{text-shadow:  0 0 0px #fff;}
+	85%		{opacity: 1;}
+}
+
+@-webkit-keyframes blur {
+	0%		{text-shadow:  0 0 100px #fff; opacity:0;}
+	5%		{text-shadow:  0 0 90px #fff;}
+	15%		{opacity: 1;}
+	20%		{text-shadow:  0 0 0px #fff;}
+	80%		{text-shadow:  0 0 0px #fff;}
+	85%		{opacity: 1;}
+}
+
 
 

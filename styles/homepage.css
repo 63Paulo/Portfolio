@@ -2,13 +2,6 @@
     font-size: 40px;
 }
 
-#homepage{
-    /** Design for the homepage ***/
-    background-image: url('../public/image/background/blue-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-}
 
   
 #homepage h1{
@@ -17,6 +10,9 @@
     font-size: 89px;
     font-family: "TuskerGrotesk", sans-serif;
     margin-bottom: 48px;
+    animation: blur 10s ease-out infinite;
+	-webkit-animation: blur 10s ease-out infinite;
+    animation-iteration-count: 1; /* So that the animation is not repeated */
 }
 #homepage h2{
     text-align: center;
@@ -25,6 +21,9 @@
     font-size: 30px;
     margin-top: -32px; /** to bring h2 closer to h1 **/
     height: 40vh;
+    animation: blur 10s ease-out infinite;
+	-webkit-animation: blur 10s ease-out infinite;
+    animation-iteration-count: 1;
 }
 
 /* Responsive desgin for tablet */
