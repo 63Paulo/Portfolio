@@ -1,0 +1,13 @@
+const ProjetApprentissageCalcul = () => {
+    // Ici les fonctions Js utilisés
+      return (
+        <>
+          <section className="homepage" id="homepage">
+            <h1 className="homepageH1">PAUL FERNANDES</h1>
+            <h2>Etudiant en développment web et applications.</h2>
+          </section>
+       </>
+      );
+    };
+    
+export default ProjetApprentissageCalcul;
