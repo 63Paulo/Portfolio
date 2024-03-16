@@ -18,7 +18,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="/../public/CV_Paul_Fernandes" download>
+                  <a href="/../public/CV_Paul_Fernandes.pdf" download={"CVPaulFernandes.pdf"}>
                     <Image src="/../public/image/logo/footerLogo/logo-cv.png"  width={50} height={50} />
                   </a>
                 </li>

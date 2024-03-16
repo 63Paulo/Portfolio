@@ -6,7 +6,7 @@ const Projets = () => {
             <h1 className="projets homepageH1">MES PROJETS</h1>
             <div className="bloc-container">
                 <div className="bloc">
-                    <a href="/projetApprentissageCalcul">Logiciel apprentissage calcul</a>
+                    <a href="#PageProjets/ProjetApprentissageCalcul">Logiciel apprentissage calcul</a>
                 </div>
                 <div className="bloc">
                     <a href="lien2.html">Maintenance corrective et/ou évolutive de jeux </a>
