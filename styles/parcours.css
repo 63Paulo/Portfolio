@@ -3,7 +3,6 @@
 }
 
 #parcours {
-    background-color: rgb(77, 190, 255);
     padding-top: 20px;
     padding: 10px 20px;
     width: 100%;
@@ -30,6 +29,7 @@
 .parcours .timeline {
     position: relative;
     margin-top: 50px;
+    padding-top: 24px;
 }
 
 .parcours .timeline .timeline-item {

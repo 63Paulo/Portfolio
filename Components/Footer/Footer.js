@@ -18,13 +18,8 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="http://instagram.com">
-                    <Image src="/../public/image/logo/footerLogo/it-logo.png"  width={50} height={50} />
-                  </a>
-                </li>
-                <li>
-                  <a href="http://twitter.com">
-                    <Image src="/../public/image/logo/footerLogo/twitter-logo.png"  width={50} height={50} />
+                  <a href="/../public/CV_Paul_Fernandes" download>
+                    <Image src="/../public/image/logo/footerLogo/logo-cv.png"  width={50} height={50} />
                   </a>
                 </li>
             </ul>

@@ -20,7 +20,7 @@ const Parcours = () => {
         {
           date: '2022',
           title: 'BTS SIO',
-          desc : 'Cursus de 2 ans en BTS SIO'
+          desc : 'Cursus de 2 ans en BTS SIO option SLAM'
         },
         {
           date : '2024',
@@ -28,7 +28,7 @@ const Parcours = () => {
           desc : 'Licence professionnelle en Informatique',
         },
         {
-          date : '???',
+          date : 'Objectif',
           title : 'Master ???',
           desc : 'Master en informatique',
         },
