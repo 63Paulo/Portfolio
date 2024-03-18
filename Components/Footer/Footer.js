@@ -8,12 +8,12 @@ const Footer = () => {
             <div className="footer-container" id="footer-container">
               <ul className="footer-links" id="footer-links">
                 <li>
-                  <a href="http://github.com">
+                  <a href="http://github.com" target="_blank">
                     <Image src="/../public/image/logo/footerLogo/gh-logo.png"  width={50} height={50} />
                   </a>
                 </li>
                 <li>
-                  <a className='' href="http://linkedin.com">
+                  <a className='' href="https://www.linkedin.com/in/paul-fernandes-b68559268/" target="_blank">
                     <Image src="/../public/image/logo/footerLogo/in-logo.png"  width={50} height={50} />
                   </a>
                 </li>

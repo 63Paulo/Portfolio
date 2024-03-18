@@ -27,7 +27,7 @@ const About = () => {
                 <Image src="/image/logo/htmlLogo.png" alt="HTML" className="logo-html" width={100} height={100}></Image>
               </div>
               <div className="sql-container">
-                <Image src="/image/logo/mysqlLogo.png" alt="mySQL" className="logo-sql" width={100} height={100}></Image>
+                <Image src="/image/logo/mysqlLogo.png" alt="mySQL" className="logo-sql" width={110} height={100}></Image>
               </div>
             </div>
           </section>
