@@ -39,7 +39,7 @@
 .bloc a {
     text-decoration: none;
     color: #FFFFFF;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
     transition: transform 0.3s ease; /** For create a zoom effect **/
