@@ -68,7 +68,7 @@
 .parcours .timeline .timeline-item .timeline-content p {
     font-size: 14px;
     line-height: 1.4;
-    color: #ffffff;
+    color: #000000;
 }
   
 
@@ -106,7 +106,7 @@
         font-size: 24px;
     }
     .parcours .timeline {
-        margin-top: -350px;
+        margin-top: -320px;
         margin-bottom: 0;
         display: flex;
         justify-content: flex-end;
