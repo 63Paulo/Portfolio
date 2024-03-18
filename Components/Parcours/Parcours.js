@@ -18,19 +18,19 @@ const Parcours = () => {
       // We create a const to stock our timeline elements
       const events = [
         {
+          date : '2020',
+          title : 'Bac STI2D',
+          desc : 'Option Systèmes d\'informations et Numériques'
+        },
+        {
           date: '2022',
           title: 'BTS SIO',
           desc : 'Cursus de 2 ans en BTS SIO option SLAM'
         },
         {
           date : '2024',
-          title : 'Licence ???',
+          title : 'L3 Informatique',
           desc : 'Licence professionnelle en Informatique',
-        },
-        {
-          date : 'Objectif',
-          title : 'Master ???',
-          desc : 'Master en informatique',
         },
       ]
 
