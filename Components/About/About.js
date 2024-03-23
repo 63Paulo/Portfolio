@@ -29,6 +29,21 @@ const About = () => {
               <div className="sql-container">
                 <Image src="/image/logo/mysqlLogo.png" alt="mySQL" className="logo-sql" width={110} height={100}></Image>
               </div>
+              <div className="css-container">
+                <Image src="/image/logo/cssLogo.png" alt="CSS" className="logo-css" width={100} height={100}></Image>
+              </div>
+              <div className="js-container">
+                <Image src="/image/logo/jsLogo.png" alt="JS" className="logo-js" width={100} height={100}></Image>
+              </div>
+              <div className="csharp-container">
+                <Image src="/image/logo/csharpLogo.png" alt="csharp" className="logo-csharp" width={100} height={100}></Image>
+              </div>
+              <div className="python-container">
+                <Image src="/image/logo/pythonLogo.png" alt="python" className="logo-python" width={100} height={100}></Image>
+              </div>
+              <div className="nextjs-container">
+                <Image src="/image/logo/nextJsLogo.png" alt="nextJs" className="logo-nextJs" width={100} height={100}></Image>
+              </div>
             </div>
           </section>
        </>

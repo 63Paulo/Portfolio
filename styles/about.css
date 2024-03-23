@@ -56,7 +56,21 @@
     .sql-container {
         margin: 20px;
     }
-
+    .css-container {
+        margin: 20px;
+    }
+    .js-container {
+        margin: 20px;
+    }
+    .csharp-container {
+        margin: 20px;
+    }
+    .python-container {
+        margin: 20px;
+    }
+    .nextjs-container {
+        margin: 20px;
+    }
 }
 /** Responsive design for large screens **/
 @media only screen and (min-width:1200px){
@@ -101,5 +115,19 @@
     .sql-container {
         margin: 20px;
     }
-
+    .css-container {
+        margin: 20px;
+    }
+    .js-container {
+        margin: 20px;
+    }
+    .csharp-container {
+        margin: 20px;
+    }
+    .python-container {
+        margin: 20px;
+    }
+    .nextjs-container {
+        margin: 20px;
+    }
 }
