@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/projetApprentissageCalcul": "pages/projetApprentissageCalcul.js",
-  "/": "pages/index.js",
-  "/projetCimetiere": "pages/projetCimetiere.js"
+  "/projetCimetiere": "pages/projetCimetiere.js",
+  "/": "pages/index.js"
 }
