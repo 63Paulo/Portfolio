@@ -5,10 +5,11 @@
     padding-top: 20px;
     padding: 10px 20px;
     width: 100%;
+    background-color: #1D1D1D;
 }
 
 #about h1.aboutme {
-    color: #000000;
+    color: #FFFFFF;
     padding-top: 10px;
     font-family: "Source", sans-serif;
     font-weight: bold;
@@ -16,7 +17,7 @@
 
 
 #about h2 {
-    color: #000000;
+    color: #FFFFFF;
     padding-top: 18px;
     padding-right: 36px;
     text-align: justify;
@@ -31,7 +32,7 @@
 
 #about h1.competences {
     padding-top: 40px;
-    color: #000000;
+    color: #FFFFFF;
     font-family: "Source", sans-serif;
     font-weight: bold;
 }
