@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const ProjetCimetiere = () => {
     // Ici les fonctions Js utilisés
       return (
@@ -25,7 +27,11 @@ const ProjetCimetiere = () => {
                   La mairie d’Ysssac-la-Tourette contient une dizaine de conseillers municipaux ainsi que le maire de la commune, Alain Fradier.
                   La mairie, voulant un logiciel dans le but de gérer le cimetière communal, a fait appel à une entreprise spécialisée dans le développement d’applications. Le prix proposé par cette dernière était trop excessif. Ainsi, un conseiller municipal étant un ancien élève du BTS SIO a décidé de faire appel à des étudiants de cette section afin de réaliser cette tâche.
               </h2>
+              <div className="carteContainer">
+                <Image src="/../public/image/projetCimetiere/yssac-carte.png" width={1920} height={1080}></Image>
+              </div>
             </div>
+            
           </section>
        </>
       );
