@@ -18,30 +18,34 @@
 .Competences h1{
     font-size: 40px;
     font-family: "TuskerGrotesk", sans-serif;
-    margin-left: 12px;
     margin-top: 60px;
+    text-align: center;
 }
 .Competences ul{
     margin-bottom: 48px;
-    margin-left: 12px;
 }
 .Competences ul li{
     font-size: 18px;
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 .Presentation{
+    margin-bottom: 60px;
 }
 .Presentation h1{
+    text-align: center;
     font-size: 40px;
     font-family: "TuskerGrotesk", sans-serif;
-    margin-left: 12px;
     margin-top: 60px;
 }
 
 .Presentation h2{
+    text-align: center;
     font-size: 18px;
-    margin-bottom: 48px;
-    margin-right: 12px;
     margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 20px;
 }
 
 .carteContainer{
@@ -108,14 +112,16 @@
     }
     .Presentation h2{
         font-size: 28px;
-        width: 90%;
-        display: flex;
-        justify-content: flex-start;
+        text-align: center;
+        margin: 0 auto;
+        width: 70%;
+        margin-bottom: 40px;
     }
     .carteContainer{
-        width: 80%;
+        width: 70%;
         height: auto;
         justify-content: center;
-        margin-left: 12px;
+        margin: 0 auto;
+        margin-bottom: 60px;
     }
 }

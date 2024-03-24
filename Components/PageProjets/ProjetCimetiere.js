@@ -31,7 +31,14 @@ const ProjetCimetiere = () => {
                 <Image src="/../public/image/projetCimetiere/yssac-carte.png" width={1920} height={1080}></Image>
               </div>
             </div>
-            
+            <div className='expressionBesoin'>
+              <h1>EXPRESSION DU BESOIN</h1>
+              <ul className='grilleBesoin'>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
           </section>
        </>
       );

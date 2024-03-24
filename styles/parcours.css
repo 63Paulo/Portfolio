@@ -101,9 +101,11 @@
         display: flex; 
         justify-content: left;
         width: 50%;
+        margin-left: 40px;
     }
     #parcours h2{
         font-size: 24px;
+        margin-left: 40px;
     }
     .parcours .timeline {
         margin-top: -320px;
