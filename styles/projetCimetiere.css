@@ -58,18 +58,15 @@
     margin-bottom: 40px;
 }
 .expressionBesoin{
-    background-color: #1D1D1D;
     padding-bottom: 30px;
 }
 .expressionBesoin h1{
-    color: #FFFFFF;
     text-align: center;
     font-size: 40px;
     font-family: "TuskerGrotesk", sans-serif;
     margin-top: 60px;
 }
 .expressionBesoin h2{
-    color: #FFFFFF;
     text-align: center;
     font-size: 18px;
     margin-left: 12px;
@@ -77,22 +74,6 @@
     margin-bottom: 20px;
 }
 
-.imageContainer {
-    display: flex;
-    justify-content: center;
-    margin-left: 38px;
-    margin-right: 38px;
-    margin-bottom: 40px;
-    gap: 30px;
-}
-
-.imageCDC1 {
-    width: calc(50% - 7px); /* Ajustez la largeur selon vos besoins */
-}
-
-.imageCDC2 {
-    width: calc(50% - 7px); /* Ajustez la largeur selon vos besoins */
-}
 .maquettes h1{
     text-align: center;
     font-size: 40px;
@@ -142,10 +123,6 @@
     }
     .expressionBesoin h2{
         font-size: 24px;
-    }
-    .imageContainer {
-        margin-left: 80px;
-        margin-right: 80px;
     }
     .maquettes h1{
         font-size: 60px;

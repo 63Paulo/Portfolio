@@ -43,11 +43,12 @@ const ProjetCimetiere = () => {
             </div>
             <div className='expressionBesoin'>
               <h1>EXPRESSION DU BESOIN</h1>
-               <h2>Voici le cahier des charges fournis par la mairie : </h2>
-               <div className='imageContainer'>
-                  <Image className='imageCDC1' src={'/../public/image/projetCimetiere/cachier-des-charges-1.PNG'} width={575} height={720}></Image>
-                  <Image className='imageCDC2' src={'/../public/image/projetCimetiere/cahier-des-charges-2.PNG'} width={588} height={541}></Image>
-                </div>
+               <h2>Voici les points clés du cahier des charges fournis par la mairie : </h2>
+               <ul>
+                <li>• Liste, recherche & CRUD</li>
+                <li>• Pas de chartes graphique imposées, seulement le logo de la mairie sur chaque formulaire</li>
+                <li>• Protection de la saisie des données via un mot de passe</li>
+               </ul>
             </div>
             <div className='maquettes'>
               <h1>MAQUETTES REALISÉES</h1>
