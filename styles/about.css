@@ -5,10 +5,11 @@
     padding-top: 20px;
     padding: 10px 20px;
     width: 100%;
+    background-color: #1D1D1D;
 }
 
 #about h1.aboutme {
-    color: #000000;
+    color: #FFFFFF;
     padding-top: 10px;
     font-family: "Source", sans-serif;
     font-weight: bold;
@@ -16,7 +17,7 @@
 
 
 #about h2 {
-    color: #000000;
+    color: #FFFFFF;
     padding-top: 18px;
     padding-right: 36px;
     text-align: justify;
@@ -31,7 +32,7 @@
 
 #about h1.competences {
     padding-top: 40px;
-    color: #000000;
+    color: #FFFFFF;
     font-family: "Source", sans-serif;
     font-weight: bold;
 }
@@ -55,7 +56,21 @@
     .sql-container {
         margin: 20px;
     }
-
+    .css-container {
+        margin: 20px;
+    }
+    .js-container {
+        margin: 20px;
+    }
+    .csharp-container {
+        margin: 20px;
+    }
+    .python-container {
+        margin: 20px;
+    }
+    .nextjs-container {
+        margin: 20px;
+    }
 }
 /** Responsive design for large screens **/
 @media only screen and (min-width:1200px){
@@ -78,7 +93,7 @@
         display: flex;
         width: 60%;
         margin-top: 20px;
-        margin-left: 35%;
+        margin-left: 42%;
         margin-bottom: 20px;
         font-weight: bold;
     }
@@ -100,5 +115,19 @@
     .sql-container {
         margin: 20px;
     }
-
+    .css-container {
+        margin: 20px;
+    }
+    .js-container {
+        margin: 20px;
+    }
+    .csharp-container {
+        margin: 20px;
+    }
+    .python-container {
+        margin: 20px;
+    }
+    .nextjs-container {
+        margin: 20px;
+    }
 }

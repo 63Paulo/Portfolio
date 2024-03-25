@@ -28,7 +28,7 @@
 
 .parcours .timeline {
     position: relative;
-    margin-top: 50px;
+    margin-top: 20px;
     padding-top: 24px;
 }
 
@@ -101,9 +101,11 @@
         display: flex; 
         justify-content: left;
         width: 50%;
+        margin-left: 40px;
     }
     #parcours h2{
         font-size: 24px;
+        margin-left: 40px;
     }
     .parcours .timeline {
         margin-top: -320px;

@@ -1,0 +1,128 @@
+
+
+.ProjetCimetiere .titreH1{
+    text-align: center;
+    padding-top: 30%; /** For the text to be center**/
+    font-size: 89px;
+    font-family: "TuskerGrotesk", sans-serif;
+    margin-bottom: 48px;
+}
+
+.ProjetCimetiere .descH2{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 48px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+.Competences h1{
+    font-size: 40px;
+    font-family: "TuskerGrotesk", sans-serif;
+    margin-top: 60px;
+    text-align: center;
+}
+.Competences ul{
+    margin-bottom: 48px;
+}
+.Competences ul li{
+    font-size: 18px;
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.Presentation{
+    margin-bottom: 60px;
+}
+.Presentation h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: "TuskerGrotesk", sans-serif;
+    margin-top: 60px;
+}
+
+.Presentation h2{
+    text-align: center;
+    font-size: 18px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+}
+
+.carteContainer{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 40px;
+}
+
+@media only screen and (min-width:760px){
+
+    .ProjetCimetiere .titreH1{
+        font-size: 120px;
+    }
+
+    .ProjetCimetiere .descH2{
+        font-size:  24px;
+    }
+    .Competences h1{
+        font-size: 60px;
+        margin-bottom: 12px;
+    }
+    .Competences ul li{
+        font-size: 24px;
+    }
+    .Presentation h1{
+        font-size: 60px;
+        margin-top: 100px;
+    }
+    .Presentation h2{
+        font-size: 24px;
+    }
+    .carteContainer{
+        justify-content: center;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .ProjetCimetiere .titreH1{
+        font-size: 144px;
+    }
+
+    .ProjetCimetiere .descH2{
+        font-size:  28px;
+        text-align: center; /* Centrer le texte */
+        display: block; /* Assurer que l'élément est un bloc */
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .Competences h1{
+        font-size:80px;
+        margin-top: 200px;
+    }
+    .Competences ul li{
+        font-size: 28px;
+    }
+    .Presentation h1{
+        font-size: 80px;
+        margin-top: 130px;
+    }
+    .Presentation h2{
+        font-size: 28px;
+        text-align: center;
+        margin: 0 auto;
+        width: 70%;
+        margin-bottom: 40px;
+    }
+    .carteContainer{
+        width: 60%;
+        height: auto;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+}
