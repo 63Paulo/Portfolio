@@ -51,7 +51,7 @@ const ProjetCimetiere = () => {
             </div>
             <div className='maquettes'>
               <h1>MAQUETTES REALISÉES</h1>
-              <h2>A la suite du cahier des charges fournis, nous avons décidés de créer quelques maquettes afin de commencer a réfléchir à quoi va ressembler notre application</h2>
+              <h2>Suite à l'analyse du cahier des charges fourni, nous avons opté pour la création de quelques maquettes préliminaires afin de visualiser le concept de notre application.</h2>
             </div>
           </section>
           
