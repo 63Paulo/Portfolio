@@ -49,6 +49,10 @@ const ProjetCimetiere = () => {
                   <Image className='imageCDC2' src={'/../public/image/projetCimetiere/cahier-des-charges-2.PNG'} width={588} height={541}></Image>
                 </div>
             </div>
+            <div className='maquettes'>
+              <h1>MAQUETTES REALISÉES</h1>
+              <h2>A la suite du cahier des charges fournis, nous avons décidés de créer quelques maquettes afin de commencer a réfléchir à quoi va ressembler notre application</h2>
+            </div>
           </section>
           
        </>
