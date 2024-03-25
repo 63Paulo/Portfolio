@@ -43,11 +43,11 @@ const ProjetCimetiere = () => {
             </div>
             <div className='expressionBesoin'>
               <h1>EXPRESSION DU BESOIN</h1>
-              <ul className='grilleBesoin'>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
+               <h2>Voici le cahier des charges fournis par la mairie : </h2>
+               <div className='imageContainer'>
+                  <Image className='imageCDC1' src={'/../public/image/projetCimetiere/cachier-des-charges-1.PNG'} width={575} height={720}></Image>
+                  <Image className='imageCDC2' src={'/../public/image/projetCimetiere/cahier-des-charges-2.PNG'} width={588} height={541}></Image>
+                </div>
             </div>
           </section>
           
