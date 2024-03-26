@@ -57,9 +57,7 @@
     margin-right: 12px;
     margin-bottom: 40px;
 }
-.expressionBesoin{
-    padding-bottom: 30px;
-}
+
 .expressionBesoin h1{
     text-align: center;
     font-size: 40px;
@@ -151,6 +149,33 @@
     font-family: "TuskerGrotesk", sans-serif;
     margin-top: 60px;
 }
+.app-finale{
+    color: #FFFFFF;
+    background-color: #081c34;
+    padding-bottom: 20px;
+}
+.app-finale h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "TuskerGrotesk", sans-serif;
+    margin-top: 60px;
+}
+.app-finale h2{
+    text-align: center;
+    font-size: 18px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+}
+.app-finale-container {
+    display: flex;
+    justify-content: center; /* Pour aligner les images à gauche et à droite */
+    margin-left: 38px;
+    margin-right: 38px;
+    margin-bottom: 40px;
+    gap: 20px;
+}
 @media only screen and (min-width:760px){
 
     .ProjetCimetiere .titreH1{
@@ -219,7 +244,17 @@
         font-size: 60px;
         margin-top: 100px;
     }
-    
+    .app-finale h1{
+        font-size: 60px;
+        margin-top: 100px;
+    }
+    .app-finale h2{
+        font-size: 24px;
+    }
+    .app-finale--container {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
 }
 
 @media only screen and (min-width:1200px){
@@ -309,5 +344,20 @@
     .code-tests h1{
         font-size: 80px;
         margin-top: 130px;
+    }
+    .app-finale h1{
+        font-size: 80px;
+        margin-top: 130px;
+    }
+    .app-finale h2{
+        font-size:  28px;
+        text-align: center; /* Centrer le texte */
+        display: block; /* Assurer que l'élément est un bloc */
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .app-finale--container {
+        margin-left: 250px;
+        margin-right: 250px;
     }
 }
