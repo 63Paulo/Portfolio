@@ -82,8 +82,14 @@ const ProjetCimetiere = () => {
                 <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
               </div>
             </div>
+            <div className='mise-exploitation'>
+              <h1>MISE EN EXPLOITATION</h1>
+              <ul>
+                <li>• Difficultés dû à l’utilisation d’un serveur pour héberger la base de données</li>
+                <li>• Difficultés lors du déploiement de l’application sur l’ordinateur de la mairie</li>
+              </ul>
+            </div>
           </section>
-          
        </>
       );
     };
