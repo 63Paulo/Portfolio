@@ -74,21 +74,83 @@
     margin-bottom: 20px;
 }
 
+.expressionBesoin ul{
+    margin-bottom: 48px;
+}
+
+.expressionBesoin ul li{
+    font-size: 18px;
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-weight: bold;
+}
 .maquettes h1{
+    color: #FFFFFF;
     text-align: center;
     font-size: 40px;
     font-family: "TuskerGrotesk", sans-serif;
     margin-top: 60px;
+    padding-top: 20px;
 }
 .maquettes h2{
+    color: #FFFFFF;
     text-align: center;
     font-size: 18px;
     margin-left: 12px;
     margin-right: 12px;
     margin-bottom: 20px;
 }
+.maquettes{
+    background-color: #1d1d1d;
+    padding-bottom: 20px;
+}
+.maquettes-container {
+    display: flex;
+    justify-content: center; /* Pour aligner les images à gauche et à droite */
+    margin-left: 38px;
+    margin-right: 38px;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+.bdd h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: "TuskerGrotesk", sans-serif;
+    margin-top: 60px;
+}
+.bdd h2{
+    text-align: center;
+    font-size: 18px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+}
+.bdd-container {
+    display: flex;
+    justify-content: center; /* Pour aligner les images à gauche et à droite */
+    margin-left: 38px;
+    margin-right: 38px;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+.code-tests ul{
+    margin-bottom: 48px;
+}
 
-
+.code-tests ul li{
+    font-size: 18px;
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-weight: bold;
+}
+.code-tests h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: "TuskerGrotesk", sans-serif;
+    margin-top: 60px;
+}
 @media only screen and (min-width:760px){
 
     .ProjetCimetiere .titreH1{
@@ -105,6 +167,10 @@
     .Competences ul li{
         font-size: 24px;
     }
+    .expressionBesoin ul li{
+        font-size: 24px;
+    }
+    
     .Presentation h1{
         font-size: 60px;
         margin-top: 100px;
@@ -131,6 +197,29 @@
     .maquettes h2{
         font-size: 24px;
     }
+    .maquettes-container {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .bdd h1{
+        font-size: 60px;
+        margin-top: 100px;
+    }
+    .bdd h2{
+        font-size: 24px;
+    }
+    .bdd-container {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .code-tests ul li{
+        font-size: 24px;
+    }
+    .code-tests h1{
+        font-size: 60px;
+        margin-top: 100px;
+    }
+    
 }
 
 @media only screen and (min-width:1200px){
@@ -150,6 +239,9 @@
         margin-top: 200px;
     }
     .Competences ul li{
+        font-size: 28px;
+    }
+    .expressionBesoin ul li{
         font-size: 28px;
     }
     .Presentation h1{
@@ -191,5 +283,31 @@
         display: block; /* Assurer que l'élément est un bloc */
         margin: 0 auto;
         margin-bottom: 30px;
+    }
+    .maquettes-container {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    .bdd h1{
+        font-size: 80px;
+        margin-top: 130px;
+    }
+    .bdd h2{
+        font-size:  28px;
+        text-align: center; /* Centrer le texte */
+        display: block; /* Assurer que l'élément est un bloc */
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .bdd-container {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    .code-tests ul li{
+        font-size: 28px;
+    }
+    .code-tests h1{
+        font-size: 80px;
+        margin-top: 130px;
     }
 }

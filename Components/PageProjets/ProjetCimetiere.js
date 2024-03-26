@@ -53,6 +53,26 @@ const ProjetCimetiere = () => {
             <div className='maquettes'>
               <h1>MAQUETTES REALISÉES</h1>
               <h2>Suite à l'analyse du cahier des charges fourni, nous avons opté pour la création de quelques maquettes préliminaires afin de visualiser le concept de notre application.</h2>
+              <div className='maquettes-container'>
+                <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
+                <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
+              </div>
+            </div>
+            <div className='bdd'>
+              <h1>BASE DE DONNÉES</h1>
+              <h2>Aperçu de la base de données conforme au cahier des charges</h2>
+              <div className='bdd-container'>
+                <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
+              </div>
+            </div>
+            <div className='code-tests'>
+              <h1>CODE & TESTS</h1>
+              <ul>
+                <li>• C#</li>
+                <li>• Utilisation d’extension pour créer des fichiers word à partir de l’application</li>
+                <li>• Plusieurs tests durant les 2 dernières semaines</li>
+                <li>• Sauvegarde et export des données</li>
+              </ul>
             </div>
           </section>
           
