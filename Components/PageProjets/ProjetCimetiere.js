@@ -6,13 +6,7 @@ const ProjetCimetiere = () => {
         <>
           <section className="ProjetCimetiere" id="ProjetCimetiere">
             <h1 className="titreH1">LOGICIEL DE GESTION DE CIMETIERE COMMUNAL</h1>
-            <h2 className="descH2">Réalisation d'un logiciel en C# Windows Forms permettant la gestion d'un cimetière communale durant le stage de 2ème année à l'aide d'un cahier des charges fourni par les responsables du projet.
-                - Base de donnée
-                - Recherche et liste de concession/concessionnaires/inhumés
-                - Gestion des différentes entités (ajout, modification et suppression)
-                - Réalisation de différent test
-                - Déploiement de l'application
-            </h2>
+            <h2 className="descH2">Stage de 2ème année BTS SIO.</h2>
             <div className="Competences">
               <h1>COMPÉTENCES VALIDÉES</h1>
               <ul className="competencesGrille">
@@ -23,9 +17,9 @@ const ProjetCimetiere = () => {
             </div>
             <div className="Presentation">
               <h1>PRESENTATION & CONTEXTE</h1>
-              <h2>Yssac-la-Tourette est une commune française située dans le département du Puy-de-Dôme, en région Auvergne-Rhône-Alpes. Elle est proche des villes de Châtel-Guyon et de Riom et fait partie d'une manière plus large de l'aire d'attraction de Clermont-Ferrand.
-                  La mairie d’Ysssac-la-Tourette contient une dizaine de conseillers municipaux ainsi que le maire de la commune, Alain Fradier.
-                  La mairie, voulant un logiciel dans le but de gérer le cimetière communal, a fait appel à une entreprise spécialisée dans le développement d’applications. Le prix proposé par cette dernière était trop excessif. Ainsi, un conseiller municipal étant un ancien élève du BTS SIO a décidé de faire appel à des étudiants de cette section afin de réaliser cette tâche.
+              <h2>Yssac-la-Tourette est une commune française dans le département du Puy-de-Dôme, en Auvergne-Rhône-Alpes, proche de Châtel-Guyon et de Riom.
+                  Sa mairie, dirigée par le maire Alain Fradier, cherche à mettre en place un logiciel de gestion pour le cimetière communal.
+                  Une entreprise spécialisée a proposé un prix jugé excessif, incitant un conseiller municipal, ancien élève en informatique, à solliciter des étudiants en BTS SIO pour réaliser ce projet.
               </h2>
               <div className='carteContainer' style={{ width: '100%' }}>
                 <iframe
