@@ -30,7 +30,7 @@ const Projets = () => {
                     <a href="/projetCimetiere">Réalisation d'un logiciel de gestion de cimetière communal</a>
                 </div>
                 <div className="bloc">
-                    <a href="lien9.html">Site web PHP</a>
+                    <a href="/siteWebPHP">Site web PHP</a>
                 </div>
             </div>
           </section>

@@ -34,6 +34,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/projetCimetiere.js"
+    ],
+    "/siteWebPHP": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/siteWebPHP.js"
     ]
   },
   "ampFirstPages": []
