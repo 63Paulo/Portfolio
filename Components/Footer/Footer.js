@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="footer-container" id="footer-container">
               <ul className="footer-links" id="footer-links">
                 <li>
-                  <a href="http://github.com" target="_blank">
+                  <a href="https://github.com/63Paulo" target="_blank">
                     <Image src="/../public/image/logo/footerLogo/gh-logo.png"  width={50} height={50} />
                   </a>
                 </li>

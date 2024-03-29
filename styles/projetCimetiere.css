@@ -10,10 +10,11 @@
 
 .ProjetCimetiere .descH2{
     text-align: center;
-    font-size: 18px;
-    margin-bottom: 48px;
+    font-size: 36px;
+    margin-bottom: 300px;
     margin-right: 12px;
     margin-left: 12px;
+    font-family: "TuskerGrotesk", sans-serif;
 }
 .Competences h1{
     font-size: 40px;
@@ -49,14 +50,154 @@
 }
 
 .carteContainer{
+    height: auto;
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
     margin-left: 12px;
     margin-right: 12px;
     margin-bottom: 40px;
 }
 
+.expressionBesoin h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: "TuskerGrotesk", sans-serif;
+    margin-top: 60px;
+}
+.expressionBesoin h2{
+    text-align: center;
+    font-size: 18px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+}
+
+.expressionBesoin ul{
+    margin-bottom: 48px;
+}
+
+.expressionBesoin ul li{
+    font-size: 18px;
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-weight: bold;
+}
+.maquettes h1{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 40px;
+    font-family: "TuskerGrotesk", sans-serif;
+    margin-top: 60px;
+    padding-top: 20px;
+}
+.maquettes h2{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+}
+.maquettes{
+    background-color: #081c34;
+    padding-bottom: 20px;
+}
+.maquettes-container {
+    display: flex;
+    justify-content: center; /* Pour aligner les images à gauche et à droite */
+    margin-left: 38px;
+    margin-right: 38px;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+.bdd h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: "TuskerGrotesk", sans-serif;
+    margin-top: 60px;
+}
+.bdd h2{
+    text-align: center;
+    font-size: 18px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+}
+.bdd-container {
+    display: flex;
+    justify-content: center; /* Pour aligner les images à gauche et à droite */
+    margin-left: 38px;
+    margin-right: 38px;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+.code-tests ul{
+    margin-bottom: 48px;
+}
+
+.code-tests ul li{
+    font-size: 18px;
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-weight: bold;
+}
+.code-tests h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: "TuskerGrotesk", sans-serif;
+    margin-top: 60px;
+}
+.app-finale{
+    color: #FFFFFF;
+    background-color: #081c34;
+    padding-bottom: 20px;
+}
+.app-finale h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "TuskerGrotesk", sans-serif;
+    margin-top: 60px;
+}
+.app-finale h2{
+    text-align: center;
+    font-size: 18px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+}
+.app-finale-container {
+    display: flex;
+    justify-content: center; /* Pour aligner les images à gauche et à droite */
+    margin-left: 38px;
+    margin-right: 38px;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+.mise-exploitation{
+    margin-bottom: 90px;
+}
+.mise-exploitation h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "TuskerGrotesk", sans-serif;
+    margin-top: 60px;
+}
+.mise-exploitation ul{
+    margin-bottom: 48px;
+}
+
+.mise-exploitation ul li{
+    font-size: 18px;
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-weight: bold;
+}
 @media only screen and (min-width:760px){
 
     .ProjetCimetiere .titreH1{
@@ -64,7 +205,8 @@
     }
 
     .ProjetCimetiere .descH2{
-        font-size:  24px;
+        font-size: 60px;
+        margin-bottom: 300px;
     }
     .Competences h1{
         font-size: 60px;
@@ -73,6 +215,10 @@
     .Competences ul li{
         font-size: 24px;
     }
+    .expressionBesoin ul li{
+        font-size: 24px;
+    }
+    
     .Presentation h1{
         font-size: 60px;
         margin-top: 100px;
@@ -85,6 +231,63 @@
         margin-left: 24px;
         margin-right: 24px;
     }
+    .expressionBesoin h1{
+        font-size: 60px;
+        margin-top: 100px;
+    }
+    .expressionBesoin h2{
+        font-size: 24px;
+    }
+    .maquettes h1{
+        font-size: 60px;
+        margin-top: 100px;
+    }
+    .maquettes h2{
+        font-size: 24px;
+    }
+    .maquettes-container {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .bdd h1{
+        font-size: 60px;
+        margin-top: 100px;
+    }
+    .bdd h2{
+        font-size: 24px;
+    }
+    .bdd-container {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .code-tests ul li{
+        font-size: 24px;
+    }
+    .code-tests h1{
+        font-size: 60px;
+        margin-top: 100px;
+    }
+    .app-finale h1{
+        font-size: 60px;
+        margin-top: 100px;
+    }
+    .app-finale h2{
+        font-size: 24px;
+    }
+    .app-finale--container {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .mise-exploitation{
+        margin-bottom: 150px;
+    }
+    .mise-exploitation h1{
+        font-size: 60px;
+        margin-top: 100px;
+    }
+    .mise-exploitation ul li{
+        font-size: 24px;
+    }
 }
 
 @media only screen and (min-width:1200px){
@@ -93,17 +296,20 @@
     }
 
     .ProjetCimetiere .descH2{
-        font-size:  28px;
+        font-size:  80px;
         text-align: center; /* Centrer le texte */
         display: block; /* Assurer que l'élément est un bloc */
         margin: 0 auto;
-        margin-bottom: 30px;
+        margin-bottom: 300px;
     }
     .Competences h1{
         font-size:80px;
         margin-top: 200px;
     }
     .Competences ul li{
+        font-size: 28px;
+    }
+    .expressionBesoin ul li{
         font-size: 28px;
     }
     .Presentation h1{
@@ -118,10 +324,83 @@
         margin-bottom: 40px;
     }
     .carteContainer{
-        width: 70%;
+        width: 60%;
         height: auto;
         justify-content: center;
         margin: 0 auto;
         margin-bottom: 60px;
+    }
+    .expressionBesoin h1{
+        font-size: 80px;
+        margin-top: 130px;
+    }
+    .expressionBesoin h2{
+        font-size:  28px;
+        text-align: center; /* Centrer le texte */
+        display: block; /* Assurer que l'élément est un bloc */
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .maquettes h1{
+        font-size: 80px;
+        margin-top: 130px;
+    }
+    .maquettes h2{
+        font-size:  28px;
+        text-align: center; /* Centrer le texte */
+        display: block; /* Assurer que l'élément est un bloc */
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .maquettes-container {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    .bdd h1{
+        font-size: 80px;
+        margin-top: 130px;
+    }
+    .bdd h2{
+        font-size:  28px;
+        text-align: center; /* Centrer le texte */
+        display: block; /* Assurer que l'élément est un bloc */
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .bdd-container {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    .code-tests ul li{
+        font-size: 28px;
+    }
+    .code-tests h1{
+        font-size: 80px;
+        margin-top: 130px;
+    }
+    .app-finale h1{
+        font-size: 80px;
+        margin-top: 130px;
+    }
+    .app-finale h2{
+        font-size:  28px;
+        text-align: center; /* Centrer le texte */
+        display: block; /* Assurer que l'élément est un bloc */
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .app-finale--container {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    .mise-exploitation{
+        margin-bottom: 230px;
+    }
+    .mise-exploitation h1{
+        font-size: 80px;
+        margin-top: 130px;
+    }
+    .mise-exploitation ul li{
+        font-size: 28px;
     }
 }
