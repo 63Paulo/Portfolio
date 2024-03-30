@@ -32,6 +32,9 @@ const Projets = () => {
                 <div className="bloc">
                     <a href="/siteWebPHP">Site web PHP</a>
                 </div>
+                <div className="bloc">
+                    <a href="/entretienEmbauche">Simulation d'un entretien d'embauche</a>
+                </div>
             </div>
           </section>
        </>

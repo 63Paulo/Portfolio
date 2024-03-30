@@ -24,7 +24,7 @@ const Footer = () => {
                 </li>
             </ul>
           </div>
-            <h2>© PAUL FERNANDES 2023</h2>
+            <h2>© PAUL FERNANDES 2024</h2>
           </footer>
        </>
     

@@ -7,8 +7,6 @@
 }
 
 .OcsGLPI-h2{
-
-
     text-align: center;
     font-size: 36px;
     margin-bottom: 300px;
@@ -42,6 +40,34 @@
 .OcsGLPI .content .besoin ul li{
     font-weight: bold;
 }
+.salles{
+    background-color:#081c34 ;
+    padding-bottom: 20px;
+}
+.salles h1, .salles h2{
+    color: #FFFFFF;
+}
+.salles h1{
+    padding-top: 20px;
+}
+.droits{
+    background-color:#081c34 ;
+    padding-bottom: 20px;
+}
+.droits h1, .droits ul li{
+    color: #FFFFFF;
+}
+.droits h1{
+    padding-top: 20px;
+}
+.img-container{
+    display: flex;
+    justify-content: center; /* Pour aligner les images à gauche et à droite */
+    margin-left: 38px;
+    margin-right: 38px;
+    margin-bottom: 40px;
+    gap: 20px;
+}
 
 @media only screen and (min-width:760px){
 
@@ -63,6 +89,10 @@
     .OcsGLPI ul li{
         font-size: 24px;
     }
+    .img-container {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
 }
 @media only screen and (min-width:1200px){
     .OcsGLPI-h1{
@@ -83,6 +113,7 @@
     .OcsGLPI .content h2{
         font-size: 28px;
         text-align: center;
+        display: block; /* Assurer que l'élément est un bloc */
         margin: 0 auto;
         margin-bottom: 40px;
     }
@@ -93,5 +124,9 @@
     }
     .OcsGLPI ul li{
         font-size: 28px;
+    }
+    .img-container {
+        margin-left: 250px;
+        margin-right: 250px;
     }
 }

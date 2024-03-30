@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const OcsGLPI = () => {
     // Ici les fonctions Js utilisés
       return (
@@ -31,6 +33,41 @@ const OcsGLPI = () => {
                   <li>• Démonstration de cas concrets de création et résolution de tickets avec étapes détaillées.</li>
                 </ul>
               </div>
+              <div className="salles">
+                <h1>DISPOSITION DES SALLES</h1>
+                <h2>Voici un croquis réalisé afin de visualiser la disposition des salles</h2>
+                <div className='img-container'>
+                  <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
+                </div>
+              </div>
+              <div className="groupe-user">
+                <h1>CREATION DES GROUPES ET UTILISATEURS</h1>
+                <ul>
+                  <li>- Un groupe élève et un groupe professeur où les utilisateurs assignés à ce groupe pourront créer des tickets d’incidents (et non les gérés).</li>
+                  <li>- Un groupe admin où les utilisateurs assignés à ce groupe pourront gérer les tickets d’incident.</li>
+                </ul>
+                <div className='img-container'>
+                  <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
+                </div>
+              </div>
+              <div className="droits">
+                <h1>GESTION DES DROITS</h1>
+                <ul>
+                  <li>- Droit “admin” aux utilisateurs admin qui gèrent les tickets</li>
+                  <li>- Droit “self-service” (par défaut) aux autres utilisateurs</li>
+                </ul>
+                <div className='img-container'>
+                  <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
+                </div>
+              </div>
+              <div className="tickets">
+                <h1>CREATION ET RESOLUTION DE TICKETS</h1>
+                <h2>Voici ci-dessous un exemple de création de tickets suivi de sa résolution et fermeture</h2>
+              </div>
+              <div className='img-container'>
+                  <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
+                  <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
+                </div>
             </div>
           </section>
        </>
