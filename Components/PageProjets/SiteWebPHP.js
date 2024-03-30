@@ -8,11 +8,11 @@ const SiteWebPHP = () => {
             <div className="competences">
                 <h1>COMPETENCES VALIDÉES</h1>
                 <ul>
-                    <li>C1 : Répondre aux incidents et aux demandes d'assistance et d'évolution</li>
+                    <li>C1 : Gérer le patrimoine informatique</li>
                     <li>C2 : Répondre aux incidents et aux demandes d'assistance et d'évolution</li>
-                    <li>C3 : Travailler en mode projet</li>
-                    <li>C5 : Mettre à disposition des utilisateurs un service informatique</li>
-                    <li>C6 : Mettre à disposition des utilisateurs un service informatique</li>
+                    <li>C3 : Développer la présence en ligne de l’organisation</li>
+                    <li>C4 : Travailler en mode projet</li>
+                    <li>C6 : Organiser son développement professionnel</li>
                 </ul>
             </div>
           </section>
