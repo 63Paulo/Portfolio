@@ -66,7 +66,10 @@ const ProjetCimetiere = () => {
             <h1>APPLICATION FINALE</h1>
               <h2>Voici un aperçu de l'application finale :</h2>
               <div className='app-finale-container'>
-                <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
+                <Image src={'/../public/image/projetCimetiere/img-appfinale1.PNG'} width={800} height={500}></Image>
+                <Image src={'/../public/image/projetCimetiere/img-appfinale2.PNG'} width={800} height={500}></Image>
+              </div>
+              <div className='app-finale-container'>
                 <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
               </div>
             </div>
