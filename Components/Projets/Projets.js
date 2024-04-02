@@ -24,13 +24,16 @@ const Projets = () => {
                     <a href="lien6.html">GSB – Gestion des comptes rendus de visites</a>
                 </div>
                 <div className="bloc">
-                    <a href="lien7.html">Projet OCS-GLPI</a>
+                    <a href="/ocs-glpi">Projet OCS-GLPI</a>
                 </div>
                 <div className="bloc">
                     <a href="/projetCimetiere">Réalisation d'un logiciel de gestion de cimetière communal</a>
                 </div>
                 <div className="bloc">
                     <a href="/siteWebPHP">Site web PHP</a>
+                </div>
+                <div className="bloc">
+                    <a href="/entretienEmbauche">Simulation d'un entretien d'embauche</a>
                 </div>
             </div>
           </section>
