@@ -6,7 +6,7 @@ const About = () => {
         <>
           <section className="about" id="about">
             <h1 className="aboutme homepageH1">A PROPOS DE MOI</h1>        
-            <h2 className="aboutme">Je suis Paul Fernandes, un étudiant actuellement en première année de BTS SIO (Services Informatiques aux Organisations).
+            <h2 className="aboutme">Je suis Paul Fernandes, un étudiant actuellement en deuxième année de BTS SIO (Services Informatiques aux Organisations).
                 mon lien avec le développement est forgé par ma formation en BTS SIO, mon expérience pratique et ma passion pour 
                 l'apprentissage. Je suis enthousiaste à l'idée de continuer à développer mes compétences et de contribuer au monde de 
                 l'informatique en créant des solutions innovantes et en repoussant les limites de ce qui est possible grâce au développement.
