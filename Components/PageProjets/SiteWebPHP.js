@@ -63,8 +63,8 @@ const SiteWebPHP = () => {
                 <li>- Utilisation de Git pour répertorier et gérer les tâches, avec des catégories pour suivre l'avancement (non-attribué, en cours, en test, terminé).</li>
               </ul>
               <div className='img-container'>
-                  <Image src={'/../public/image/siteWebPHP/img-orga1.PNG'} width={1000} height={800}></Image>
-                  <Image src={'/../public/image/siteWebPHP/img-orga2.PNG'} width={1000} height={800}></Image>
+                  <Image src={'/../public/image/siteWebPHP/img-orga1.PNG'} width={1000} height={500}></Image>
+                  <Image src={'/../public/image/siteWebPHP/img-orga2.PNG'} width={1000} height={500}></Image>
                 </div>
               </div>
               <div className="difficulte">
