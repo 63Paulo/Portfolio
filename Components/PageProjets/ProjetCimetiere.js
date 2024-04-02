@@ -48,8 +48,8 @@ const ProjetCimetiere = () => {
               <h1>MAQUETTES REALISÉES</h1>
               <h2>Suite à l'analyse du cahier des charges fourni, nous avons opté pour la création de quelques maquettes préliminaires afin de visualiser le concept de notre application.</h2>
               <div className='maquettes-container'>
-                <Image src={'/../public/image/projetCimetiere/img-maquette1.PNG'} width={900} height={500}></Image>
-                <Image src={'/../public/image/projetCimetiere/img-maquette2.PNG'} width={900} height={500}></Image>
+                <Image src={'/image/projetCimetiere/img-maquette1.PNG'} width={900} height={500}></Image>
+                <Image src={'/image/projetCimetiere/img-maquette2.PNG'} width={900} height={500}></Image>
               </div>
             </div>
             <div className='code-tests'>
@@ -66,11 +66,11 @@ const ProjetCimetiere = () => {
             <h1>APPLICATION FINALE</h1>
               <h2>Voici un aperçu de l'application finale :</h2>
               <div className='app-finale-container'>
-                <Image src={'/../public/image/projetCimetiere/img-appfinale1.PNG'} width={800} height={500}></Image>
-                <Image src={'/../public/image/projetCimetiere/img-appfinale2.PNG'} width={800} height={500}></Image>
+                <Image src={'/image/projetCimetiere/img-appfinale1.PNG'} width={800} height={500}></Image>
+                <Image src={'/image/projetCimetiere/img-appfinale2.PNG'} width={800} height={500}></Image>
               </div>
               <div className='app-finale-container'>
-                <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
+                <Image src={'/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
               </div>
             </div>
             <div className='mise-exploitation'>
