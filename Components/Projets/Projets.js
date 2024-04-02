@@ -6,10 +6,10 @@ const Projets = () => {
             <h1 className="projets homepageH1">MES PROJETS</h1>
             <div className="bloc-container">
                 <div className="bloc">
-                    <a href="#ProjetApprentissageCalcul">Logiciel apprentissage calcul</a>
+                    <a href="/projetApprentissageCalcul">Logiciel apprentissage calcul</a>
                 </div>
                 <div className="bloc">
-                    <a href="lien2.html">Maintenance corrective et/ou évolutive de jeux </a>
+                    <a href="/projetCimetiere">Maintenance corrective et/ou évolutive de jeux </a>
                 </div>
                 <div className="bloc">
                     <a href="lien3.html">Jeu en python</a>
@@ -24,13 +24,16 @@ const Projets = () => {
                     <a href="lien6.html">GSB – Gestion des comptes rendus de visites</a>
                 </div>
                 <div className="bloc">
-                    <a href="lien7.html">Projet OCS-GLPI</a>
+                    <a href="/ocs-glpi">Projet OCS-GLPI</a>
                 </div>
                 <div className="bloc">
-                    <a href="lien8.html">Réalisation d'un logiciel de gestion de cimetière communal</a>
+                    <a href="/projetCimetiere">Réalisation d'un logiciel de gestion de cimetière communal</a>
                 </div>
                 <div className="bloc">
-                    <a href="lien9.html">Site web PHP</a>
+                    <a href="/siteWebPHP">Site web PHP</a>
+                </div>
+                <div className="bloc">
+                    <a href="/entretienEmbauche">Simulation d'un entretien d'embauche</a>
                 </div>
             </div>
           </section>

@@ -3,7 +3,6 @@
 }
 
 #parcours {
-    background-color: rgb(77, 190, 255);
     padding-top: 20px;
     padding: 10px 20px;
     width: 100%;
@@ -29,7 +28,7 @@
 
 .parcours .timeline {
     position: relative;
-    margin-top: 50px;
+    margin-top: 20px;
     padding-top: 24px;
 }
 
@@ -37,7 +36,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 
@@ -63,14 +62,13 @@
     font-size: 18px;
     font-family: "Source", sans-serif;
     font-weight: bold;
-    margin-bottom: 5px;
 }
 
   
 .parcours .timeline .timeline-item .timeline-content p {
     font-size: 14px;
     line-height: 1.4;
-    color: #ffffff;
+    color: #000000;
 }
   
 
@@ -103,12 +101,14 @@
         display: flex; 
         justify-content: left;
         width: 50%;
+        margin-left: 40px;
     }
     #parcours h2{
         font-size: 24px;
+        margin-left: 40px;
     }
     .parcours .timeline {
-        margin-top: -350px;
+        margin-top: -320px;
         margin-bottom: 0;
         display: flex;
         justify-content: flex-end;
@@ -116,5 +116,8 @@
         flex-direction: column;
         width: 40%;
         margin-left: auto;
+    }
+    .parcours .timeline .timeline-item .timeline-content p {
+        margin-left: 40px;
     }
 }

@@ -18,19 +18,19 @@ const Parcours = () => {
       // We create a const to stock our timeline elements
       const events = [
         {
+          date : '2020',
+          title : 'Bac STI2D',
+          desc : 'Option Systèmes d\'informations et Numériques'
+        },
+        {
           date: '2022',
           title: 'BTS SIO',
           desc : 'Cursus de 2 ans en BTS SIO option SLAM'
         },
         {
           date : '2024',
-          title : 'Licence ???',
+          title : 'L3 Informatique',
           desc : 'Licence professionnelle en Informatique',
-        },
-        {
-          date : 'Objectif',
-          title : 'Master ???',
-          desc : 'Master en informatique',
         },
       ]
 
@@ -38,8 +38,8 @@ const Parcours = () => {
         <>
           <section className="parcours" id="parcours">
             <h1 className="parcoursH1 homepageH1">MON PARCOURS</h1>
-            <h2 className="parcoursH2">Je suis un étudiant en première année de BTS SIO avec de grandes ambitions. Je souhaite obtenir 
-                une licence en informatique puis un master pour approfondir mes connaissances et compétences. 
+            <h2 className="parcoursH2">Je suis un étudiant en deuxième année de BTS SIO avec de grandes ambitions. Je souhaite obtenir 
+                une licence en informatique puis potentiellement un master pour approfondir mes connaissances et compétences. 
                 Mon parcours académique reflète mon désir de développement professionnel et ma passion pour la technologie. 
                 Je suis motivé à travailler dur pour atteindre mes objectifs et contribuer au progrès technologique.
             </h2>
