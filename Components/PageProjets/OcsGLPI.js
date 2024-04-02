@@ -36,7 +36,7 @@ const OcsGLPI = () => {
                 <h1>DISPOSITION DES SALLES</h1>
                 <h2>Voici un croquis réalisé afin de visualiser la disposition des salles</h2>
                 <div className='img-container'>
-                  <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
+                  <Image src={'/../public/image/ocsGLPI/img-salle.PNG'} width={1000} height={500}></Image>
                 </div>
               </div>
               <div className="groupe-user">
@@ -46,7 +46,8 @@ const OcsGLPI = () => {
                   <li>- Un groupe admin où les utilisateurs assignés à ce groupe pourront gérer les tickets d’incident.</li>
                 </ul>
                 <div className='img-container'>
-                  <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
+                  <Image src={'/../public/image/ocsGLPI/img-creation-groupe.PNG'} width={1000} height={500}></Image>
+                  <Image src={'/../public/image/ocsGLPI/img-creation-user.PNG'} width={1000} height={500}></Image>
                 </div>
               </div>
               <div className="droits">
@@ -56,7 +57,7 @@ const OcsGLPI = () => {
                   <li>- Droit “self-service” (par défaut) aux autres utilisateurs</li>
                 </ul>
                 <div className='img-container'>
-                  <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
+                  <Image src={'/../public/image/OcsGLPI/img-droit.PNG'} width={1000} height={500}></Image>
                 </div>
               </div>
               <div className="tickets">
@@ -64,8 +65,11 @@ const OcsGLPI = () => {
                 <h2>Voici ci-dessous un exemple de création de tickets suivi de sa résolution et fermeture</h2>
               </div>
               <div className='img-container'>
-                  <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
-                  <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
+                  <Image src={'/../public/image/OcsGLPI/img-creation-ticket.PNG'} width={900} height={500}></Image>
+                  <Image src={'/../public/image/OcsGLPI/img-resolution-ticket.PNG'} width={900} height={500}></Image>
+              </div>
+              <div className='img-container'>
+                  <Image src={'/../public/image/OcsGLPI/img-statut-ticket.PNG'} width={700} height={400}></Image>
               </div>
               <div className="difficulte">
                 <h1>DIFFICULTÉS RENCONTRÉES</h1>
