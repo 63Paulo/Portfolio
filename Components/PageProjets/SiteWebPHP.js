@@ -39,8 +39,8 @@ const SiteWebPHP = () => {
               <div className="maquettes">
                 <h1>MAQUETTAGES</h1>
                 <div className='img-container'>
-                  <Image src={'/../public/image/siteWebPHP/img-maquette1.PNG'} width={800} height={500}></Image>
-                  <Image src={'/../public/image/siteWebPHP/img-maquette2.PNG'} width={800} height={500}></Image>
+                  <Image src={'/image/siteWebPHP/img-maquette1.PNG'} width={800} height={500}></Image>
+                  <Image src={'/image/siteWebPHP/img-maquette2.PNG'} width={800} height={500}></Image>
                 </div>
               </div>
             <div className="code">
