@@ -11,16 +11,16 @@ const ProjetCimetiere = () => {
               <h1>COMPÉTENCES VALIDÉES</h1>
               <ul className="competencesGrille">
                 <li>C2 : Répondre aux incidents et aux demandes d'assistance et d'évolution</li>
-                <li>C3 : Travailler en mode projet</li>
-                <li>C4 : Mettre à disposition des utilisateurs un service informatique</li>
+                <li>C4 : Travailler en mode projet</li>
+                <li>C5 : Mettre à disposition des utilisateurs un service informatique</li>
               </ul>
             </div>
             <div className="Presentation">
-              <ul>
-                <li>- Yssac-la-Tourette : Une commune française située dans le département du Puy-de-Dôme, en Auvergne-Rhône-Alpes.</li>
-                <li>- Mairie dirigée par le maire Alain Fradier : Cherche à mettre en place un logiciel de gestion pour le cimetière communal.</li>
-                <li>- Un conseiller municipal, ancien élève en informatique : Sollicite des étudiants en BTS SIO pour réaliser le projet, suite à un prix excessif proposé par une entreprise spécialisée.</li>
-                <li>- Proche de Châtel-Guyon et de Riom : Située à proximité de ces autres localités.</li>
+              <ul className='font-bold'>
+                <li>- Yssac-la-Tourette : Commune française située dans le département du Puy-de-Dôme.</li>
+                <li>- Mairie dirigée par le maire Alain Fradier </li>
+                <li>- Besoin de la mairie d'avoir un logiciel de gestion de son cimetière</li>
+                <li>- Aucun existant, donc un départ de zéro !</li>
               </ul>
               <div className='carteContainer' style={{ width: '100%' }}>
                 <iframe
