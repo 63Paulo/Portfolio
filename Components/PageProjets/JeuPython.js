@@ -4,7 +4,7 @@ const JeuPython = () => {
         <>
           <section className="ProjetApprentissageCalcul" id="ProjetApprentissageCalcul">
             <h1>JEU EN PYTHON</h1>
-            <h2>Réalisation d'un jeu python à l'aide de la librairie pyGames
+            <h2>Réalisation d'un jeu python à l'aide de la librairie pyGames.
             </h2>
           </section>
        </>
