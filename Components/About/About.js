@@ -21,13 +21,13 @@ const About = () => {
             </h2>
             <div className="image-container">
               <div className="php-container">
-                <Image src="/image/logo/phplogo.png" alt="PHP" className="logo-php" width={100} height={100}></Image>
+                <Image src="/image/logo/phplogo.png" alt="PHP" className="logo-php" width={170} height={100}></Image>
               </div>
               <div className="html-container">
                 <Image src="/image/logo/htmlLogo.png" alt="HTML" className="logo-html" width={100} height={100}></Image>
               </div>
               <div className="sql-container">
-                <Image src="/image/logo/mysqlLogo.png" alt="mySQL" className="logo-sql" width={110} height={100}></Image>
+                <Image src="/image/logo/mysqlLogo.png" alt="mySQL" className="logo-sql" width={170} height={100}></Image>
               </div>
               <div className="css-container">
                 <Image src="/image/logo/cssLogo.png" alt="CSS" className="logo-css" width={100} height={100}></Image>
