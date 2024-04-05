@@ -42,7 +42,7 @@ const OcsGLPI = () => {
               <div className="groupe-user">
                 <h1>CREATION DES GROUPES ET UTILISATEURS</h1>
                 <ul>
-                  <li>- Un groupe élève et un groupe professeur où les utilisateurs assignés à ce groupe pourront créer des tickets d’incidents (et non les gérés).</li>
+                  <li>- Un groupe élève et un groupe professeur où les utilisateurs assignés à ce groupe pourront créer des tickets d’incidents (et non les gérer).</li>
                   <li>- Un groupe admin où les utilisateurs assignés à ce groupe pourront gérer les tickets d’incident.</li>
                 </ul>
                 <div className='img-container'>

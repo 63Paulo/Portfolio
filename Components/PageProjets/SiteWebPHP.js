@@ -23,7 +23,7 @@ const SiteWebPHP = () => {
                 <ul>
                   <li>- Objectif : Développer un site web pour gérer les meilleures chansons des années 80-90 en conformité avec le cahier des charges.</li>
                   <li>- Travail en groupe de 4</li>
-                  <li>- Aucune ressource fourni : départ de zéro !</li>
+                  <li>- Aucune ressource fournie : départ de zéro !</li>
                 </ul>
               </div>
               <div className="besoin">
@@ -53,7 +53,7 @@ const SiteWebPHP = () => {
             </div>
             <div className="organisation">
               <h1>ORGANISATION DU PROJET</h1>
-              <h2>Travail réparti grâce à 2 sprints de deux semaines chacun</h2>
+              <h2>Travail réparti grâce à 2 sprints de deux semaines chacun.</h2>
                 <div className='img-container'>
                   <Image src={'/image/siteWebPHP/img-sprint.PNG'} width={1800} height={500}></Image>
                 </div>
