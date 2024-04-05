@@ -15,7 +15,7 @@ const Contact = () => {
 
     return (
         <section id="contact">
-            <form className="background_contact" data-netlify="true" onSubmit={handleFormSubmit}>
+            <form className="background_contact" method='POST' data-netlify="true" onSubmit={handleFormSubmit}>
                 <h1 className="text-center text-white text-5xl uppercase pt-6 pb-5 ">contact</h1>
                 <div className="m-auto w-1/2 flex flex-col">
                     <label htmlFor="name">Nom :</label>
