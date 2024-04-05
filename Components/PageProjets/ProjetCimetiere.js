@@ -24,8 +24,8 @@ const ProjetCimetiere = () => {
               </ul>
               <div className='carteContainer' style={{ width: '100%' }}>
                 <iframe
-                    width="66%"
-                    height="500"
+                    width="100%"
+                    height="650"
                     frameborder="0"
                     scrolling="no"
                     marginheight="0"
