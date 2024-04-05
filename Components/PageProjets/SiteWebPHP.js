@@ -23,7 +23,7 @@ const SiteWebPHP = () => {
                 <ul>
                   <li>- Objectif : Développer un site web pour gérer les meilleures chansons des années 80-90 en conformité avec le cahier des charges.</li>
                   <li>- Travail en groupe de 4</li>
-                  <li>- Aucune ressource fourni : départ de zéro !</li>
+                  <li>- Aucune ressource fournie : départ de zéro !</li>
                 </ul>
               </div>
               <div className="besoin">
@@ -53,7 +53,7 @@ const SiteWebPHP = () => {
             </div>
             <div className="organisation">
               <h1>ORGANISATION DU PROJET</h1>
-              <h2>Travail réparti grâce à 2 sprints de deux semaines chacun</h2>
+              <h2>Travail réparti grâce à 2 sprints de deux semaines chacun.</h2>
                 <div className='img-container'>
                   <Image src={'/image/siteWebPHP/img-sprint.PNG'} width={1800} height={500}></Image>
                 </div>
@@ -63,8 +63,8 @@ const SiteWebPHP = () => {
                 <li>- Utilisation de Git pour répertorier et gérer les tâches, avec des catégories pour suivre l'avancement (non-attribué, en cours, en test, terminé).</li>
               </ul>
               <div className='img-container'>
-                  <Image src={'/image/siteWebPHP/img-orga1.PNG'} width={1000} height={500}></Image>
-                  <Image src={'/image/siteWebPHP/img-orga2.PNG'} width={1000} height={500}></Image>
+                  <Image src={'/image/siteWebPHP/img-orga1.PNG'} width={1000} height={800}></Image>
+                  <Image src={'/image/siteWebPHP/img-orga2.PNG'} width={1000} height={800}></Image>
                 </div>
               </div>
               <div className="difficulte">

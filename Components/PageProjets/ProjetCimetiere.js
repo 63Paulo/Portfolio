@@ -16,11 +16,12 @@ const ProjetCimetiere = () => {
               </ul>
             </div>
             <div className="Presentation">
-              <h1>PRESENTATION & CONTEXTE</h1>
-              <h2>Yssac-la-Tourette est une commune française dans le département du Puy-de-Dôme, en Auvergne-Rhône-Alpes, proche de Châtel-Guyon et de Riom.
-                  Sa mairie, dirigée par le maire Alain Fradier, cherche à mettre en place un logiciel de gestion pour le cimetière communal.
-                  Une entreprise spécialisée a proposé un prix jugé excessif, incitant un conseiller municipal, ancien élève en informatique, à solliciter des étudiants en BTS SIO pour réaliser ce projet.
-              </h2>
+              <ul>
+                <li>- Yssac-la-Tourette : Une commune française située dans le département du Puy-de-Dôme, en Auvergne-Rhône-Alpes.</li>
+                <li>- Mairie dirigée par le maire Alain Fradier : Cherche à mettre en place un logiciel de gestion pour le cimetière communal.</li>
+                <li>- Un conseiller municipal, ancien élève en informatique : Sollicite des étudiants en BTS SIO pour réaliser le projet, suite à un prix excessif proposé par une entreprise spécialisée.</li>
+                <li>- Proche de Châtel-Guyon et de Riom : Située à proximité de ces autres localités.</li>
+              </ul>
               <div className='carteContainer' style={{ width: '100%' }}>
                 <iframe
                     width="66%"
@@ -45,7 +46,7 @@ const ProjetCimetiere = () => {
                </ul>
             </div>
             <div className='maquettes'>
-              <h1>MAQUETTES REALISÉES</h1>
+              <h1>MAQUETTES RÉALISÉES</h1>
               <h2>Suite à l'analyse du cahier des charges fourni, nous avons opté pour la création de quelques maquettes préliminaires afin de visualiser le concept de notre application.</h2>
               <div className='maquettes-container'>
                 <Image src={'/image/projetCimetiere/img-maquette1.PNG'} width={900} height={500}></Image>
@@ -57,7 +58,7 @@ const ProjetCimetiere = () => {
               <ul>
                 <li>• C#</li>
                 <li>• Utilisation d'une base de données (MySQL)</li>
-                <li>• Utilisation d’extension pour créer des fichiers word à partir de l’application</li>
+                <li>• Utilisation d’extensions pour créer des fichiers word à partir de l’application</li>
                 <li>• Plusieurs tests durant les 2 dernières semaines</li>
                 <li>• Sauvegarde et export des données</li>
               </ul>
@@ -76,7 +77,7 @@ const ProjetCimetiere = () => {
             <div className='mise-exploitation'>
               <h1>MISE EN EXPLOITATION</h1>
               <ul>
-                <li>• Difficultés dû à l’utilisation d’un serveur pour héberger la base de données</li>
+                <li>• Difficultés dues à l’utilisation d’un serveur pour héberger la base de données</li>
                 <li>• Difficultés lors du déploiement de l’application sur l’ordinateur de la mairie</li>
               </ul>
             </div>

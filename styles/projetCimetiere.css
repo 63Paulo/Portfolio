@@ -31,6 +31,15 @@
     margin-left: 12px;
     margin-right: 12px;
 }
+.Presentation ul{
+    margin-bottom: 48px;
+}
+.Presentation ul li{
+    font-size: 18px;
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 12px;
+}
 .Presentation{
     margin-bottom: 60px;
 }
@@ -215,6 +224,9 @@
     .Competences ul li{
         font-size: 24px;
     }
+    .Presentation ul li{
+        font-size: 24px;
+    }
     .expressionBesoin ul li{
         font-size: 24px;
     }
@@ -308,6 +320,11 @@
     }
     .Competences ul li{
         font-size: 28px;
+    }
+    .Presentation ul li{
+        font-size: 28px;
+        margin-left: 80px;
+        margin-right: 80px;
     }
     .expressionBesoin ul li{
         font-size: 28px;

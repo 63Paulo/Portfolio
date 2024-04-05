@@ -26,7 +26,7 @@ const Contact = () => {
         }
       return (
           <section id="contact">
-            <form className="background_contact" onSubmit={handleSubmit}>
+            <form className="background_contact" onSubmit={handleSubmit} data-netlify="true">
                     <h1 className="text-center text-white text-5xl uppercase pt-6 pb-5 ">contact</h1>
                     <div className="m-auto w-1/2 flex flex-col">
                         <label htmlFor="name">Nom :</label>
@@ -47,7 +47,7 @@ const Contact = () => {
                         onChange={handleChange} required />
                     
                         <label htmlFor="message">Message :</label>
-                        <textarea className="h-48 text-xl" id="message" name="message" 
+                        <textarea className="h-48 p-2" id="message" name="message" 
                         value={formData.message} 
                         onChange={handleChange} required></textarea>
 
