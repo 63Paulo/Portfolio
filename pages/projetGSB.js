@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../Components/Footer/Footer';
-import ProjetGestion  from '../Components/PageProjets/projetGestion';
+import ProjetGestion  from '../Components/PageProjets/ProjetGestion';
 import NavBar from '../Components/NavBar/NavBar';
 import ButtonScrollTop from '../Components/ButtonScrollTop/ButtonScrollTop';
 
