@@ -15,21 +15,38 @@
     font-family: "TuskerGrotesk", sans-serif;
 }
 
-.SiteWebPHP .competences h1{
+.SiteWebPHP .contentPHP h1{
     font-size: 40px;
     font-family: "TuskerGrotesk", sans-serif;
     margin-top: 60px;
     text-align: center;
 }
-.SiteWebPHP .competences ul{
+.SiteWebPHP .contentPHP h2{
+    text-align: center;
+    font-size: 18px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+}
+.SiteWebPHP .contentPHP ul{
     margin-bottom: 48px;
 }
-.SiteWebPHP .competences ul li{
+.SiteWebPHP .contentPHP ul li{
     font-size: 18px;
     text-align: center;
     margin-left: 12px;
     margin-right: 12px;
 }
+
+.SiteWebPHP .contentPHP .organisation{
+    background-color:#081c34 ;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+}
+.SiteWebPHP .contentPHP .organisation h1{
+    padding-top: 20px;
+}
+
 @media only screen and (min-width:760px){
 
     .siteweb-h1{
@@ -40,11 +57,14 @@
         font-size: 60px;
         margin-bottom: 300px;
     }
-    .SiteWebPHP .competences h1{
+    .SiteWebPHP .contentPHP h1{
         font-size: 60px;
         margin-bottom: 12px;
     }
-    .SiteWebPHP .competences ul li{
+    .SiteWebPHP .contentPHP h2{
+        font-size: 24px;
+    }
+    .SiteWebPHP .contentPHP ul li{
         font-size: 24px;
     }
 }
@@ -60,11 +80,26 @@
         margin: 0 auto;
         margin-bottom: 300px;
     }
-    .SiteWebPHP .competences h1{
+    .SiteWebPHP .contentPHP h1{
         font-size:80px;
         margin-top: 200px;
     }
-    .SiteWebPHP .competences ul li{
+    .SiteWebPHP .contentPHP h2{
         font-size: 28px;
+        text-align: center;
+        display: block; /* Assurer que l'élément est un bloc */
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .SiteWebPHP .contentPHP ul{
+        margin-bottom: 48px;
+        margin-right: 80px;
+        margin-left: 80px;
+    }
+    .SiteWebPHP .contentPHP ul li{
+        font-size: 28px;
+    }
+    .SiteWebPHP .contentPHP .difficulte{
+        padding-bottom: 120px;
     }
 }

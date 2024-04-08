@@ -6,7 +6,7 @@ const About = () => {
         <>
           <section className="about" id="about">
             <h1 className="aboutme homepageH1">A PROPOS DE MOI</h1>        
-            <h2 className="aboutme">Je suis Paul Fernandes, un étudiant actuellement en première année de BTS SIO (Services Informatiques aux Organisations).
+            <h2 className="aboutme">Je suis Paul Fernandes, un étudiant actuellement en deuxième année de BTS SIO (Services Informatiques aux Organisations).
                 mon lien avec le développement est forgé par ma formation en BTS SIO, mon expérience pratique et ma passion pour 
                 l'apprentissage. Je suis enthousiaste à l'idée de continuer à développer mes compétences et de contribuer au monde de 
                 l'informatique en créant des solutions innovantes et en repoussant les limites de ce qui est possible grâce au développement.
@@ -21,13 +21,13 @@ const About = () => {
             </h2>
             <div className="image-container">
               <div className="php-container">
-                <Image src="/image/logo/phplogo.png" alt="PHP" className="logo-php" width={100} height={100}></Image>
+                <Image src="/image/logo/phplogo.png" alt="PHP" className="logo-php" width={170} height={100}></Image>
               </div>
               <div className="html-container">
                 <Image src="/image/logo/htmlLogo.png" alt="HTML" className="logo-html" width={100} height={100}></Image>
               </div>
               <div className="sql-container">
-                <Image src="/image/logo/mysqlLogo.png" alt="mySQL" className="logo-sql" width={110} height={100}></Image>
+                <Image src="/image/logo/mysqlLogo.png" alt="mySQL" className="logo-sql" width={170} height={100}></Image>
               </div>
               <div className="css-container">
                 <Image src="/image/logo/cssLogo.png" alt="CSS" className="logo-css" width={100} height={100}></Image>

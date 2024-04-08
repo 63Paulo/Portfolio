@@ -13,7 +13,6 @@ const OcsGLPI = () => {
                 <ul>
                   <li>C1 : Gérer le patrimoine informatique</li>
                   <li>C2 : Répondre aux incidents et aux demandes d’assistance et d’évolution</li>
-                  <li>C4 : Travailler en mode projet</li>
                 </ul>
               </div>
               <div className="presentation">
@@ -37,17 +36,18 @@ const OcsGLPI = () => {
                 <h1>DISPOSITION DES SALLES</h1>
                 <h2>Voici un croquis réalisé afin de visualiser la disposition des salles</h2>
                 <div className='img-container'>
-                  <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
+                  <Image src={'/image/ocsGLPI/img-salle.PNG'} width={1000} height={500}></Image>
                 </div>
               </div>
               <div className="groupe-user">
                 <h1>CREATION DES GROUPES ET UTILISATEURS</h1>
                 <ul>
-                  <li>- Un groupe élève et un groupe professeur où les utilisateurs assignés à ce groupe pourront créer des tickets d’incidents (et non les gérés).</li>
+                  <li>- Un groupe élève et un groupe professeur où les utilisateurs assignés à ce groupe pourront créer des tickets d’incidents (et non les gérer).</li>
                   <li>- Un groupe admin où les utilisateurs assignés à ce groupe pourront gérer les tickets d’incident.</li>
                 </ul>
                 <div className='img-container'>
-                  <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
+                  <Image src={'/image/ocsGLPI/img-creation-groupe.PNG'} width={1000} height={500}></Image>
+                  <Image src={'/image/ocsGLPI/img-creation-user.PNG'} width={1000} height={500}></Image>
                 </div>
               </div>
               <div className="droits">
@@ -57,7 +57,7 @@ const OcsGLPI = () => {
                   <li>- Droit “self-service” (par défaut) aux autres utilisateurs</li>
                 </ul>
                 <div className='img-container'>
-                  <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
+                  <Image src={'/image/OcsGLPI/img-droit.PNG'} width={1000} height={500}></Image>
                 </div>
               </div>
               <div className="tickets">
@@ -65,9 +65,19 @@ const OcsGLPI = () => {
                 <h2>Voici ci-dessous un exemple de création de tickets suivi de sa résolution et fermeture</h2>
               </div>
               <div className='img-container'>
-                  <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
-                  <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
-                </div>
+                  <Image src={'/image/OcsGLPI/img-creation-ticket.PNG'} width={900} height={500}></Image>
+                  <Image src={'/image/OcsGLPI/img-resolution-ticket.PNG'} width={900} height={500}></Image>
+              </div>
+              <div className='img-container'>
+                  <Image src={'/image/OcsGLPI/img-statut-ticket.PNG'} width={700} height={400}></Image>
+              </div>
+              <div className="difficulte">
+                <h1>DIFFICULTÉS RENCONTRÉES</h1>
+                <ul>
+                  <li>- Bugs de la machine virtuelle : Installation échouée d'Apache et GLPI, nécessitant des répétitions de la première partie du projet.</li>
+                  <li>- Problèmes de connexion : Incapacité à se reconnecter à GLPI pour reprendre le projet, entraînant la nécessité de recommencer la deuxième partie.</li>
+                </ul>
+              </div>
             </div>
           </section>
        </>

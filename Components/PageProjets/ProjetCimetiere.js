@@ -11,20 +11,21 @@ const ProjetCimetiere = () => {
               <h1>COMPÉTENCES VALIDÉES</h1>
               <ul className="competencesGrille">
                 <li>C2 : Répondre aux incidents et aux demandes d'assistance et d'évolution</li>
-                <li>C3 : Travailler en mode projet</li>
-                <li>C4 : Mettre à disposition des utilisateurs un service informatique</li>
+                <li>C4 : Travailler en mode projet</li>
+                <li>C5 : Mettre à disposition des utilisateurs un service informatique</li>
               </ul>
             </div>
             <div className="Presentation">
-              <h1>PRESENTATION & CONTEXTE</h1>
-              <h2>Yssac-la-Tourette est une commune française dans le département du Puy-de-Dôme, en Auvergne-Rhône-Alpes, proche de Châtel-Guyon et de Riom.
-                  Sa mairie, dirigée par le maire Alain Fradier, cherche à mettre en place un logiciel de gestion pour le cimetière communal.
-                  Une entreprise spécialisée a proposé un prix jugé excessif, incitant un conseiller municipal, ancien élève en informatique, à solliciter des étudiants en BTS SIO pour réaliser ce projet.
-              </h2>
+              <ul className='font-bold'>
+                <li>- Yssac-la-Tourette : Commune française située dans le département du Puy-de-Dôme.</li>
+                <li>- Mairie dirigée par le maire Alain Fradier </li>
+                <li>- Besoin de la mairie d'avoir un logiciel de gestion de son cimetière</li>
+                <li>- Aucun existant, donc un départ de zéro !</li>
+              </ul>
               <div className='carteContainer' style={{ width: '100%' }}>
                 <iframe
-                    width="66%"
-                    height="500"
+                    width="100%"
+                    height="650"
                     frameborder="0"
                     scrolling="no"
                     marginheight="0"
@@ -45,25 +46,19 @@ const ProjetCimetiere = () => {
                </ul>
             </div>
             <div className='maquettes'>
-              <h1>MAQUETTES REALISÉES</h1>
+              <h1>MAQUETTES RÉALISÉES</h1>
               <h2>Suite à l'analyse du cahier des charges fourni, nous avons opté pour la création de quelques maquettes préliminaires afin de visualiser le concept de notre application.</h2>
               <div className='maquettes-container'>
-                <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
-                <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
-              </div>
-            </div>
-            <div className='bdd'>
-              <h1>BASE DE DONNÉES</h1>
-              <h2>Aperçu de la base de données conforme au cahier des charges</h2>
-              <div className='bdd-container'>
-                <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
+                <Image src={'/image/projetCimetiere/img-maquette1.PNG'} width={900} height={500}></Image>
+                <Image src={'/image/projetCimetiere/img-maquette2.PNG'} width={900} height={500}></Image>
               </div>
             </div>
             <div className='code-tests'>
               <h1>CODE & TESTS</h1>
               <ul>
                 <li>• C#</li>
-                <li>• Utilisation d’extension pour créer des fichiers word à partir de l’application</li>
+                <li>• Utilisation d'une base de données (MySQL)</li>
+                <li>• Utilisation d’extensions pour créer des fichiers word à partir de l’application</li>
                 <li>• Plusieurs tests durant les 2 dernières semaines</li>
                 <li>• Sauvegarde et export des données</li>
               </ul>
@@ -72,14 +67,17 @@ const ProjetCimetiere = () => {
             <h1>APPLICATION FINALE</h1>
               <h2>Voici un aperçu de l'application finale :</h2>
               <div className='app-finale-container'>
-                <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
-                <Image src={'/../public/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
+                <Image src={'/image/projetCimetiere/img-appfinale1.PNG'} width={800} height={500}></Image>
+                <Image src={'/image/projetCimetiere/img-appfinale2.PNG'} width={800} height={500}></Image>
+              </div>
+              <div className='app-finale-container'>
+                <Image src={'/image/projetCimetiere/image-test.PNG'} width={800} height={500}></Image>
               </div>
             </div>
             <div className='mise-exploitation'>
               <h1>MISE EN EXPLOITATION</h1>
               <ul>
-                <li>• Difficultés dû à l’utilisation d’un serveur pour héberger la base de données</li>
+                <li>• Difficultés dues à l’utilisation d’un serveur pour héberger la base de données</li>
                 <li>• Difficultés lors du déploiement de l’application sur l’ordinateur de la mairie</li>
               </ul>
             </div>
