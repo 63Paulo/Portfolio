@@ -68,6 +68,14 @@ const SiteWebPHP = () => {
                   <Image src={'/image/siteWebPHP/img-orga2.PNG'} width={1200} height={750}></Image>
                 </div>
               </div>
+              <div className="apercuPHP">
+                <h1>SITE WEB FINAL</h1>
+                <h2>Voici un aperçu final du site web :</h2>
+                <div className='img-container'>
+                  <Image src={'/image/siteWebPHP/img-final2.PNG'} width={800} height={500}></Image>
+                  <Image src={'/image/siteWebPHP/img-final1.PNG'} width={800} height={500}></Image>
+                </div>
+              </div>
               <div className="difficulte">
                 <h1>DIFFICULTÉS RENCONTRÉES</h1>
                 <ul>

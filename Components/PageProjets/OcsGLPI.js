@@ -6,7 +6,7 @@ const OcsGLPI = () => {
         <>
           <section className="OcsGLPI" id="OcsGLPI">
             <h1 className="OcsGLPI-h1">PROJET OCS-GLPI</h1>
-            <h2 className="OcsGLPI-h2">Mise en place d'un serveur de ticketing</h2>
+            <h2 className="OcsGLPI-h2">Mise en place d'un système de ticketing</h2>
             <div className="content">
               <div className="competences">
                 <h1>COMPÉTENCES VALIDÉES</h1>
