@@ -2,8 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/projetGSB": "pages/projetGSB.js",
   "/": "pages/index.js",
-  "/jeuPython": "pages/jeuPython.js",
-  "/entretienEmbauche": "pages/entretienEmbauche.js"
+  "/ocs-glpi": "pages/ocs-glpi.js"
 }

@@ -30,20 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/entretienEmbauche": [
+    "/ocs-glpi": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/entretienEmbauche.js"
-    ],
-    "/jeuPython": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/jeuPython.js"
-    ],
-    "/projetGSB": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/projetGSB.js"
+      "static/chunks/pages/ocs-glpi.js"
     ]
   },
   "ampFirstPages": []
